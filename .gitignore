@@ -1,0 +1,14 @@
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+*.npy
+kfold_tmp/
+mt5_emotion_model/
+emotion_model_results/
+.claude/
+.kimchi/
+.mimocode/
+unpacked/
+decuong.docx
+idea.docx

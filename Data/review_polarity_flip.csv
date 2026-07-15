@@ -1,0 +1,646 @@
+id,text_raw,original_label,predicted_label,original_label_probability,label_quality_score,evidence,suggestion,action,new_label,review_note
+8589,"đối với tao , đã làm thì không hối hận 😌😌",vui,buon,0.0292927,0.2051419,5,change->buon,keep,,Negated regret (proud/satisfied) -> keep original
+244,Bọn này chỉ có tiền chứ lgi có đạo đức hả ban tẩy chay đi mng,hy_vong,gian_du,0.014999612,0.06410214,4,change->gian_du,change,gian_du,Anger context -> gian_du
+881,Thương n quá chị ạ e xin chia buồn cùng gia đình mình ạ mong bọn kia sớm bị trừng phạt,hy_vong,buon,0.015266086,0.08710137,4,change->buon,change,buon,Condolence/Grief -> buon
+9352,đang buồn cần 1 người nhắn tin tâm sự hằng đêm,hy_vong,buon,0.013829683,0.11966863,4,change->buon,change,buon,Cleanlab high confidence flip (0.1197)
+6595,"hăm hở đón nhận tất cả , thậm chí là nỗi buồn , nếu điều ấy khiến việc tồn tại của bạn mang một hương vị đáng nhớ ...",hy_vong,buon,0.027040385,0.12286249,4,change->buon,keep,,Optimistic/Philosophical view -> keep positive
+6214,hối hận có quay lại đc k,hy_vong,buon,0.04513886,0.13482502,4,change->buon,change,buon,Regret -> buon
+5498,Thay đổi tương lai tốt hơn được không đừng hối hận quá khứ nữa,hy_vong,buon,0.039719347,0.15761614,4,change->buon,keep,,Negated regret (proud/satisfied) -> keep original
+5555,a k bao giờ hối hận vì a đã cố gắng hết mình rồi.,vui,buon,0.016889289,0.1648072,4,change->buon,keep,,Negated regret (proud/satisfied) -> keep original
+9496,bạn trai tao đéo biết giận dai nên không phải dỗ,vui,gian_du,0.006647638,0.19250804,4,change->gian_du,keep,,Negated anger -> keep original
+2145,Không có gì phải buồn hết Có thực lực thua mới buồn,hy_vong,buon,0.043617137,0.19608852,4,change->buon,keep,,Default keep original
+4840,"Tại sao ngủ ngay sau khi ăn tối, sau đấy thức dậy vào khoảng 9h 10h tối, có 1 cảm giác hưng phấn khó tả. Hầu hết lần nào cũng vậy, có ai giống tôi không?",vui,lo_au,0.021942206,0.20473194,4,change->lo_au,keep,,Default keep original
+8543,xem lâu rồi giờ xem lại vẫn buồn cười,vui,buon,0.009178928,0.21163616,4,change->buon,keep,,'buồn cười' is positive -> keep original
+2938,những người thương tôi không phải buồn vì tôi mà là tự hào vì tôi,vui,buon,0.042933278,0.22236681,4,change->buon,keep,,Default keep original
+2761,Ko hối hận với những gì mình đã chọn😌,hy_vong,buon,0.12064527,0.22860062,4,change->buon,keep,,Negated regret (proud/satisfied) -> keep original
+9356,"hiện tại 30t chưa từng hối hận điều gì,hi vọng những tháng ngày sau cũng vậy",hy_vong,buon,0.033492286,0.24916893,4,change->buon,keep,,Negated regret (proud/satisfied) -> keep original
+3415,năm nay được nhận hoa và được ngồi nhìn người ta hạnh phúc,that_vong,vui,0.042927284,0.3146154,4,change->vui,keep,,Watching others happy (lonely/self-pity) -> keep negative
+1391,mong rằng em sẽ không hối hận với quyết định hôm nay😑,hy_vong,buon,0.02539068,0.3426676,4,change->buon,keep,,Negated regret (proud/satisfied) -> keep original
+2524,Mong pháp luật xử đúng tội của bọn ác nhân,hy_vong,gian_du,0.0059043877,0.049573272,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.0496)
+8914,"hồi lớp 1 đú theo lũ bạn về học nấu . thế là cơm sống , sợ quá vùi gạo trong đống tro",vui,lo_au,0.011374567,0.051235378,3,change->lo_au,change,lo_au,Anxiety context -> lo_au
+2397,"Sáng nay mình đi kiểm tra lại ở từ dũ , kết quả đây mn ạ Mình xin phép che thông tin cá nhân để tránh phiền phức không đáng có ! Mong mn thông cảm và cùng đồng hành cùng mình Mong mn cùng Like đẩy cmt lên top ạ",lo_au,hy_vong,0.024100527,0.05682832,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.0568)
+7683,ước gì tao thất tình cũng được giống như mày,that_vong,hy_vong,0.022399591,0.059214592,3,change->hy_vong,keep,,Sarcastic envy -> keep positive/original
+857,nhiều lúc muốn mặc đồ giống các bạn mà sợ ngại,hy_vong,lo_au,0.018664813,0.060110807,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.0601)
+7494,@nangoc84 Trước khi chọn lối thoát thì cần biết tự nghiên cứu và nắm đủ kiến thức cần thiết. Kẻo không vào được lối thoát mà là vào mê cung thì cũng tiu.,lo_au,hy_vong,0.016617825,0.06277993,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.0628)
+6084,"@nangoc84 Xây kênh online và chia sẻ giúp bạn ngồi một chỗ giao tiếp và tiếp cận hàng trăm ngàn người mà không cần phải gặp gỡ 1-1. Giúp bạn thoát khỏi nỗi sợ đám đông, thoát khỏi giới hạn của tính cách hướng nội",hy_vong,lo_au,0.028289903,0.06704244,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.0670)
+9711,"Nói sao nhỉ? Em đang cảm thấy rất tiêu cực, vừa khóc và vừa search &quot;Bị áp lực quá phải làm gì&quot; và YouTube recommend video này. Em thực sự cám ơn chị nhiều, sau khi nghe hết video thì em đã không còn khóc nữa... Khi em đang đứng trước nỗi sợ, áp lực, cô đơn vì không ai hiểu mình , thì hình như đâu đấy có người hiểu em, cho em lời khuyên về cách đối diện trực tiếp vấn đề và chịu trách nhiệm cho sự lựa chọn của mình. Em sẽ đặt mục tiêu và cố gắng hơn, cho phép mình nghỉ ngơi nhưng không cho phép mình chây lười. Thực sự cám ơn chị nhiều ạ...",hy_vong,lo_au,0.020317737,0.07171157,3,change->lo_au,change,buon,Sadness context -> buon
+6676,"Chị giang ơi, chị có thể làm về việc phản biện ko chị, mấy đứa bạn thân em hay bắt nạt em mà em cứ nhịn vì em sợ gây mất lòng nhau chị à. Chị có thể giúp e đc ko",hy_vong,lo_au,0.031097358,0.07251486,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.0725)
+47,Em bị tâm lí sợ ra nhưng nơi đông người anh có cách nào khắc phục ko ạ mong anh rep ạ .,hy_vong,lo_au,0.026959218,0.07275435,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.0728)
+4701,giỏi thật chứ đùa . biểu cảm gần như 90 % chuẩn mẹ rồi . thằng quay và edit cũng ghê luôn . nhảy cũng tốt ra phét chứ -.- ác thật,vui,gian_du,0.013438376,0.08178261,3,change->gian_du,,,"Praise/admiration (kho quen ""chuan me roi"") -> giu nguyen vui (nguoi duyet sua lai, cleanlab flip sai)"
+2919,tồi vc 😛,gian_du,vui,0.019637873,0.08219737,3,change->vui,keep,,Anger -> keep original
+4641,nhìn gai vãi,gian_du,vui,0.0395655,0.090613246,3,change->vui,change,vui,Cleanlab high confidence flip (0.0906)
+8354,giống y như nhà mình lúc đó ba chị e mình mua một hột vịt mà ba chị e ăn một buổi đôi khi ko có gạo nấu mình rất sợ và mình quyết tâm lớn lên cố gắng làm để thoát nghèo e sợ nghèo lắm giờ mình đủ ăn mừng lắm cố gắng nha a chị,hy_vong,lo_au,0.04930759,0.09116146,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.0912)
+2026,cầu mong là chỉ là một trò đùa ác ý,hy_vong,gian_du,0.015796922,0.09297514,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.0930)
+1597,đục khoét tuổi thơ vãi )),that_vong,vui,0.027596064,0.09357497,3,change->vui,change,vui,Cleanlab high confidence flip (0.0936)
+1853,@Hien2021 Trẻ sợ 1 già sợ 2 Mỗi thời điểm trong cuộc đời con người ta lại có những điểm khác nhau. Cố gắng vượt qua nỗi sợ 👌🏼,hy_vong,lo_au,0.046703503,0.09582338,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.0958)
+3732,Phạm Song Học đúng.. trách thằng ck nữa mới đã nư.. 🤭,gian_du,vui,0.022527784,0.09706819,3,change->vui,change,vui,Cleanlab high confidence flip (0.0971)
+1673,"Tôi rất thương yêu động vật , nhưng động vật đó xứng đáng tuyệt chủng",gian_du,vui,0.011138749,0.10233849,3,change->vui,change,vui,Cleanlab high confidence flip (0.1023)
+9992,hơn cả bộ phim kinh dị !,lo_au,vui,0.045809574,0.10417336,3,change->vui,change,vui,Cleanlab high confidence flip (0.1042)
+8139,"Đợi tin từ 2 anh phi công , mong cả 2 bình an",lo_au,hy_vong,0.014223448,0.10453829,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1045)
+4178,Mong bé mau hồi phục. Thương quá. Gửi năng lượng chữa lành những nỗi đau cho bé sớm khỏe.,hy_vong,buon,0.020949963,0.105718106,3,change->buon,change,buon,Cleanlab high confidence flip (0.1057)
+877,"nhiều người nói con này giả ngu câu thích , nhưng xem lại nhiều lần thấy nó ngu thiệt chứ không phải giả bộ",vui,gian_du,0.012588031,0.106493205,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.1065)
+9763,hok có hứng thú quay lại lun 🫠,that_vong,vui,0.025739279,0.107094646,3,change->vui,,,"Loss of interest (that_vong that), khong phai vui -> giu that_vong (nguoi duyet sua, cleanlab flip sai)"
+484,"nhớ lại ngày đó , làm pg bán giấy , cười suốt ngày , khách chửi cũng cười , mà nhớ thời đó ghê , mới 1 , 2 năm chứ mấy",vui,buon,0.02456062,0.107296646,3,change->buon,change,gian_du,Anger context -> gian_du
+2672,sai rồi nhá . có những thứ cha mẹ không có nhưng vì con họ vẫn cố gắng để có được nó,that_vong,hy_vong,0.04278383,0.107420534,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1074)
+4782,@ivankaquynh Làm được nhưng sẽ bạc tóc,lo_au,hy_vong,0.010638689,0.1075775,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1076)
+2618,ráng đừng ngại,hy_vong,lo_au,0.018650701,0.11124942,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.1112)
+2496,"Nhớ bà ngoại quá cảm thấy bất hiếu khi còn nhỏ ở với bà, giờ muốn ở bên bà mãi",hy_vong,buon,0.048087317,0.11308429,3,change->buon,change,buon,Cleanlab high confidence flip (0.1131)
+1244,"tao toàn thế giận tao tao dỗi lại , lại phải dỗ tao . hahahaha",gian_du,vui,0.012045923,0.113984376,3,change->vui,change,vui,Cleanlab high confidence flip (0.1140)
+378,"Cố gắng rồi vẫn thất bại , biết cố gắng đến kho nào haizzzz",that_vong,hy_vong,0.042566456,0.1143688,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1144)
+3632,cứ thấy nó là ăn không còn xác thì lấy gì chúng kịp phá . nhìn thèm ứ chịu được,hy_vong,gian_du,0.019519988,0.11626467,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.1163)
+313,"Chị ra video khi mà e đang cảm thấy chán nản thực sự. E phải rời bỏ những thứ mà e từng nghĩ nó sẽ là mãi mãi của cuộc đời, có lẽ một điều gì đó mới sẽ chờ đón e...<br>E đã sai rất nhiều rồi và có lẽ đây là sự trừng phạt...",that_vong,hy_vong,0.049599666,0.11663169,3,change->hy_vong,keep,,Sadness -> keep negative/original
+3483,Thầu mà làm vậy thì làm ăn xao phát đạt được mong CA bình dương vào cuộc để lấy lại tiền công và giay tờ cho vợ chồng e,that_vong,hy_vong,0.0332603,0.11899549,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1190)
+31,@TvNhinhi Mưa gió cuộc đời tạo nên con ng mạnh mẽ 😬,lo_au,hy_vong,0.026161866,0.119818956,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1198)
+9284,Từ nay t tu k hóng nữaaaaa Dưỡng Sinh Bích Nhung 😹,buon,vui,0.032401424,0.121193975,3,change->vui,change,vui,Cleanlab high confidence flip (0.1212)
+7572,"Từ nay về sau, bà 8 Xe Lửa hay Lưỡi Lam gì thì Lu cũng không sợ nữa. Hôm qua Lu còn đảo một vòng xe cho mấy anh công an xem nữa, rồi mấy ảnh sai Lu đi mua đồ nhắm cho mấy ảnh lai rai, cho nên hehe, từ ngày có cái xe, Lu lên chức ... tà lọt cho CA gòi.",vui,lo_au,0.029268453,0.1234214,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.1234)
+3705,Làm về bị mất động lực mất phương hướng đi anh,hy_vong,lo_au,0.014837202,0.12430695,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.1243)
+5516,bể mẹ cái kính cường lực mới dán :#,gian_du,vui,0.03910073,0.126679,3,change->vui,change,vui,Cleanlab high confidence flip (0.1267)
+985,Embe này yếu đuối quá,that_vong,vui,0.022858512,0.12754676,3,change->vui,,,"Che bai/yeu duoi, khong co icon nao dao nghia -> giu that_vong (nguoi duyet sua, cleanlab flip sai)"
+609,thề ở với tụi nó quẩy hết mình tưởng như đã hóa thú,vui,lo_au,0.047922492,0.12879989,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.1288)
+9404,Quá xưng đáng.,that_vong,vui,0.019910887,0.1308676,3,change->vui,change,vui,Cleanlab high confidence flip (0.1309)
+2241,Ông ngoại mất Ông bà nội mất Bà ngoại ko thương ☺️ko một ai thương iem cả trừ ông ngoại @nào có ny đổitên🤡🇻🇳🔥,buon,vui,0.034060054,0.131975,3,change->vui,,,"Noi dung mat nguoi than, cam thay khong ai thuong - RAT buon that, icon 🤡 la tu chieu chu khong phai vui -> giu buon (nguoi duyet sua, cleanlab flip sai - can trong)"
+6696,Vì định mệnh chân ái phóng hỏa đốt nhà xong quên mẹ là có chồng vs con r. Ngộ không🙉🙉🙉...còn j để lói,vui,gian_du,0.0194704,0.13209146,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.1321)
+5471,Nhung Nguyen xin hãy tha cho cuộc đời của connnn,lo_au,hy_vong,0.01206904,0.13269198,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1327)
+4179,Cứ xem những hình ảnh này trong lòng lại thấy nao nao.kí ức ùa về.ôi thèm cái cảm giác ngày xưa,hy_vong,buon,0.020150645,0.13273934,3,change->buon,change,buon,Cleanlab high confidence flip (0.1327)
+1562,làm mấy chuyện dở người để được nó chú ý,hy_vong,gian_du,0.012916392,0.13330439,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.1333)
+8818,"cái này vừa đúng cũng vừa sai,đúng là vì nếu ông là người mạnh mẽ trước mặt người khác,tự dưng hôm đó ông buồn hay có gì đó làm cảm xúc của ông đi tới tột cùng thì buộc ông phải khóc nhưng ngta ko biết ngta sẽ ngĩ ông là thng mích ướt,nhưng sai là sai ở chỗ,họ không biết con trai cta cũng cần phải dc chia sẻ,phải dc ưuan tâm bởi cta là người thuong xuyen gánh vác trách nhiệm vì cta là đấng nam nhi(kiểu kiều vậy) nên đôi lúc hơi áp lực,như bố tôi 40 tuổi rồi đi làm đôi lúc vẫn hay bị sếp mắng thậm tệ,bố tôi áp lực quá vẫn khóc đấy,nói chung là ông ko có gì phải xấu hổ cả,cứ kệ sự đời đi",buon,hy_vong,0.048237212,0.13348362,3,change->hy_vong,keep,,Sadness -> keep negative/original
+742,"mặc kệ người ta bạn ơi , có tiền mua xe đi thì kệ mẹ thiên hạ",hy_vong,gian_du,0.040937833,0.1335882,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.1336)
+765,"Tuyệt vời! Nhưng cậu bé liều quá, chẳng may lại gặp bọn xấu thì k biết chuyện tồi tệ gì sẽ xảy ra nữa! Mong cháu luôn khỏe, học tập tốt, em cháu sẽ mau hết bệnh để về với cháu!",lo_au,hy_vong,0.018474257,0.13371807,3,change->hy_vong,change,vui,Joy signals -> vui
+1800,trong luật có khung hình phạt xử bắn không ... ghê tởm,hy_vong,gian_du,0.011558409,0.1347149,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.1347)
+2121,Chị ơi chỉ cách em vượt qua kì thi đi ạ nhất là vượt qua hai môn toán vs anh văn đi ạ,lo_au,hy_vong,0.04266967,0.13580126,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1358)
+9399,thương chỉ sợ em không cho anh cơ hội thôi,hy_vong,lo_au,0.015774734,0.13665622,3,change->lo_au,change,lo_au,Cleanlab high confidence flip (0.1367)
+3475,Chị và mọi người ơi! Giúp em với ! <br>Toeic 2 kỹ năng của em khoảng 470 thôi ạ :( . Giờ em phải làm sao trong 6 tháng có thể có đc 5.5 IELTS ? Em mong chị và mọi người chỉ giúp. Em xin cám ơn ạ ^_^.,lo_au,hy_vong,0.04580662,0.13788038,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1379)
+9980,đổi cả cuộc đời giống người tàn tật để được cái video này .,gian_du,hy_vong,0.012329855,0.139366,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1394)
+3988,úi giời khiếp quá !!!!,lo_au,vui,0.03778311,0.14083156,3,change->vui,change,vui,Cleanlab high confidence flip (0.1408)
+3517,Cứ đọc những bài như thế này mà thấy nhiều người quá khổ luôn Từ đó ta hãy chia sẻ những gì có thể đừng có tham sân si nữa mọi người nhé,buon,hy_vong,0.038063362,0.14085448,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1409)
+4525,Pha này vừa đổi ck vừa đổi tên con luôn 🥹🥹🥹,that_vong,vui,0.046380233,0.14135239,3,change->vui,change,vui,Cleanlab high confidence flip (0.1414)
+10113,"Mardoll Tee Aitch sao vậy, tôi lại thích nghe tiếng tụng kinh lắm cảm giác nhẹ nhàng và yên bình(?), vì thế nên tôi thích đi chùa như kiểu ngăn cách với mọi áp lực bên ngoài í 🥲",hy_vong,lo_au,0.015450858,0.14162204,3,change->lo_au,change,lo_au,Anxiety context -> lo_au
+4354,Hồ Ngọc Hân vậy t đem bọc t cho chó mèo hoang ngồi đg ănn chứ bỏ thì mang tội nếu đồ bé ân dc,hy_vong,gian_du,0.020299973,0.14207277,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.1421)
+1186,"cấp 3 , đáng tiếc nhất trong thời học sinh ^^",that_vong,vui,0.015097756,0.14364591,3,change->vui,,,"'dang tiec nhat' la cau chinh, icon ^^ khong doi nghia -> giu that_vong (nguoi duyet sua, cleanlab flip sai)"
+1466,Đẹp mà mắc thiệt,that_vong,vui,0.045370586,0.14434132,3,change->vui,change,vui,Cleanlab high confidence flip (0.1443)
+2324,"Tỉnh mộng đi chàng trai, đây là cuộc sống thực tế chứ không phải tiểu thuyết hay phim ảnh. Khi đã biết chắc chắn ngta k yêu mình r thì nên tự yêu bản thân mình nhé. Đừng tự nhục",that_vong,hy_vong,0.047926985,0.14552519,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1455)
+9850,đúng là nói thì dễ hành động không bao giờ làm được ))),that_vong,vui,0.020708665,0.14552972,3,change->vui,,,"Cau mia mai che trach, ))) chi la dau cham cham biem -> giu that_vong (nguoi duyet sua, cleanlab flip sai)"
+1788,"Bây giờ thì em lại nhớ và hâm mô em của ngày xưa <br>Một cô gái rất tự tin ,mạnh dạn,vô tư và hoà đồng.Trái ngược với hiện tại",buon,hy_vong,0.04195029,0.1458768,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1459)
+3046,những người em thích đều đi nơi đâu rồi còn con ml bên cạnh song hành,that_vong,hy_vong,0.031452283,0.14643905,3,change->hy_vong,change,hy_vong,Cleanlab high confidence flip (0.1464)
+5360,Chơi thêd quá tốt rồi. Có cái đấu trường lớn mình tâm lý chiến yếu thôi. Chứ hôm qua mà đánh như hôm nay ăn chắc,hy_vong,gian_du,0.023237105,0.14787436,3,change->gian_du,change,gian_du,Cleanlab high confidence flip (0.1479)
+4787,ừ nhìn rợn thật =]]]],lo_au,vui,0.021449596,0.14909357,3,change->vui,change,vui,Cleanlab high confidence flip (0.1491)
+1421,"Mình ko thể nào quên đc cái chết của George O’Malley. Mọi người nên xem Grey’s Anatomy nhaaaa, xuất sắc",buon,vui,0.03002222,0.14918795,3,change->vui,change,vui,Cleanlab high confidence flip (0.1492)
+1952,"vậy thì tao sẽ ước mơ là các nhà thơ đừng bao giờ xài ẩn dụ , chơi chữ :) đã ngu văn còn bắt phân tích thấy mẹ luôn",hy_vong,gian_du,0.035532102,0.15121242,3,change->gian_du,keep,,Default keep original
+8725,tợ rất tự ti vào nhan sắc lẫn ngoại hình của mình nhưng tớ cảm thấy nụ cười của mình rất đẹp...,vui,buon,0.044049915,0.15131557,3,change->buon,keep,,Default keep original
+4446,Đã dí đơn chưa thôi làm vài trăm ăn tết,vui,gian_du,0.011429197,0.1514737,3,change->gian_du,keep,,Default keep original
+10088,không biết nói sao ... nghiện chuẩn mẹ rồi ... crush ợ . mà nó nhẫn tâm lắm hồi trước còn hay call video . từ hôm tao cạo trọc y như là mất tích luôn . chắc phải để tóc mọc lại tao mới dám gọi . 🤭,that_vong,vui,0.032921113,0.15179181,3,change->vui,keep,,Default keep original
+8960,ông này nội công thâm hậu nhảy lên gẫy cả cây thế là té đít dầm xuống đất . tại hạ bái phục,vui,gian_du,0.035613514,0.15300524,3,change->gian_du,keep,,Default keep original
+5125,đề nghị các bạn giữ trật tự trong rạp phim !!!!!!,gian_du,hy_vong,0.018662589,0.15643075,3,change->hy_vong,keep,,Default keep original
+6746,anh vui thì anh ngồi thôi ... chú cự để mặc anh .,gian_du,hy_vong,0.017154602,0.15646043,3,change->hy_vong,keep,,Default keep original
+3675,còn đang soạn tin kìaaaa 😬 tới số ròiiii 🫨,lo_au,vui,0.04489102,0.1565044,3,change->vui,keep,,Default keep original
+3758,"T sống vì tương lai và tình yêu dù là bị tram cam ghét chính mình,",hy_vong,buon,0.017089942,0.15689787,3,change->buon,keep,,Default keep original
+9265,Nguyễn Hậu vcl sướng?,vui,gian_du,0.03796608,0.15710768,3,change->gian_du,keep,,Default keep original
+3330,"Lê Hải Linh B mình trông giống thầy vc, khác mỗi cái mặt",vui,gian_du,0.044669285,0.15939921,3,change->gian_du,keep,,Default keep original
+1624,loài dê phải gọi ông này bằng cụ,vui,gian_du,0.036581807,0.15950632,3,change->gian_du,keep,,Default keep original
+2536,công nhận ngầu thật,vui,gian_du,0.020333886,0.161437,3,change->gian_du,keep,,Default keep original
+319,Buồn cưòi cái là cứ đi bắt cái con vật xong lại đi thả nó ra 🤭🤭🤭 nhiều ng cũg rảnh thật,gian_du,vui,0.016023593,0.16315746,3,change->vui,keep,,Default keep original
+9117,"đâu mới là con đường e muốn đi, đâu la sự lựa chọn đúng đắn cho cuộc đời e qh ?",buon,hy_vong,0.035992537,0.16430095,3,change->hy_vong,keep,,Default keep original
+2472,Mong pháp luật chừng trị bịn ác thú ấy,hy_vong,gian_du,0.024357151,0.16789171,3,change->gian_du,keep,,Default keep original
+6058,"Phụ nữ 1 khi đã ko thích thì b có cố đến mấy cũng ko làm lay động đc đâu, thậm chí còn làm ng ta khó chịu và ghét b thêm ý,nếu duyên thật sự đã hết thì nên chia tay trong êm đẹp và vv ,níu kéo thì chỉ có mink b là ng khổ đau mà thôi,quên đi 1 time rồi cũng sẽ có 1 mối quan hệ mới thôi, hãy nhớ&quot; buông bỏ&quot; cũng là cách để chúng ta trưởng thành hơn.",gian_du,hy_vong,0.019266628,0.16838509,3,change->hy_vong,keep,,Default keep original
+5269,Hèn gì tính nóng như kem đụng là trụng kk,gian_du,vui,0.017778954,0.16840279,3,change->vui,keep,,Default keep original
+7758,nam mô bổn sư thích ca mâu Ni Phật nam mô bổn sư thích ca mâu Ni Phật nam mô bổn sư thích ca mâu Ni Phật tại sao có hoàn cảnh như vậy trời,buon,hy_vong,0.019657467,0.16872555,3,change->hy_vong,keep,,Default keep original
+7723,"Haizz. Nhiều khi đấy cũng là 1 kiểu may mắn. Những bạn ở nghệ an thanh hoá hay miền núi cũng chẳng đc đi học thêm, vẫn đỗ cao, thậm chí còn nghèo đến cơm k đủ ăn.",hy_vong,that_vong,0.042636655,0.1690988,3,change->that_vong,keep,,Default keep original
+9541,"cạn lời , mình ngủ để khỏi nhìn",gian_du,hy_vong,0.015149157,0.16937855,3,change->hy_vong,keep,,Default keep original
+10242,"aaaaa con nhện 😨 "" aaaaaaa con ế !"" - nhện said",lo_au,vui,0.04138821,0.17008117,3,change->vui,keep,,Default keep original
+436,cảm ơn chi nhiều! Video của chị luôn xuất hiện nay mà lúc em đang thất vọng về bản thân! đến lúc em phải tự trách nhiệm vè bản thân rồi!,that_vong,hy_vong,0.027793799,0.17123514,3,change->hy_vong,keep,,Disappointment -> keep original
+8823,cười thôi đã thấy tự ti rồi:),vui,buon,0.047903754,0.17226079,3,change->buon,keep,,Default keep original
+7385,"Lúc 7 tuổi, nghe tin me sanh em bé cũng đi bộ 4km 1 mình để thăm mẹ và em. Mà ko ai hay biết",vui,buon,0.035715945,0.173417,3,change->buon,keep,,Default keep original
+5802,96er. để dành đc gần 100tr và đã dùng hết để đi du học. K biết có phải quyết định đúng đắn k,lo_au,hy_vong,0.045554414,0.1737994,3,change->hy_vong,keep,,Default keep original
+5564,đeo ktrang lm t tự tin hơn khi nc,hy_vong,buon,0.041117366,0.17393678,3,change->buon,keep,,Default keep original
+7727,gặp được em nhưng sẽ chỉ quan tâm và bảo vệ em từ xa,that_vong,hy_vong,0.045797937,0.17436069,3,change->hy_vong,keep,,Default keep original
+7749,"Thực lực VN đến thế là mừng rồi. Hàn, China, đài loan là đội mạnh",hy_vong,gian_du,0.012853742,0.17550111,3,change->gian_du,keep,,Default keep original
+2355,😬👍,lo_au,vui,0.038750082,0.17594421,3,change->vui,keep,,Default keep original
+3059,Em ko ngờ đế quốc khmer xâm lược Đại việt 5 lần thua mà còn có thể gửi lá thư cho Đại việt ta kêu ta làm thuần phục và tung hô nó được chịu đế quốc này luôn ý(yếu hơn bày đặt kêu nước mạnh hơn làm theo yêu cầu của mình),gian_du,hy_vong,0.03321577,0.17761102,3,change->hy_vong,keep,,Default keep original
+5719,đùa ... cảnh sát việt nam tài thật . vụ gì cũng bắt trong 48 giờ,vui,gian_du,0.008876359,0.17868412,3,change->gian_du,keep,,Default keep original
+5,chỉ còn 1 tháng để quyết định 1 đời,lo_au,hy_vong,0.025849309,0.1794306,3,change->hy_vong,keep,,Default keep original
+3978,Đã ngoại tình dù vì bất kỳ lý do gì cũng chỉ là: khốn nạn! Nên thoát được khỏi đứa khốn nạn thì phải cảm ơn,gian_du,hy_vong,0.023102185,0.18179855,3,change->hy_vong,keep,,Default keep original
+398,Cứ nằm viện nôn mửa 1 tuần làm cái đơn đi cho nó mượt,that_vong,hy_vong,0.033029072,0.1841627,3,change->hy_vong,keep,,Default keep original
+7370,Hien Dieu đó. Xin vía cho con còn không được sao mà xin cho bản thân đc. Kk,that_vong,hy_vong,0.039831735,0.18625662,3,change->hy_vong,keep,,Default keep original
+3570,"Đào đâu ra 1 ng như vậy, nên đừng trông chờ vào ai cả. Tốt nhất tự yêu lấy mình nhé",that_vong,hy_vong,0.03897902,0.18653324,3,change->hy_vong,keep,,Default keep original
+6637,"Vì thế giới này nhiều khổ đâu, nên ta mới thấy lòng tốt của con người",hy_vong,buon,0.031747397,0.18659976,3,change->buon,keep,,Default keep original
+4256,"đến lúc yêu nhạt cực tao thề ! kiểu chán chán , muốn quay về đơn phương hơn",gian_du,vui,0.028706677,0.18703419,3,change->vui,keep,,Default keep original
+8251,ủa rồi ra nắm xe tải kéo ra như kéo xe đồ chơi dị ba,vui,gian_du,0.047106497,0.18784377,3,change->gian_du,keep,,Default keep original
+9911,Sướng quá rồi,vui,buon,0.018835602,0.1879572,3,change->buon,keep,,Default keep original
+5109,Ê t với côn bthan lâu ngày kh gặp gặp nhau hơi ngại nhưng 5giay sau như sảnh chờ ff,vui,lo_au,0.021445982,0.1883496,3,change->lo_au,keep,,Default keep original
+1573,ng anh em thiện lành đã rời việt nam . sayy goodbye 🌸,buon,vui,0.036686104,0.1894925,3,change->vui,keep,,Default keep original
+7147,"Trần Minh vẫn thiếu "" bình đẳng, bác ái ""...",that_vong,vui,0.03050246,0.18964285,3,change->vui,keep,,Default keep original
+3310,Hỏi cái tầm lãnh đạo của các bác ngoài đó ấy 😉 đà lạt bây giờ cũng bấy nhầy chứ đâu còn như xưa,gian_du,vui,0.02542525,0.19119117,3,change->vui,keep,,Default keep original
+8025,Tại vì trai/gái anime đẹp quá ko thèm kết hôn nx 👽,vui,lo_au,0.022570327,0.19163126,3,change->lo_au,keep,,Default keep original
+2297,thay đổi văn hóa tí đi . đường là tài sản chung của mọi người dân . và mọi người dân được phép làm những gì pháp luật không cấm .,gian_du,hy_vong,0.0383074,0.1931305,3,change->hy_vong,keep,,Default keep original
+373,Mạnh Louis Mạnh đáng thương hơn đáng trách,buon,vui,0.02190795,0.19316798,3,change->vui,keep,,Default keep original
+8359,cần 1 thời gian dài thật dài nữa thì ý thức mới đi lên được,that_vong,hy_vong,0.034578487,0.19356433,3,change->hy_vong,keep,,Default keep original
+133,ai giúp bé với hix,lo_au,hy_vong,0.03644067,0.19478375,3,change->hy_vong,keep,,Default keep original
+2646,Nhan sắc thật quan trọng...,buon,vui,0.040987045,0.19487262,3,change->vui,keep,,Default keep original
+6354,"học dốt , da ngăm thì tự ti lắm..^^",that_vong,hy_vong,0.035443876,0.19598669,3,change->hy_vong,keep,,Default keep original
+8272,thế đừng ngại.,hy_vong,lo_au,0.016773198,0.19765183,3,change->lo_au,keep,,Default keep original
+5410,mình ước rằng trong mỗi cuộc nói chuyện không có ai nhìn thấy mình,lo_au,hy_vong,0.025458504,0.19916505,3,change->hy_vong,keep,,Default keep original
+3112,Mọi thứ thật mệt nhưng chúng ta phải cố gắng,lo_au,hy_vong,0.03381201,0.20178336,3,change->hy_vong,keep,,Default keep original
+7345,mai thi xong tao sẽ mang đống đề cương đi bán cho đỡ ghét,that_vong,hy_vong,0.045634802,0.2030288,3,change->hy_vong,keep,,Default keep original
+3206,"thật là romantic , mà mà mà ... sao nghĩ tới cảnh động phòng hoa chúc tao thấy nhột nhột lỗ đít 😧😧",gian_du,vui,0.028599279,0.20359349,3,change->vui,keep,,Default keep original
+6983,tao cũng hao mòn nhan sắc như này,that_vong,hy_vong,0.0381149,0.20587856,3,change->hy_vong,keep,,Default keep original
+1941,bọn hại người không gươm không dao . bọn tiêu diệt nguồn lực tương lai của dân tộc . nên đưa tội thực phẩm bẩn vào khung tử hình đi . mong nhà nước thay đổi một số luật định đi .,hy_vong,gian_du,0.031629063,0.20824456,3,change->gian_du,keep,,Default keep original
+4421,Mọi video của anh rất hayyyyy thật sự hay lun á nhưng mà em góp ý xíu là mình chèn ít qc thôi ạ kiểu đang tập trung mà gặp qc khiến em bị mất tập trung vô video của anh á ❤,gian_du,hy_vong,0.01078308,0.20929354,3,change->hy_vong,keep,,Default keep original
+4127,sống nay cht mai v khỏi lo☺️,hy_vong,lo_au,0.028968852,0.2103385,3,change->lo_au,keep,,Default keep original
+6418,khi nào mới tìm được phim hay như này,that_vong,hy_vong,0.030245304,0.21122772,3,change->hy_vong,keep,,Default keep original
+991,nếu diễn viên chính trẻ hơn đẹp hơn đang yêuc hơn thì mình sẽ xem haizz,that_vong,hy_vong,0.0365925,0.21244392,3,change->hy_vong,keep,,Default keep original
+5404,tao là thằng chưa bao giờ giận người yêu vì người yêu tao không bao giờ làm gì có lỗi hết,vui,that_vong,0.018016635,0.21330425,3,change->that_vong,keep,,Default keep original
+1737,"nhiều kỷ niệm đẹp , giờ nhìn mấy đứa nhóc đi học mà muốn quay về quá khứ .",hy_vong,buon,0.028912656,0.21793228,3,change->buon,keep,,Default keep original
+1223,"lớp 2 xí mót được cái chong chóng , bán lại cho thằng hàng xóm 500d .",vui,that_vong,0.024509696,0.21837595,3,change->that_vong,keep,,Default keep original
+8060,Đoàn Thanh Hùng chủan ko để bán vàng chốt lãi,hy_vong,gian_du,0.024524089,0.21892762,3,change->gian_du,keep,,Default keep original
+8075,xác minh lẹ cty ơi,gian_du,hy_vong,0.032178015,0.22127658,3,change->hy_vong,keep,,Default keep original
+5661,Giang để tay bo chưa chắc thằng ô tô ăn dc xe máy đâu.Nhìn nó nhanh nhẹn vl,vui,gian_du,0.023812808,0.22146195,3,change->gian_du,keep,,Default keep original
+622,nhìn một cái rồi quay đi là thấy mãn nguyện rồi .,vui,that_vong,0.01766846,0.22278243,3,change->that_vong,keep,,Default keep original
+7165,Tự nhiên đọc cái bài suyy nganggg,gian_du,vui,0.016716596,0.22278327,3,change->vui,keep,,Default keep original
+4619,nguyễn thị hồng phấn cũng may tao không thấy cặp nao hêtd,buon,vui,0.00820671,0.2241953,3,change->vui,keep,,Default keep original
+6850,"Thơ hay quá, đọc xong muốn đánh nhau hơn",gian_du,vui,0.02592165,0.2260707,3,change->vui,keep,,Default keep original
+1919,"per anh không nặn đi , mai mốt nó sẽ chaii dầy nè",lo_au,hy_vong,0.02755727,0.22796333,3,change->hy_vong,keep,,Default keep original
+844,"sống trong một gia đình nhiều áp lực và lúc nào cũng chửi bới như vậy , tạo hóa đã ban tặng cho em bộ nhá khá là tươi để cân bằng cuộc sống",gian_du,hy_vong,0.009007732,0.23017952,3,change->hy_vong,keep,,Anxiety -> keep original
+1876,"Bạn thân nhưng lại ko muốn ông bạn đặt vợ lên trên mình, mối quan hệ vi diệu thiệt :]]]]]]]]]]]]]]]]]]]]",that_vong,vui,0.04434294,0.2304759,3,change->vui,keep,,Default keep original
+4144,năm nay vào quán net ngồi cho đỡ phải nhìn .....☺️,buon,vui,0.0155778,0.23052624,3,change->vui,keep,,Default keep original
+1527,thằng nào còn kêu khổ thì vào đây mà lấy động lực,hy_vong,gian_du,0.042716045,0.23503214,3,change->gian_du,keep,,Default keep original
+2197,"Người ngoài nói chuyện vui vẻ, gần gũi, ăn uống có nhau và ngược lại",that_vong,hy_vong,0.041531928,0.23556662,3,change->hy_vong,change,vui,Joy signals -> vui
+5893,"thuyết âm mưu . nó đang muốn nhờ vả đấy , không nhờ được thì nó vả",vui,gian_du,0.04831701,0.23666537,3,change->gian_du,keep,,Default keep original
+10056,Duc Anh hêhhe🤭k đi hơi phí,gian_du,vui,0.019565843,0.23857012,3,change->vui,keep,,Default keep original
+1725,Phương Nghii hồi đó xem chị ơi đi hàn quốc thích paris baguee lắm🥲,vui,buon,0.018249609,0.24062979,3,change->buon,keep,,Default keep original
+7855,nam chính đẹp . nữ chính hơi già . nếu nữ chính là 1 diển viên dể thương thì xem hay hơn nhiều,that_vong,vui,0.023495056,0.24240956,3,change->vui,keep,,Default keep original
+3996,A Di Đà Phật🙏 rồi chính con trai của cô sẽ nhận đc quả mà nó đã trồng lên thôi,gian_du,hy_vong,0.037448436,0.24357384,3,change->hy_vong,keep,,Default keep original
+1203,"tao cũng vậy , mấy cái thiệp chúc noel thời cấp 2 trẻ trâu của lũ bạn vẫn còn nguyên xi",vui,gian_du,0.032990683,0.24502328,3,change->gian_du,keep,,Default keep original
+7213,Biết vậy mình cũng gắn camera iSocial Vietnam,buon,hy_vong,0.023935338,0.24537432,3,change->hy_vong,keep,,Default keep original
+3757,chỉ cần đừng đen là đc,lo_au,hy_vong,0.01972621,0.24561542,3,change->hy_vong,keep,,Default keep original
+7903,Cần lắm 1 người dắt đi coi 🤦🏻‍♀️,hy_vong,that_vong,0.017854182,0.2465061,3,change->that_vong,keep,,Default keep original
+7690,những video như này chỉ khiến cho các cô gái càng thêm ảo tưởng về tình yêu thôi # ngưngảotưởng,that_vong,hy_vong,0.013939803,0.24720809,3,change->hy_vong,keep,,Default keep original
+674,@Tuấn Anhh đôi khi nói chuyện với muôn thú còn dễ hơn với con ng,buon,vui,0.021830147,0.24826863,3,change->vui,keep,,Default keep original
+464,"Quá chán.Bao nhiêu bài thơ hay và ý nghĩa , dễ học ,dễ thuộc ngày xưa thì dần dần không thấy đâu trong SGK nữa ,để rồi nhét dần những loại thơ vớ vẩn vào .",that_vong,hy_vong,0.04301309,0.24840024,3,change->hy_vong,keep,,Default keep original
+2162,Tô An Yên tự nhiên nhớ đạt dăn tây ghê,gian_du,vui,0.040426645,0.24910095,3,change->vui,keep,,Default keep original
+9314,Làm sao để bỏ đi mối quan hệ độc hại.,hy_vong,buon,0.021836124,0.24986207,3,change->buon,keep,,Default keep original
+1775,"tôi kể các bạn nghe 1 chuyện có dính 1 tý với caphe tn : chuyện thế này ba vợ tôi có 1 người bạn rất khó khắn nghèo và đang trốn nợ , ba tôi cho ông chiếc xe máy củ để đi xe ôm . vợ chồng ông bạn này bỏ quê trốn nợ lên tây nguyên làm công cho nhà máy caphe tn trong 4 năm học được nghề làm caphe và sáng lập caphe tuấn kiệt caphe công thức y chang tn bán hợp lý hơn ! ngày nay ông chủ tuấn kiệt đã là 1 đại gia có nhà máy ở sốc trăng , ông ấy đi tìm và trả nợ từng người ơn của mình ! mổi lần ba tôi lên sg ông đều cho xe tới mời ba tôi đi ăn nhậu ! trong lúc ngà ngà ông ấy nói "" em chả bao giờ uống caphe của em làm , tn cũng vậy "" thế đó",vui,that_vong,0.029866552,0.25178105,3,change->that_vong,keep,,Default keep original
+1583,"A chồng cúi xuống cảm ơn vợ ,vì nhờ vợ có hành động tình cảm thân thiết với nhân tình nên a chồng mới biết rõ bản chất thật của vợ",gian_du,hy_vong,0.0091421,0.2518116,3,change->hy_vong,keep,,Default keep original
+3000,t nghĩ t đã block nó vì nó phiền và xàm và 1h sau t nhận ra t còn chx block nó🤩,vui,buon,0.044228055,0.2523151,3,change->buon,keep,,Default keep original
+7007,@🌷 @🖇 nhma hết tự ti khi đi cùng cm,hy_vong,buon,0.048344657,0.25288534,3,change->buon,keep,,Default keep original
+6927,cứ chỗ đông người là có cảm giác ngta đang nhìn mình phán xét 🌷,lo_au,hy_vong,0.040297754,0.2533101,3,change->hy_vong,keep,,Default keep original
+9467,Như Huỳnh Đáng nhẽ định cho bạn coi tới để bạn shock. Giờ biết trước đỡ shock,vui,gian_du,0.018215993,0.25635946,3,change->gian_du,keep,,Default keep original
+4221,"ôI Chị Giang xuất hiện đúng lúc ghê, đúng tâm trạng của em hôm nay. Vì hn em thi cx k vui cho lắm và em thấy căng thẳng trong việc ôn thi 3 môn tiếp theo. May quá, chị Giang ở đây rồi... Em yêu chị! &lt;3 &lt;3",lo_au,hy_vong,0.049340762,0.257815,3,change->hy_vong,keep,,Anxiety -> keep original
+2056,trao nhẫn đóng túi zíp khoá luôn à @@,vui,gian_du,0.046148665,0.25835708,3,change->gian_du,keep,,Default keep original
+3608,Chênh vênh thế nhờ.,buon,vui,0.028667005,0.25877303,3,change->vui,keep,,Default keep original
+8114,May quá đọc mà lo quá luôn. Bác sĩ quá tuyệt vời. Biết ơn vô cùng,vui,lo_au,0.031792015,0.2589714,3,change->lo_au,keep,,Joy signals -> keep original
+5427,"đấy ... y đâu cần phải to tác , phải gào lên cho cả thế giới biết .",gian_du,vui,0.015129497,0.26021487,3,change->vui,keep,,Default keep original
+2991,đến tận nơi giúp đỡ là chuẩn nhất,lo_au,vui,0.019900456,0.26073956,3,change->vui,keep,,Default keep original
+4972,đến gần đoạn cuối tao tắt âm xong vào xem bình luận rồi mới tua xem lại để minvolum . iq + vô cực chuẩn mẹ rồi,vui,that_vong,0.029478377,0.26102385,3,change->that_vong,keep,,Default keep original
+1050,May quá có người rước hộ của nợ!,gian_du,hy_vong,0.027698975,0.26241714,3,change->hy_vong,keep,,Default keep original
+5556,Hương Huỳnh eoooo,gian_du,vui,0.027874017,0.26496005,3,change->vui,keep,,Default keep original
+1741,"hai thằng đó sẽ .. nhau , cô về nhà nằm mơ típ đi cô bé",gian_du,hy_vong,0.022754781,0.2683555,3,change->hy_vong,keep,,Default keep original
+5104,"tốt nhất là đừng crush ai ngoài bản thân ra cả , để khi nhớ thì chỉ cần lấy gương ra nhìn cái là được 😑",hy_vong,that_vong,0.025785932,0.2684298,3,change->that_vong,keep,,Default keep original
+4427,Cno cứ khen Nhật bản khôi phục nên kinh tế thần kỳ mà k nhìn Việt Nam ta cũng mới khoảng 30 năm trở lại đây sau hàng ngàn năm chiến đấu có dc như htai,vui,that_vong,0.013699487,0.26936352,3,change->that_vong,keep,,Default keep original
+7681,"Hội Vũ úi Câu nói này được, xịn quá 🥲",vui,buon,0.03638527,0.2705822,3,change->buon,keep,,Default keep original
+729,crush mới thích ảnh tao mà tao đã . nghĩ đến chuyện đặt tên con rồi,hy_vong,that_vong,0.020519169,0.27191436,3,change->that_vong,keep,,Default keep original
+8864,vừa xung điện tim xong ra ngoài bác sĩ lắc đầu cả nhà tao đưa bác sĩ vô nằm kế tao,lo_au,vui,0.03373157,0.2720319,3,change->vui,keep,,Default keep original
+8924,Ơi Trời ra đúng thời điểm em đang cực kid stress huhuhuuu. Yêu c quá cứu tinh của em,vui,buon,0.026433524,0.2725673,3,change->buon,change,buon,Sadness context -> buon
+6719,may nó không đâm cho lòi ruột,hy_vong,gian_du,0.019783085,0.2730334,3,change->gian_du,keep,,Default keep original
+9432,hồi xưa làm fanpage được gạ kèo 7 triệu nhưng nhất quyết không bán . cảm thấy quyết định đúng đắn nhất trong đời,hy_vong,that_vong,0.029630167,0.2731294,3,change->that_vong,keep,,Default keep original
+5599,cuộc sống thật chua cay với tao,that_vong,hy_vong,0.040938783,0.27388602,3,change->hy_vong,keep,,Default keep original
+7944,buồn cười vãi ý,vui,buon,0.061637763,0.2740638,3,change->buon,keep,,'buồn cười' is positive -> keep original
+3601,Yến Linhh Còn cả 1 tương lai phía trước luôn ấy.,hy_vong,buon,0.023667289,0.2746123,3,change->buon,keep,,Default keep original
+6095,Hok biết có bán hết vé số hok,lo_au,vui,0.041960128,0.2754819,3,change->vui,keep,,Default keep original
+9955,Người ta có người yêu rồi <br>Yêu một mình là điện cuồng,that_vong,vui,0.025412556,0.27644277,3,change->vui,keep,,Default keep original
+1037,vãi độc đấy,lo_au,vui,0.02204499,0.27741343,3,change->vui,keep,,Default keep original
+1672,Vinley Vinley 277 roi b oi nhưng vẫn phải đợi kết quả kiểm phiếu.,that_vong,hy_vong,0.044257935,0.27839985,3,change->hy_vong,keep,,Default keep original
+1608,"chẳng phải chuyện hài nhưng sao tao thấy buồn cười quá , chắc thần kinh có vấn đề",vui,that_vong,0.012906061,0.27986273,3,change->that_vong,keep,,'buồn cười' is positive -> keep original
+8014,kể mà nó biết cử độg vẫy vẫy nữa thì tuyệt con mẹ nó vời ??????,hy_vong,gian_du,0.025776664,0.27993137,3,change->gian_du,keep,,Default keep original
+6140,ổng đang chán ai tán yêuc luôn,buon,vui,0.034091253,0.28035522,3,change->vui,keep,,Default keep original
+9043,Tiêu cực từ những HATERS bình luận vào channel của em làm em rất thất vọng luôn. Thanks chị vì video rất bổ ích.,that_vong,hy_vong,0.03290765,0.28049815,3,change->hy_vong,keep,,Disappointment -> keep original
+7260,đúng là lợi ích kinh tế lâu dài .,hy_vong,gian_du,0.045027312,0.2809413,3,change->gian_du,keep,,Default keep original
+5419,per mốt đừg có thiết kế hay xây mấy cái kiểu như dị nhé hem ><,lo_au,hy_vong,0.041698992,0.28153956,3,change->hy_vong,keep,,Default keep original
+1542,đừng vì câu nói người khác mà làm bản thân bị tổn thương nha các bạn. Mỗi người có 1 vẻ đpej riêng mà. Nhan sắc chỉ là nhất thời thôi...,hy_vong,that_vong,0.0378038,0.28345647,3,change->that_vong,keep,,Default keep original
+9758,"Tuy lúc này em xem đã hơn 1 năm trc khi chị ra video này. Ko bt chị có đọc dc ko, nhưng em cug cảm ơn chị rất nhìu vì nhờ chị em có thể bỏ đi những thứ tiêu cực trong đầu em! 🙂🙂🙂",vui,buon,0.04903436,0.28387535,3,change->buon,keep,,Default keep original
+6291,may mình đi làm rồi chứ 10 năm trước chắc sẽ phát khổ với bố mẹ vì mấy tin con nhà người ta như thế nào,vui,buon,0.00859982,0.28418693,3,change->buon,keep,,Default keep original
+8199,s tao lại muốn ăn cái này quá làm cho cay vào chua ngọt với sốt me thêm đậu phộng thề luôn 4kg tao ăn cũng hết,hy_vong,lo_au,0.015463546,0.2844087,3,change->lo_au,keep,,Default keep original
+4998,Chú lac quan quá,hy_vong,gian_du,0.017254943,0.28481448,3,change->gian_du,keep,,Default keep original
+9323,"Khi mày ko có tiền thì đừng nghĩ yêu đường làm gì cho mệt, đừng cố thêu dệt sự chân thành mà nghĩ gái nó sẽ đáp lại. A đây khi mới ra trường lương thấp 5tr ko dám yêu ai, nghĩ bụng khi nào lương 10tr mới dám kiếm ng.yêu. Mà khi lương 10tr rồi, thì cái tiêu chuẩn của tụi gái nó cao lên, nên thành ra cũng chưa đủ tự tin để kiếm gái. Đến khi lương 20tr rồi mới bắt đầu có bạn gái. Rồi khi lương 35tr thì bạn gái vẫn còn quen mình. Đến bây giờ thì lương gấp 4 lần như vậy, cô ấy vẫn còn chọn mình. Nêm tôi cảm thấy vẫn còn may mắn khi cô ấy vẫn muốn ở bên cạnh mình.",vui,that_vong,0.011615816,0.28486764,3,change->that_vong,keep,,Default keep original
+9797,"Trời ơi,xem xong clip này, tôi phải suy ngẫm lại,từ rày về sau tôi sẽ kg tiêu xài phung phí nữa 🤔thích gà lang thang từ YouTube qua bên đây luôn 👍",buon,vui,0.02332066,0.28554702,3,change->vui,keep,,Default keep original
+5941,Hong phải em đâu sốp ơi,lo_au,hy_vong,0.028061287,0.28558856,3,change->hy_vong,keep,,Default keep original
+9591,"Mỗi lần thấy gái nhật là hình ảnh j a. V , nó tuôn trào ra , haizz ko thể ko nghĩ đến dc , thiệt là ướt át .",hy_vong,that_vong,0.013555184,0.28646064,3,change->that_vong,keep,,Default keep original
+4496,"bánh tráng trộn năm đó ở roai ờ ti , ruột đau như cắt nói chuyện mắt đầm đìa đền thg dưa gang cốc dưa hấu kem chi per",vui,that_vong,0.020627644,0.28697717,3,change->that_vong,keep,,Default keep original
+6516,"1 là nhờ đám cơ to hơn đè đám này. Cách cuối là làm Chí Phèo. Chúc bạn may mắn, VN nó vậy mà (:",gian_du,hy_vong,0.011825614,0.28768945,3,change->hy_vong,keep,,Default keep original
+1467,nhìn móng tay bác này mà tao thèm lòng chó quá per,hy_vong,gian_du,0.022228979,0.28787398,3,change->gian_du,keep,,Default keep original
+5521,"Thằng ck nói là :"" tao lạy mày, cuối cùng tao cũng chờ được ngày này rồi ..."" rồi cười nhẹ bước đi. ...",vui,that_vong,0.016877053,0.2884556,3,change->that_vong,keep,,Default keep original
+7817,ee đúng nhaa tui ra ngoài đường toàn mặt đơ vs như muốn ăn tươi nuốt sống ngta z😳,gian_du,vui,0.019802146,0.29445273,3,change->vui,keep,,Default keep original
+372,Đời giờ quá nhiều người tốt. Nhưng cũng lắm kẻ ko lương tâm. Đều là con người mình ko giúp đỡ người ta thì thôi gạt chú chi vậy trời. Người quá ta quá khổ mà gạt tội nghiệp. Mong ai có điều kiện tốt hãy giúp đỡ chú,hy_vong,that_vong,0.046348803,0.2950449,3,change->that_vong,keep,,Default keep original
+9895,"hết cấp 3 , hết đại học và chỉ mới bắt đầu 1 cuộc chơi khác .",hy_vong,buon,0.026053805,0.29515415,3,change->buon,keep,,Default keep original
+5008,"hồi lúc tao ăn lạp xưởng mắc xương , nói mà cũng đéo ai tin . tao hiểu cảm giác của mày lắm ?",vui,gian_du,0.031118553,0.29631975,3,change->gian_du,keep,,Default keep original
+6004,Mai Thế Toàn 1 thanh niên cũng rất cay cú,gian_du,vui,0.04970151,0.29788432,3,change->vui,keep,,Default keep original
+4779,"Giá như ngày đó cha đừng bỏ mẹ con con theo gái, thì giờ có lẽ con đã khác",hy_vong,that_vong,0.0499207,0.29793715,3,change->that_vong,keep,,Default keep original
+1767,xem lâu rồi nhưng đến lúc cần lại lôi ra xem lại,hy_vong,buon,0.024126621,0.29865324,3,change->buon,keep,,Default keep original
+8535,"Về còn tắm rửa ,đói ăn cơm còn học bài cũ của sáng ngày mai ,làm vài bài tập. Mình may mắn bame kh quá ép buộc trong học tập cứ để con học bth miễn sao cảm thấy đc mà kh bị áp lực quá cao",vui,lo_au,0.012691797,0.2992545,3,change->lo_au,change,lo_au,Anxiety context -> lo_au
+6744,Xót thương Ngủ ngon nhé cô gái xinh đẹp,buon,hy_vong,0.047789823,0.29993692,3,change->hy_vong,keep,,Default keep original
+2189,21 năm chưa crush ai thì có gọi là ế thâm niêm không hả các bác,vui,gian_du,0.028296508,0.3013108,3,change->gian_du,keep,,Default keep original
+7725,vậy nên cứ lờ đi mà sống tiếp,buon,hy_vong,0.032903526,0.30142874,3,change->hy_vong,keep,,Default keep original
+2870,Như vậy là có tội đó nghen Papa's Chicken . Hạ độc người Việt chúng tôi phải không,gian_du,vui,0.041504793,0.30153066,3,change->vui,keep,,Sadness -> keep negative/original
+7957,tên thì tất nhiên nhớ nhưng ngày sinh của tao thì ông bà bô nhà tao không một ai nhớ cả ^^,that_vong,vui,0.039061725,0.3019879,3,change->vui,keep,,Default keep original
+4422,có người yêu thì vẫn ăn bánh trung thu nhé . bánh trung thu là thứ tồn tại duy nhất . có em hay không không quan trọng,buon,hy_vong,0.03834828,0.3027174,3,change->hy_vong,keep,,Default keep original
+4685,cẩn thận quá cô ơi,lo_au,vui,0.04045649,0.3037606,3,change->vui,keep,,Default keep original
+6684,Nhiều khi bận hoặc quên cầm máy shipper gọi nhiều cuộc m k nghe lúc sau nhận hàng cảm thấy ấy náy có lỗi lắm luôn mà quê tui thời điểm nắng nóng 39 40 độ đấy mà có mấy lần nói chuyện với bà chị hơi quen chuyên gia bùng bom ship đem đồ đến thử chán chê bắt ng ta đợi nửa tiếng rồi trả hàng trong khi nhiều món đẹp vđ ra và bây h tui vẫn đợi 1 ngày bã bị nghiệp nó quật,hy_vong,gian_du,0.021428399,0.30436337,3,change->gian_du,keep,,Default keep original
+7337,tao nhớ không nhầm hôm nay nó đến tháng vậy là sẽ không bị đâu nhỉ,hy_vong,lo_au,0.038798522,0.30557865,3,change->lo_au,keep,,Default keep original
+2972,"Chắc anh chàng tạ ơn người đã rước giúp cục nợ đời của anh ấy! Ôi! Nhẹ cả người, từ nay về sau k phải cày cục để nuôi loại người bạc nghĩa này nữa! 🙏🙏",vui,buon,0.023559852,0.30611256,3,change->buon,keep,,Default keep original
+430,Nhìn tội chu wa nam mô bổn sư thích ca mâu ni phật nam mô a di đà phật nam mô đại từ đại bi kim sơn phật,buon,hy_vong,0.03650047,0.30661556,3,change->hy_vong,keep,,Default keep original
+4482,chủ tịch đi nặn mụn ở tai và cái kết khóc thét,vui,buon,0.053176746,0.30677503,3,change->buon,change,buon,Sadness context -> buon
+1515,Me cx v mà trả thấy ngại,hy_vong,lo_au,0.011419391,0.30755645,3,change->lo_au,keep,,Default keep original
+1575,sắp được cống hiến cho tổ quốc rồi . vui quá ...,vui,that_vong,0.03573159,0.30936992,3,change->that_vong,keep,,Default keep original
+7272,cảm giác phản bội,that_vong,vui,0.033465456,0.30937272,3,change->vui,keep,,Default keep original
+2999,"bạn vẫn là cậu bé thì không sao. Đàn ông không khóc, họ lao vào vấn đề và giải quyết nó... có khi họ khóc khi nhìn thấy cái đẹp và bia thôi",vui,that_vong,0.018843252,0.30993602,3,change->that_vong,change,buon,Sadness context -> buon
+7502,thiết kế vậy tiện . nào hư của xe thì lấy của quạt gắn vào đỡ mất tiền thay,vui,gian_du,0.030662784,0.30999923,3,change->gian_du,keep,,Default keep original
+6199,Nằm nghiêng qua 1 bên 🙂 cứ có cảm giác bên còn lại còn 1ng nữa 🙂,vui,that_vong,0.030087389,0.31029183,3,change->that_vong,keep,,Default keep original
+1868,Ko sao ae mình có ảnh hưởng j đến ngta đâu mà ngại vs chả ngùng,hy_vong,lo_au,0.015514979,0.31136715,3,change->lo_au,keep,,Default keep original
+4477,Sao mn k nghĩ là cay quá nên đặt tên như vậy. Mai sau mắng con cũng là mắng nyc nhỉ,gian_du,hy_vong,0.04076915,0.31187734,3,change->hy_vong,keep,,Sadness -> keep negative/original
+906,anh nói vậy với em lần nửa đi,gian_du,hy_vong,0.021827487,0.31229442,3,change->hy_vong,keep,,Default keep original
+80,Xin chia buồn cùng gia đình. Mong sự thật sẽ sớm được sáng tỏ Phương nà,hy_vong,buon,0.25348878,0.31243572,3,change->buon,change,buon,Condolence/Grief -> buon
+9401,Tôi là người Campuchia tôi mong atr nói sao cho vừa hai bên,hy_vong,gian_du,0.041985996,0.31297055,3,change->gian_du,keep,,Default keep original
+1470,quay lip miệng chửi liên tục còn đăng mạng cho mọi người biết ... hài .,vui,gian_du,0.04767022,0.3130483,3,change->gian_du,change,gian_du,Anger context -> gian_du
+2171,"giờ mà quay lại cái thời đi học , tao thề không ngoan nữa mà sẽ bỏ học đi chơi vài bữa",hy_vong,gian_du,0.024608219,0.31314322,3,change->gian_du,keep,,Default keep original
+5990,"em rất duyên , và có khiếu hài hước , nhìn mặt em thôi là chị đã muốn cười , ba mẹ chửi mà vẫn vui tươi như vậy thì đáng khích lệ mà , sao nhiều người bình luận nặng lời thế không biết , chỉ là vui thôi mà",vui,that_vong,0.016623542,0.3135125,3,change->that_vong,change,gian_du,Anger context -> gian_du
+3755,"sao phải ngại nhở, các cậu có làm gì sai hay phạm Pháp thì mới ngại chứ bố mẹ sinh ra lành lặn bình thường mắc gì phải ngại? và chả có ai là không đẹp cả, chỉ có người không biết mình đẹp ở đâu và",hy_vong,gian_du,0.038163435,0.3136332,3,change->gian_du,keep,,Default keep original
+3659,Nguyễn Ngọc thiệt muốn chọi cho nó biết cảm giác ghê,hy_vong,lo_au,0.022926887,0.31528848,3,change->lo_au,keep,,Default keep original
+7530,hối hận qua nhiều thứ.ước j thời gian quay trở lại,hy_vong,buon,0.22754017,0.31635845,3,change->buon,change,buon,Regret -> buon
+6784,chuẩn nếu 11 năm về trước chín chắn hơn chọn đúng thì ngày hôm nay có khi ...lại yên ổn,buon,hy_vong,0.03065056,0.31764862,3,change->hy_vong,keep,,Default keep original
+185,@thèm mỳ cay🍜 thiệt bà ngại lắm,hy_vong,gian_du,0.028485596,0.32274348,3,change->gian_du,keep,,Default keep original
+2552,ồ ! rất nhớ !,hy_vong,buon,0.03953748,0.32425988,3,change->buon,keep,,Default keep original
+3685,Còn người....còn của... Thế là may rồi !,hy_vong,gian_du,0.045911696,0.32513115,3,change->gian_du,keep,,Default keep original
+3263,🙂 bữa nhàn sắc tớ xấu họ luôn trêu tớ giờ tớ cũg xấu nhưng tớ lại suy nghĩ khác và bít nói lại ngta,vui,that_vong,0.036115,0.32524365,3,change->that_vong,keep,,Default keep original
+5870,Miêu Đặng ảo thật ấy,vui,gian_du,0.03559293,0.32646644,3,change->gian_du,keep,,Default keep original
+2097,"Nếu là mình, đầu tiên mình sẽ check camera xem con ốc đấy nó lấy ra ở đoạn nào. Khiêm tốn, tâm huyết nhưng không được nghi ngờ bản thân.",vui,lo_au,0.042123318,0.32652926,3,change->lo_au,keep,,Default keep original
+6785,1 lần nữa khâm phục e. Đúng 1 năm tôi chia sẻ.,vui,buon,0.039729275,0.32758307,3,change->buon,keep,,Default keep original
+4522,Nghèo mà tình cảm là tốt rồi,hy_vong,that_vong,0.03871105,0.3290516,3,change->that_vong,keep,,Default keep original
+2715,"Cơ hội có đầy,khởi nghiệp k giới hain tuổi tác",hy_vong,that_vong,0.013471449,0.32976577,3,change->that_vong,keep,,Default keep original
+7150,cay đắng đến cùng cực và hạnh phúc đến tột đỉnh . chỉ là mình có quyền lựa chọn nó hay không thôi,buon,hy_vong,0.023753393,0.33163393,3,change->hy_vong,change,vui,Joy signals -> vui
+7085,biết đâu mưa xuống ổng ấy lại hết ngáo ??????,hy_vong,lo_au,0.013252032,0.33219808,3,change->lo_au,keep,,Default keep original
+5787,"Chẳng qua VN cí chiến tranh thôi k cũng ngang Nhật hoặc Hàn r, thầy của mk bảo như thế😳",hy_vong,that_vong,0.025668629,0.332872,3,change->that_vong,keep,,Default keep original
+665,bài học rút ra là học cách buông bỏ những thứ không thuộc về mình,vui,gian_du,0.030680692,0.33367503,3,change->gian_du,keep,,Default keep original
+3879,mắc dại thiệt chứ,that_vong,vui,0.048984222,0.33575723,3,change->vui,keep,,Default keep original
+4520,Like trước xem sau!,vui,buon,0.021789856,0.33659834,3,change->buon,keep,,Default keep original
+7227,khi đời quá mệt mỏi . đi tìm 1 chút drama,hy_vong,that_vong,0.046163168,0.3377692,3,change->that_vong,keep,,Default keep original
+5650,Quá hối hận.ước gì thời gian có thể quay trở lại,hy_vong,buon,0.2591343,0.3381528,3,change->buon,change,buon,Regret -> buon
+558,Này câu like nha. Sáng nay nhóm hóng biến có đăng rồi,gian_du,vui,0.040009145,0.3383666,3,change->vui,keep,,Default keep original
+2901,"hồi học lớp 5 bảo bố đi mua sgk cho , xong bố đi mua nguyên bộ lớp 4 đầy đủ từ sgk đến vở bài tập",buon,vui,0.04016133,0.3386399,3,change->vui,keep,,Default keep original
+3384,nam nhân nhà người ta kbh làm tôi thất vọng,vui,gian_du,0.03904175,0.3390435,3,change->gian_du,change,that_vong,Disappointment context -> that_vong
+3778,"xem phim mà cứ nhìn cặp chân của ổng , chân gì mà dài thường thượt . chồi ôi 1m87",hy_vong,that_vong,0.034768697,0.34051797,3,change->that_vong,keep,,Default keep original
+3095,Thơ văn lai láng ướt đũng quần. Mang về bón ruộng có được không,gian_du,hy_vong,0.04100221,0.34867972,3,change->hy_vong,keep,,Default keep original
+7973,quốc kỳ và quốc ca việt nam là một cái gì đó vô cùng thiêng liêng teong lòng mỗi người việt.,vui,that_vong,0.04977083,0.35138565,3,change->that_vong,keep,,Default keep original
+8669,mình nhát lm,lo_au,vui,0.036704402,0.3525291,3,change->vui,keep,,Default keep original
+10232,sao giống phim good doctor của hàn vậy ?? cũng bệnh tự kỉ và có khả năng nhìn được 3d !,vui,that_vong,0.048611384,0.35293388,3,change->that_vong,keep,,Default keep original
+4963,giá mà thằng lái xe ngồi trong xe oto trông xe thì tốt biết mấy !,hy_vong,that_vong,0.04090877,0.35462314,3,change->that_vong,keep,,Default keep original
+9505,"Trời ơi 🤦🏻‍♀️thật sự muốn gào thét lên, thương quá mình khóc luôn ko biết làm cách nào mình gửi Vc a chị ấy chút tiền ko????chính chủ kênh ơi sao ll dc với bạn vậy",hy_vong,lo_au,0.038320016,0.35597003,3,change->lo_au,change,buon,Sadness context -> buon
+3772,thấy cái thèm ts quá,hy_vong,gian_du,0.02207496,0.35792398,3,change->gian_du,keep,,Default keep original
+6702,1 phát là nát gáo 🥱,lo_au,vui,0.029255163,0.36010647,3,change->vui,keep,,Default keep original
+10234,đcm anh da đen fake,gian_du,vui,0.03186873,0.36056244,3,change->vui,keep,,Default keep original
+6599,"Không chăm chỉ học tập khi có cơ hội, không học nhiều thứ để biết nhiều hơn. Sống một cuộc đời lãng phí thời gian, lãng phí tất cả. Nếu có kiếp sau chắc chắn sẽ học, học tất cả mọi thứ",hy_vong,that_vong,0.17521521,0.3622492,3,change->that_vong,keep,,Default keep original
+3456,Grab hỗ trợ đơn hàng giá trị lên đến 1 triệu khi bị boom. Không hiểu là vì sao cô lại bật khóc khi bị boom hàng nhỉ?,vui,that_vong,0.01825539,0.3645223,3,change->that_vong,change,buon,Sadness context -> buon
+8059,"học không phải vì bằng cấp , học để lấy kiến thức .",hy_vong,gian_du,0.02366642,0.36454457,3,change->gian_du,keep,,Default keep original
+5147,mẹ con điên,gian_du,vui,0.0411704,0.3652526,3,change->vui,keep,,Default keep original
+2522,Đó giờ mọi người cứ để ý đi. Mông cổ sang bằng các nước khác lấn qua tới châu âu gặp Việt Nam bị Mình đánh cho chạy té khói mất chuỗi trận bắt bại. Tới cam lại cũng bị mình tước đi chuỗi bất bại. Tới pháp cũng y chan và đương nhiên mỹ cũng nằm chung cãnh ngộ. China miễn bàn nó cũng trong những nc đó. Việt Nam vua chặn những đế quốc lớn,vui,lo_au,0.037193518,0.36914527,3,change->lo_au,keep,,Default keep original
+6139,"còn tao nhé , hơi bị ngon",vui,lo_au,0.032372996,0.3751221,3,change->lo_au,keep,,Default keep original
+4296,Làm cái đơn . Luôn và ngay,hy_vong,that_vong,0.03591526,0.37670994,3,change->that_vong,keep,,Default keep original
+2954,bề ngoài tỏ ra cứng cỏi nhưng bên trong con chó đó luôn khao khát tình thương từ con người,hy_vong,that_vong,0.039514963,0.38374707,3,change->that_vong,keep,,Default keep original
+3067,thế thì nó lại tốt quá,hy_vong,lo_au,0.037932962,0.3872487,3,change->lo_au,keep,,Default keep original
+1428,khách hàng dời lịch họp sát giờ làm anh em ơi muốn bùng cháy 💢,gian_du,hy_vong,0.036167424,0.3906434,3,change->hy_vong,keep,,Default keep original
+572,Pham Hoang Nam Ô đi thi đại học chắc phải dc cộng 10đ vùng miền ấy chứ,hy_vong,gian_du,0.048186794,0.39473304,3,change->gian_du,keep,,Default keep original
+10030,"Phải chi em được thấy video này sớm hơn.<br>Em có tình cảm với bạn kia, bạn đó cũng có tình cảm với em nhưng vì tính nhút nhát mà em đánh mất bạn rồi. Lúc nào em cũng sợ sệt, ngại ngần sợ làm phiền ngta, nhưng bạn luôn chờ em chủ động. Em ko dám làm cgi cả dù em rất muốn. Cảm ơn anh đã chia sẻ video này, e sẽ cố gắng sửa đổi ạ!",hy_vong,lo_au,0.056800332,0.11096084,2,review,change,lo_au,Cleanlab high confidence flip (0.1110)
+1327,tui vì con tui sẽ ở lại.từng là đứa trẻ...... nên t sẽ dành những thứ tốt đẹp t chưa từng có.,buon,hy_vong,0.053966776,0.11827788,2,review,change,hy_vong,Cleanlab high confidence flip (0.1183)
+4450,"Mình cũng muốn nói những câu yêu thương với ông bà của mình, nhưng mình không thể",buon,hy_vong,0.06457246,0.12677097,2,review,change,hy_vong,Cleanlab high confidence flip (0.1268)
+423,hú hồn chim én :) nào làm ra này chắc cũng ngáo dữ :) chắc add không sợ nhện :),vui,lo_au,0.058219243,0.13223612,2,review,change,lo_au,Cleanlab high confidence flip (0.1322)
+8568,đáng yêu mà sợ gì,vui,lo_au,0.054056853,0.14736539,2,review,change,lo_au,Cleanlab high confidence flip (0.1474)
+6951,"@Hien2021 Không có nỗi sợ, chúng ta khó có thể trưởng thành phải không bạn?",hy_vong,lo_au,0.07769966,0.14801013,2,review,change,lo_au,Cleanlab high confidence flip (0.1480)
+1578,Trà Nguyễn chủ yếu cũng là muốn con ngồi mát ăn bát vàng ở tương lai. Nhưng thực tế là cho dù học khổ hay ít thế nào tương lai vẫn chủ yếu vất vả.,that_vong,hy_vong,0.06682444,0.14887637,2,review,change,hy_vong,Cleanlab high confidence flip (0.1489)
+8185,Chúc a an nghỉ sớm siêu thoát,buon,hy_vong,0.081752375,0.149439,2,review,change,hy_vong,Cleanlab high confidence flip (0.1494)
+2830,"Khóc thì k có gì sai, ai cũng có cảm xúc, chỉ là theo tư duy nửa cũ nửa mới của tôi thì chỉ nên khóc trước mặt những người mình thấy có thể hiểu và chia sẻ được với lí do mình khóc. Mỗi lần như thế vừa được giải toả, vừa được sẻ chia, vừa được thông cảm thì sẽ làm mình mạnh mẽ với tự tin hơn. Chứ khóc trc đám đông xong bị xỉa xói nghe nó hơi trauma còn bạn gái op thì thôi k bàn, hoặc do bạn ấy chưa đủ trải nghiệm nên tư tưởng vẫn còn stereotype. Còn nếu k có ai thì khóc 1 mình",buon,hy_vong,0.06521881,0.14944354,2,review,keep,,Sadness -> keep negative/original
+4214,"@Hien2021 ai cũng có nỗi sợ, khi chiến thắng dc thì ta đã vượt qua chính mình",hy_vong,lo_au,0.09268266,0.15144932,2,review,keep,,Default keep original
+2988,Mong em thanh thản và về với cõi lành,buon,hy_vong,0.0839738,0.1528543,2,review,keep,,Default keep original
+840,Vậy chứ thời gian sau bình tĩnh lại sẽ Tự hỏi vì sao mình lại yêu người này,buon,hy_vong,0.08256912,0.1530151,2,review,keep,,Default keep original
+4341,"mình không biết phải đi con đường nào, phải làm thế nào để gia đình mình có tiền và trở nên tốt hơn..",buon,hy_vong,0.0629859,0.15423924,2,review,keep,,Default keep original
+8940,ước gì nội mình cũng vậy ..... thì con sẽ thương nội bằng cả trái tim,that_vong,hy_vong,0.057839997,0.1547029,2,review,keep,,Default keep original
+45,Ước gì tôi ko đọc phải tin này .,that_vong,hy_vong,0.068712324,0.1553554,2,review,keep,,Default keep original
+4303,@july107193 Đôi khi chúng ta cũng phải học cách buông bỏ những thứ không thuộc về mình ấy c ưi,buon,hy_vong,0.07891904,0.157321,2,review,keep,,Default keep original
+9637,tau cố gắng chỉ được từng này 😦😦,that_vong,hy_vong,0.06489679,0.1595062,2,review,keep,,Default keep original
+4281,"ai ở gần đó xin hãy giúp chú , thương chú",buon,hy_vong,0.09026811,0.15977779,2,review,keep,,Default keep original
+7175,"Khi bạn có một chút, bạn lại ước nhiều hơn. Khi bạn có nhiều hơn, bạn lại ước có nhiều hơn nữa. Khi bạn mất tất cả, bạn mới nhận ra.. Một chút thôi đủ rồi.",buon,hy_vong,0.057997156,0.1601229,2,review,keep,,Default keep original
+1347,nhìn ghét quá ????,gian_du,vui,0.06434123,0.16124567,2,review,keep,,Default keep original
+5537,Ngọc Dung cãi lỗ tầy quầy lun 🐧,gian_du,vui,0.0730153,0.16851288,2,review,keep,,Default keep original
+4718,"Nghe câu chuyện của Bé cảm thấy buồn quá, mình rất mừng khi bé đã được người xin nhận nuôi, nhưng mình nghĩ những bé có bệnh và sức khỏe quá yếu như vậy, em nên giữ lại để chăm sóc sẽ được tốt hơn cho Bé.👍❤🐕💐",buon,hy_vong,0.09531598,0.17041183,2,review,keep,,Default keep original
+3614,vàng chắng bây giờ thành chắng tay ! em bình phước đây ! em hiểu cái này hơn các bác nhiều đó !,that_vong,hy_vong,0.05458501,0.1732924,2,review,keep,,Default keep original
+2728,Cũng rung dữ lắm,lo_au,vui,0.06009389,0.17408016,2,review,keep,,Default keep original
+7780,Mong các cha mẹ phụ huynh đừng bỏ con để con rơi vào hoàng cảnh này.biết rằng ko phải mái ấm nào cũng vậy nhưng xem xong thật sự rất xót những thiên thần ấy. Chỉ mới mấy tháng tuổi thôi ạ đã phải chịu nhiều bạo lực ko đáng có như vậy mong pháp luật sẽ vào cuộc để các e có thể có cuộc sống tốt đẹp hơn ạ,buon,hy_vong,0.08266656,0.17749235,2,review,keep,,Default keep original
+4326,Thương con quá sao có người tàn ác như vậy xin hãy thương yêu con thật nhiều cám ơn tấm lòng vàng của anh chị chúc Anh chị an lành hạnh phúc,buon,hy_vong,0.10061444,0.17858434,2,review,change,vui,Joy signals -> vui
+6403,Toàn đồ cổ vẫn huấn luyện .chiu thua luôn,that_vong,vui,0.058400705,0.18195158,2,review,keep,,Default keep original
+1935,"Chị giang ra video đúng ngay lúc bọn học sinh tụi em mới thi xong, gia đình còn đang nháo nhào vì điểm thi. Thế mà tâm trạng em vẫn không tiêu cực chị ạ, tại vì em bị mắng nhiều quá nên rút được kinh nghiệm. Đôi khi chỉ bản thân mình hiểu mình là đủ. Đôi khi ba mẹ cũng không đúng hoàn toàn. Nên em quyết định giữ vững tâm lý, không cho những lời sỉ báng của ba mẹ em về em lọt vào đầu em được. Em vẫn tiếp tục học hành chăm chỉ hơn vì em biết mình cần gì và muốn gì mà không nhất thiết phải nghe lời ba mẹ.",hy_vong,lo_au,0.054537877,0.18216893,2,review,keep,,Default keep original
+1255,"Trong suy nghĩ của em thiếu niên 13 tuổi, sống ở miền núi nó đơn giản và không biết có những nguy hiểm về đường xá và an ninh như người lớn dau các vị. Nó nghe ông nội nói em bị bệnh và nó nghĩ đi là tới như tới trường nó học thôi, nó ko có tiền để bắt xe như người lớn và rất muốn gặp em vì em bé cách xa nó cưng yêu nên nó quyết đi xem em thế nào, tuổi này hay ảo tưởng sức mạnh",hy_vong,lo_au,0.053842973,0.1833185,2,review,keep,,Default keep original
+564,@Lally1702 Trẻ an nhàn thì già vất vả. Thế thôi,buon,hy_vong,0.06967659,0.18341321,2,review,keep,,Default keep original
+6548,"Hãy tiếp tục chia sẻ cách xây dựng sự bản lĩnh, nội lực bên trong để vượt qua sự tự ti sợ sệt rụt rè ko dám đối diện nhé anh. Em rất chờ mong để được học hỏi trau dồi những kĩ năng này hơn nữa",hy_vong,lo_au,0.07928236,0.18424687,2,review,keep,,Default keep original
+4080,Video này là của bọn Việt Tân dàn dựng để nói xấu nền giáo dục Việt Nam đấy. Phải bắt bỏ tù hết những người chia sẻ video này 😃,gian_du,vui,0.09042286,0.18628147,2,review,keep,,Default keep original
+7114,đây còn hơn cả vua . giàu mà nghĩ lớn làm lớn .,vui,gian_du,0.06431939,0.1865792,2,review,keep,,Default keep original
+4410,em tin chắc rằng sẽ có 1 ngày anh sẽ phải hối hận và day dứt cả đời vì những gì em dành cho anh vốn dĩ không cô gái nào có thể làm được,buon,hy_vong,0.09539023,0.18919867,2,review,keep,,Regret -> keep original
+889,"Trà Đá mày có vấn đề về đọc và hiểu à, đúng thứ ngoo 🤭🤭",gian_du,vui,0.091552526,0.19095391,2,review,keep,,Default keep original
+5664,"ước gì boss không co chân lên , tao vẫn sẽ nghĩ là boss thật khí chất",that_vong,hy_vong,0.07026328,0.19346982,2,review,keep,,Default keep original
+9038,Uk t ngại mak🤡👍,lo_au,vui,0.09582875,0.19387239,2,review,keep,,Default keep original
+9180,"đừng bao giờ sợ trở thành chính mình , bạn hãy nhớ bản gốc luôn có giá trị hơn bản sao",hy_vong,lo_au,0.08264032,0.19450504,2,review,keep,,Default keep original
+330,"ngồi xa ra đụ mẹ mày :""))",gian_du,vui,0.07247476,0.19713664,2,review,keep,,Default keep original
+1388,Đi ỉa tôi cũng ngại 🤡,vui,lo_au,0.10118782,0.19802806,2,review,keep,,Default keep original
+8881,Kiếp người sao quá mong manh,buon,vui,0.07155719,0.20154276,2,review,keep,,Default keep original
+8131,"Khoan đã, anh nghe em giải thích đã, mọi chuyện không như anh nghĩ đâu",lo_au,hy_vong,0.06335919,0.20207393,2,review,keep,,Default keep original
+8056,"bởi tầm nhìn nghề ngiệp quan trọng lắm ,học nghề đi các bạn,học cho có nghề thủ thân ,còn trẻ đừng làm lao động chân tay nữa",hy_vong,gian_du,0.086287886,0.20403904,2,review,keep,,Default keep original
+6759,Níu có camera thì t cũng đi trình để đc trả tự do,gian_du,hy_vong,0.055477142,0.20465791,2,review,keep,,Default keep original
+9974,Ui h em cũng đang là sinh viên năm 2 FTU và cũng là đứa dốt nhất lớp,that_vong,vui,0.05873675,0.20751908,2,review,keep,,Default keep original
+692,Mong mạnh thường quân giúp đỡ cho người dân vùng núi nghèo khổ đáng thương à,hy_vong,buon,0.095896855,0.20839015,2,review,keep,,Default keep original
+7149,🙏🏻🙏🏻🙏🏻👍👍👍 Long tốt ở đay chu đau mn 🙏🏻,hy_vong,buon,0.09757096,0.20940223,2,review,keep,,Default keep original
+6478,Chúc 2 phi công bình an vô sự.đừng có điều sấu sảy ra,lo_au,hy_vong,0.054854825,0.20983726,2,review,keep,,Default keep original
+1193,Chúc a sớm siêu thoát,buon,hy_vong,0.090996265,0.20996585,2,review,keep,,Default keep original
+868,"M cũng đã từng làm thợ máy...khá ít đồng nghiệp như này😢 <br>Ốc kém, ren lỗi cũng ít ktv đề cao và báo để khắc phục mà ít thường bỏ qua! Thợ bây giờ thích nhanh và đảm bảo bề mặt chứ tận tâm ít lắm...<br>Tất nhiên cơ sở càng chuẩn càng nhiều khâu kiểm tra thì càng đỡ! <br>Như hồi xưa nhiều bác thợ đúng kiểu yêu nghề làm rất có tâm.",that_vong,hy_vong,0.118039645,0.20996916,2,review,keep,,Default keep original
+8622,"Bài thơ đọc nghe xàm nách, nhiều bài thơ ngày xưa hay và ý nghĩa biết bao, năm nào cũng xuất bản mới mới riết chán luôn",that_vong,vui,0.071369104,0.21104169,2,review,keep,,Default keep original
+846,"Minh Phương bố giỏi, mẹ giỏi, thì gần như con đẻ ra cũng có tài. con đẻ ra ít nhiều cũng thông minh sẵn + thêm dạy bảo nữa thì ko giỏi hơi phí nhỉ.",hy_vong,gian_du,0.055675447,0.21196255,2,review,keep,,Default keep original
+725,"😭😭 đấy, có cái quán bún riu mới mở cạnh quán bún sườn ruột. Không dám sang ăn thử mà phải nhờ mua về nhà (và nó dở như hạch) Từ đó tôi đã không còn yêu ai ngoài quán bún sườn = ))))))))",that_vong,vui,0.07812337,0.21355554,2,review,keep,,Default keep original
+8124,per nghe đi rồi khóc 1 trận cho thoải mái . đừng cố gồng mình lên nữa,buon,hy_vong,0.088398874,0.21391883,2,review,keep,,Sadness -> keep negative/original
+3168,thấy bạn thân chơi với người khác làm mọi người ơi thất vọng toàn tập 🥀,that_vong,vui,0.066283256,0.21452975,2,review,keep,,Disappointment -> keep original
+7075,tao dễ thương nhưng vẫn ế đây này mơ mộng ít thôi,that_vong,hy_vong,0.07949752,0.21551794,2,review,keep,,Default keep original
+1953,tối ngày t cứ bị stress vì kinh tế thật.nhưng xem nhiều ng như này t thấy t còn may mắn lắm.cảm ơn cuộc đời đã nhẹ nhàn với tôi,hy_vong,buon,0.11624633,0.2163837,2,review,change,lo_au,Anxiety context -> lo_au
+2589,Cho ah loi khuyên voi em oi.Ah dan gap be tắc trong cuộc sống. Sdt ah 0387067960,that_vong,hy_vong,0.05161734,0.21649587,2,review,keep,,Default keep original
+8613,"Có thể là , trong sự thất vọng tột cùng về người vợ , anh ấy đã nhận ra mình may mắn khi thoát khỏi cuộc hôn nhân khủng khiếp này . Nên có hành động cúi lạy như cảm ơn .",that_vong,hy_vong,0.055110544,0.2168256,2,review,keep,,Disappointment -> keep original
+5812,phê thật . cái tai nó đang thâm đen xì lấy ra hết lại trắng hồng luôn,vui,lo_au,0.107508406,0.21715447,2,review,keep,,Default keep original
+8079,tao toàn bạn gái mà sao vẫn tưng tửng nhể ???,that_vong,vui,0.055194203,0.21915656,2,review,keep,,Default keep original
+4132,nhưng nó lại đéo thích :>,that_vong,vui,0.07114306,0.22061133,2,review,keep,,Default keep original
+9629,cảm ơn các anh chị báo chí phóng viên đã đưa tin . mong cơ quan chức năng hãy làm thật nghiêm . thật mạnh tay vụ này . đến khổ mấy đứa nhỏ . mưa rét thế này . càng nghĩ càng tức .,gian_du,hy_vong,0.05831519,0.22406486,2,review,keep,,Default keep original
+8756,"Ba mẹ em như đách người ta , chèn ép em vào đường cùng và kỳ thị em , bắt em làm việc cực lực em ước sẽ mạnh mẽ thông minh như chị",that_vong,hy_vong,0.09015727,0.22408506,2,review,keep,,Default keep original
+3929,bà chủ tịch giả mang thai và cái kết,that_vong,vui,0.07068685,0.22570652,2,review,keep,,Default keep original
+1063,"mik cx vậy bạn ạ,nhx mọi người và gia đình vứ bảo mik thái độ,nhiều khi cx muốn đc tự tin nhưng mik lại bị tự ti",lo_au,hy_vong,0.0725108,0.22621375,2,review,keep,,Default keep original
+8733,tôi yêu con người và đất nước của tôi 🇻🇳,vui,buon,0.075925216,0.22716537,2,review,keep,,Default keep original
+7486,nói nhiều cười nhiều để che vết xước bên trong,buon,hy_vong,0.056593478,0.22775081,2,review,keep,,Default keep original
+1491,quá đáng tiếc Lúc này đang trên cơ các bạn đã rất hay rồi K9 mid nó đỉnh lắm,that_vong,vui,0.117712654,0.22833034,2,review,keep,,Default keep original
+5885,per mã mẹ biết hôm qua quay video sớm hơn ự,buon,vui,0.09845572,0.22916096,2,review,keep,,Default keep original
+8420,"tuyệt vọng quá, trời mưa tự nhiên nhớ người yêu cũ 🥀",buon,vui,0.15894315,0.22985232,2,review,keep,,Sadness -> keep negative/original
+7469,Cầu mong linh hồn chj đc siêu thoát,buon,hy_vong,0.13445272,0.22996494,2,review,keep,,Default keep original
+7852,"per đi coi phim coi , hẹn quài luôn á",that_vong,vui,0.06725625,0.23166376,2,review,keep,,Default keep original
+1163,"Có ai giúp mình được không <br>Mấy ngày nay mình bị ám ảnh về người đồng tính, lúc nào cũng suy nghĩ về mấy cái đó, mình không thể kiểm soát giới tính của mình nữa mặc dù mình không hề muốn điều đó giống như mình có hai nhân cách trong một cơ thể vậy. Thực sự bây h mình rất cần sự giúp đỡ của mọi người. mình không muốn suy nghĩ gì về đồng tính nữa mà sao cái não nó hông nghe lời mình",hy_vong,lo_au,0.11530557,0.23245972,2,review,keep,,Default keep original
+3418,"Không có gì phải sợ cả, con đường do mình chọn và mình chịu trách nhiệm với quyết định của mình, dù có quỳ nhất định mình phải đi cho hết!!!",hy_vong,lo_au,0.12665814,0.23344705,2,review,keep,,Default keep original
+521,trời ơi tốt quá,vui,buon,0.073449925,0.23484662,2,review,keep,,Default keep original
+9345,cả tuổi trẻ bỏ công cày . có cơ ngơi ổn định . r về già con cháu đuổi ra đường bắt đầu 2 bàn tay trắng . đời,that_vong,hy_vong,0.1405988,0.23541063,2,review,keep,,Default keep original
+5856,tình yêu thật nghiêm túc . thì nên bắt đầu . không phí thanh xuân một người con gái lắm !!,hy_vong,that_vong,0.07304145,0.23562413,2,review,keep,,Default keep original
+7531,còn đỡ hơn bữa ăn sáng nay của tao nhiều .,that_vong,hy_vong,0.05231879,0.23825002,2,review,keep,,Default keep original
+163,"mình trc kia cũng hay tự ti lắm nhưng mình nghĩ rằng bây giờ ""bản thân mình mình ko yêu thì ai yêu đây""",hy_vong,buon,0.051505625,0.23887214,2,review,keep,,Default keep original
+2411,"ko cần quan tâm đến ánh nhìn xăm soi của mn , chúng ta sống bản thân chứ đâu sống cho ng khác",hy_vong,gian_du,0.05745492,0.23933321,2,review,keep,,Default keep original
+2574,Tôi Là Dân Thủ Đức cho xin ảnh kẻ ác coi ạ,hy_vong,gian_du,0.053089313,0.24004576,2,review,keep,,Default keep original
+3440,@nangoc84 Những thứ đã qua đi rồi sẽ không bao giờ còn trở lại được nữa.,buon,hy_vong,0.13487338,0.24255705,2,review,keep,,Default keep original
+577,thính đấy đừng dính . vì 1 ngày nào đấy mày sẽ nhận ra không chỉ mình mày mới được vậy,gian_du,hy_vong,0.07369601,0.24268532,2,review,keep,,Default keep original
+4777,"cha quay phim cũng không phải dạng vừa , mẹ diễn viên thần thái vãi",vui,gian_du,0.091463655,0.24319631,2,review,keep,,Default keep original
+9212,Đức Nhân Apple tiếc gì 1k mà nó nhận đc kèm lời chửi sâu sắc lofi cực chill kk,gian_du,vui,0.14404154,0.24320117,2,review,keep,,Anger -> keep original
+6014,để có được cái nắm tay tuổi già là bao giông bão của tuổi trẻ . mấy ai qua được bão giông ?,buon,hy_vong,0.08357406,0.24361405,2,review,keep,,Default keep original
+9106,"trước tao cũng tin vào tình yêu chân thành lắm , niềm tin chết rồi",that_vong,hy_vong,0.100292735,0.24460813,2,review,keep,,Default keep original
+77,vô tâm vãi . thôi độc thân vui tính đi .,that_vong,hy_vong,0.07475239,0.24482161,2,review,keep,,Default keep original
+3155,nhìn hói mà thấy thương gê ??,buon,vui,0.15133868,0.24569023,2,review,keep,,Default keep original
+4460,mik rất giao tiếp kém,buon,hy_vong,0.06963507,0.24677816,2,review,keep,,Default keep original
+1502,"@july107193 Đến cuối cùng rồi thì... buông hết khi tới cuối đời, nếu bạn không học đc cách buông bỏ dần thì tâm bạn sẽ không thể nhẹ nhàng và thanh thản khi ở cuối con đường.",buon,hy_vong,0.09054285,0.24734953,2,review,keep,,Default keep original
+5645,thứ ba mẹ cho con và con nhận thấy đó là sự đức hạnh tấm lòng cao cả cam on ba mẹ rất nhìu,vui,buon,0.057995073,0.24759284,2,review,keep,,Default keep original
+2326,Hài lòng lắm ạ,vui,buon,0.05418584,0.24799916,2,review,keep,,Default keep original
+1125,"Tắm, dọn dẹp, làm việc, tập thể dục , .... ko để thời gian lãng phí. Tránh xa quan hệ độc hại. Đưa mình vào thì nguyên nhân ko đổ lỗi.",hy_vong,that_vong,0.10286494,0.24858811,2,review,keep,,Default keep original
+4717,@bigworld2410 Ta hay hoài niệm về những gì đã mất. Vô tình đánh mất cơ hội của hiện tại,buon,hy_vong,0.080761805,0.24902275,2,review,keep,,Default keep original
+6953,toi qua...muon giup nhung gio lam sao,hy_vong,buon,0.054101434,0.24937642,2,review,keep,,Default keep original
+8749,"Rất ý nghĩa, nhưng tìm dc khó hơn tìm đường lên trời",that_vong,hy_vong,0.05628963,0.24966228,2,review,keep,,Default keep original
+7968,xem lại quá nhiều lần đến nỗi không nhớ nổi . vì phim quá hay và ý nghĩa .,vui,buon,0.115930095,0.25036958,2,review,keep,,Default keep original
+7171,mập mặt mụn nọng to Ai cũng trêu tớ mập xấu như ma đa phần ai cũng ghét tớ... ^^,buon,hy_vong,0.11660223,0.25117996,2,review,keep,,Default keep original
+5705,"Nguyen Ép học nhiều quá nên gây áp lực lên con cái ko hề tốt chút nào.Cha mẹ phải là người bạn lớn của con cái để được khuyên bảo,dạy dỗ và thậm chí là vui đùa thật cởi mở để cho con có niềm tin,niềm yêu vào cuộc sống.Khi ấy con cái mới nên người được.",that_vong,hy_vong,0.07798266,0.25158477,2,review,keep,,Anxiety -> keep original
+9178,Xíu Xíu cười le lưỡi trợn mắt🤔🤔,vui,gian_du,0.08911579,0.2518323,2,review,keep,,Default keep original
+1017,"thực sự rất mù mịt, mất phương hướng mong rằng bản thân trong thời gian tới sẽ đủ sức để vượt qua được.",lo_au,hy_vong,0.06857246,0.25186875,2,review,keep,,Default keep original
+209,đợi chúng nó đang ăn lấy xe cứu hỏa phun nước ôi tao hình dung ra cảnh đó thật tuyệt,vui,lo_au,0.10751463,0.2520138,2,review,keep,,Default keep original
+8841,cười vãi ???????? mặt con bé cũng hài ghê,vui,gian_du,0.15056165,0.2536598,2,review,keep,,Default keep original
+863,"Em đang do dự vì mới thử việc 1 tháng đã nghỉ việc để chuyển qua cty khác phù hợp hơn, xem xong clip quyết tâm luôn...",hy_vong,lo_au,0.05536907,0.2540905,2,review,keep,,Default keep original
+4425,"Mik cũng là người khá là rụt rè khi đối diện với những thứ mới lạ, thứ mình cảm thấy mình không giỏi. Kiểu đôi lúc mik cảm thấy mik nhạy cảm quá mức nhưng mik biết là cuộc sống thì đôi khi rụt rè, nhút nhát là điều hiển nhiên và bình thường. Hahahaha và sau một quá trình cởi mở và thoải mái với mọi người thì mik đã phá sự bao bọc bởi sự nhút nhát và thoát ra ngoài đón những thứ tốt đẹp nhất 😁😁😁",hy_vong,lo_au,0.08972176,0.25580984,2,review,keep,,Default keep original
+7963,tình yêu không bao giờ là mãi mãi . rồi cây cũng chết héo mà thôi khà khà,that_vong,vui,0.114403404,0.25748622,2,review,keep,,Default keep original
+807,"nhìu bn bỏ học bh đi làm cực r muốn làm lại lắm , cac bn suy nghĩ cho kỉ r hãy nghĩ nhé. có thể nghĩ học đi học nghề gì đó cho bản thân sau này sẽ tốt hơn nghĩ học đi làm nhe🥺",buon,hy_vong,0.15155196,0.25845614,2,review,keep,,Default keep original
+7627,"làm người trầm tính lâu rồi khiến mình chần chừ, ko đủ can đảm để làm nhiều việc, lết đc tí rồi dừng, thật sự mong muốn có những tác động j đấy đập vào cuộc sống hiện tại của mình",hy_vong,that_vong,0.08379468,0.2606815,2,review,keep,,Default keep original
+976,Hết cứu =>,that_vong,vui,0.067167334,0.26110896,2,review,keep,,Default keep original
+3541,Mang bệnh tật của người khác để đùa cợt các bạn vui lắm nhỉ 🙂,gian_du,vui,0.08943069,0.26165685,2,review,keep,,Default keep original
+9416,"không biết khuyên thế nào , nhưng chỉ cần bình tĩnh 1 xíu , dù gì thì cũng đừng tự sát , đời người chỉ sống 1 lần thôi ...",buon,hy_vong,0.13772526,0.26324093,2,review,keep,,Default keep original
+3189,"ảnh đẹp lắm , nhưng không có những người khổ này thì sẽ đẹp hơn 🙂",that_vong,hy_vong,0.06413618,0.26355708,2,review,keep,,Default keep original
+7720,Nam mô a di đà phật Nguyện cầu hương linh em sớm vãng sang về miền cực lạc,buon,hy_vong,0.1477655,0.26479298,2,review,keep,,Default keep original
+1802,đúng là như vụ thái nguyên luật pháp không nghiêm minh lên dẫn tới hậu quả coi trời bằng vung lên cứ ngược chiều đi,that_vong,hy_vong,0.08294635,0.2651394,2,review,keep,,Default keep original
+3548,moẹ ! nghe cái tên đã hấp con mẹ nó dẫn lắm rồi đây này ! đjln ??????,vui,gian_du,0.07708365,0.2651652,2,review,keep,,Default keep original
+1285,"Anh nghe em giải thích đi, không phải như anh nghĩ đâu",lo_au,hy_vong,0.078478254,0.26594973,2,review,keep,,Default keep original
+3880,nhìn stt đồng cảm khủng khiếp .,buon,vui,0.12084625,0.26604414,2,review,keep,,Default keep original
+1990,Sướng quá ơ ơ ơ!!!,vui,buon,0.09470423,0.26641548,2,review,keep,,Default keep original
+1743,nuôi sao mà trông béo tốt thế kia :v chỉ bí quyết đi,vui,gian_du,0.09096751,0.26973802,2,review,keep,,Default keep original
+5973,"Chị Giang ơi, em hay bị tật muốn ở một mình và hạn chế tiếp xúc hay trò chuyện với người khác, lúc còn sinh viên em nghĩ đó là chuyện rất bình thường nhưng kễ từ khi đi làm em nghĩ đó là một trong những khuyết điểm lớn của bản thân. Chị có thể cho em lời khuyên không chị.",lo_au,hy_vong,0.15236694,0.27042577,2,review,keep,,Default keep original
+7449,dự định tao là 28 nhưng giờ mà có bồ là bắt cưới luôn chớ sợ ế haha,hy_vong,lo_au,0.14350554,0.2714272,2,review,keep,,Default keep original
+548,đọc bình luận cười ẻ,vui,gian_du,0.10363475,0.27169532,2,review,keep,,Default keep original
+2495,ngày ấy cũng từng như vậy ☺️,vui,buon,0.10621112,0.27342206,2,review,keep,,Default keep original
+5512,"@simondalat em đang mơ giấc mơ cypto giúp em bứt phá, và đoạn đường e đang đi đã dc 1/3 rồi Thầy. Liệu có quá ảo tưởng không ạ?",lo_au,hy_vong,0.13346402,0.27358764,2,review,keep,,Default keep original
+6025,"@nangoc84 Mọi thứ đã qua rồi, chỉ còn tiếc nuối chứ làm được gì. Hi",buon,hy_vong,0.16924356,0.2737249,2,review,keep,,Default keep original
+8634,Nguyễn Tài chứ mỗi lần xem phim kinh dị VN là thất vọng vãi,that_vong,vui,0.11964587,0.2740053,2,review,keep,,Disappointment -> keep original
+5473,có khi nào mình thích anh hàng xóm vì mình thích con mèo nhà anh không nhỉ :<,hy_vong,buon,0.08846351,0.27433574,2,review,keep,,Default keep original
+8445,"Đàn chim này sẽ đc bán đi để làm thịt, nên các thầy mua lại để phóng sinh. Ở mỗi góc độ ý nghĩa lại khác nhau.",buon,hy_vong,0.10096585,0.27456003,2,review,keep,,Default keep original
+8838,"Làm gì có đàn ông như vậy , bớt mơ nha mấy mợ !!!",gian_du,hy_vong,0.06141717,0.2750909,2,review,keep,,Default keep original
+5178,thấy per hất môg thằg đó bay hài lòng dễ sợ,vui,lo_au,0.16464345,0.2752623,2,review,keep,,Default keep original
+5822,"Low Tech chuổn, Glenn hẹo là coi như hết film",that_vong,vui,0.06624415,0.27544332,2,review,keep,,Default keep original
+2068,per đứa nào nghĩ ra được cái qcao hay vãi ...,vui,gian_du,0.17408352,0.27572778,2,review,keep,,Default keep original
+1581,"@quachvinhkhoa quên thì ko ai quên đc, chỉ là mình có nhớ về nó hay ko thôi",buon,hy_vong,0.14472578,0.2759214,2,review,keep,,Default keep original
+3426,Chiến Bkt nói tí fan bay vào vã k trượt phát nào,vui,gian_du,0.051202048,0.27609384,2,review,keep,,Default keep original
+1371,thấy thương quá mạnh thường quân giúp đỡ cho 2 em,hy_vong,buon,0.18739773,0.27640998,2,review,keep,,Default keep original
+6733,mất niềm tin vào đàn ông chứ chưa từng mất niềm tin vào tình yêu ;,hy_vong,that_vong,0.061960213,0.2779048,2,review,keep,,Default keep original
+7378,"K quen, k biết mà đau đến nao lòng,cầu mong cô gái xinh đẹp siêu thoát con nhé",buon,hy_vong,0.19643837,0.27930057,2,review,keep,,Default keep original
+8975,cho họ đi tù đi ạ 🙂,hy_vong,gian_du,0.08438738,0.27952752,2,review,keep,,Default keep original
+3912,đứng tim luôn,lo_au,vui,0.09216942,0.2799369,2,review,keep,,Default keep original
+4302,Mai Nhật mong bạn giúp đỡ 2 em ấy. Nhìn mặt 2 em hiền vs phúc hậu nữa .,hy_vong,buon,0.19335073,0.28154096,2,review,keep,,Default keep original
+1894,Cảm ơn các bạn đã cho con nhg ngày cuối đoi hạnh phúc,buon,hy_vong,0.12826826,0.28171322,2,review,change,vui,Joy signals -> vui
+1537,"Chị Giang nói đúng quá.....em đã bỏ mối quan hệ độc hại vs ba em từ 5 năm trước<br>Kết quả mẹ em và em thoải mái sống hơn,phát triển bản thân hơn đặc biệt mẹ em nay đi ra đường tự tin với bạn bè hẳn hơn..........có lẽ đó là điều hơn 15 năm làm vợ mẹ em chưa bao giờ dám làm",hy_vong,buon,0.102750316,0.28310707,2,review,keep,,Default keep original
+1427,Quê t nhưng t chỉ bảo là quả báo thôi :')) Đắt đỏ quá,that_vong,vui,0.098719254,0.28317466,2,review,keep,,Default keep original
+2020,link nhạc toàn cực phẩm,vui,gian_du,0.07157959,0.2832931,2,review,keep,,Default keep original
+4656,"Hồi còn nhỏ, thấy mấy chú, bạn trai của dì, chạy xe bảnh tỏong, áo sơ mi, râu tóc ngay ngắn, nhìn ngưỡng mộ ghê.<br><br>Giờ mình 30 vẫn còn ngồi quán net, đc cái lương 30tr, mà lười cua gái, nên râu tóc mọc như người rừng",that_vong,vui,0.109649174,0.28378,2,review,keep,,Default keep original
+6704,"Khon nan nhất là có vk có con rồi vẫn còn liên lạc, qtam tới nyc",that_vong,hy_vong,0.07576068,0.2880493,2,review,keep,,Sadness -> keep negative/original
+6508,Hồng Phú rõ ràng là các hãng và chủ xe dịch vụ họ thấy được lợi ích của xe điện VF họ mới đổi qua xe VF chạy. Miễn phí 1 năm sạc điện là tiết kiệm được bao nhiêu lúa rồi,hy_vong,gian_du,0.058209974,0.28807455,2,review,keep,,Default keep original
+6087,Chị Giang ơi em đang bị phốt to mệt quá! Phải xem video của c giang để lấy lại động lưc hiuhiu em đi rút tiền để ăn uống xả stress,buon,hy_vong,0.1466058,0.28815764,2,review,keep,,Anxiety -> keep original
+5446,yêu quá đi mất . tuổi thơ của mình toàn nện mấy thằng con trai . trong lớp mình toàn làm xếp nên chẳng được giúp đỡ,that_vong,hy_vong,0.07134799,0.28816825,2,review,keep,,Default keep original
+7628,"Còn 1 điều nữa, các bạn nữ ko mặc áo trong mà ra lấy hàng shipper thì các shipper cũng có để ý và khi tụ họp lại với nhau sẽ lôi cơ thể các bạn nữ ra bàn tán nhé.",gian_du,hy_vong,0.0710632,0.28829056,2,review,keep,,Default keep original
+9465,cả 1 đời người chẳng mong gì chỉ mong từ đây đến phút cuối vẫn có người không quên mình đã từng tồn tại,hy_vong,buon,0.08153472,0.28840148,2,review,keep,,Default keep original
+4688,Nếu cho quay lại thời gian đó có đánh chết tôi cũng không quay mặt bước đi dù chỉ nữa bước,hy_vong,that_vong,0.06551919,0.28888044,2,review,keep,,Default keep original
+1744,dân giàu..nước mạnh...,vui,buon,0.07564004,0.28902543,2,review,keep,,Default keep original
+10080,"moá nó , cười đau hết cả ruột",vui,buon,0.053533647,0.28921384,2,review,keep,,Default keep original
+7986,Oanh Phi hoa hậu cũng k xứng với cu cậu! Hắn sinh ra đúng vạch “ về đích”,gian_du,vui,0.06675278,0.2896296,2,review,keep,,Default keep original
+4150,đã gặp được em đúng lúc . nhưng lại không phải thời điểm em muốn ....,that_vong,hy_vong,0.15739141,0.28985322,2,review,keep,,Default keep original
+10138,"ước gì nội cũng thương tui như thế này, từ nhỏ tới giờ tui chỉ có ngoại thương tui thôi",that_vong,hy_vong,0.12915266,0.2901658,2,review,keep,,Default keep original
+4715,"ui bài viết cứ như nói mình ấy, huhuu hóa ra vẫn có nhiều bế tắc như mình thời điểm này",that_vong,hy_vong,0.051049944,0.29021358,2,review,keep,,Sadness -> keep negative/original
+7133,thực sự là một trò cười,vui,gian_du,0.09968674,0.29039863,2,review,keep,,Default keep original
+7106,mai di lam tipp dui,that_vong,hy_vong,0.056832496,0.2904899,2,review,keep,,Default keep original
+1577,"Bố mình là một người tiêu cực,mỗi khi mà mình quyết tâm làm một cái gì đó, bố mình luôn là người khiến mình phải phân vân lo lắng rằng mình sẽ chẳng thể làm được, nghi ngờ về giá trị con người mình và cảm thấy mình thật vô dụng.Có những lời khuyên của chị Giang giúp mình có thể vượt qua. Yêu chị❤",that_vong,hy_vong,0.06472464,0.2923287,2,review,keep,,Anxiety -> keep original
+6572,"À thế là đúng rồi, gia đình ngăn cản thì ra là gia đình chồng. Cay thế nhở !!!!",gian_du,vui,0.113127574,0.29402387,2,review,keep,,Default keep original
+162,tuổi thơ mình lớp 4 đã cảm nắng 1 anh chàng từ 1 viên phấn vôi .,hy_vong,buon,0.0572066,0.29422987,2,review,keep,,Default keep original
+7811,còn người yêu tao : một hơi có một anh đẹp trai bay lơ lửng rồi ôm lấy em khi em tắm,hy_vong,buon,0.09142251,0.29427776,2,review,keep,,Default keep original
+7466,"Khuôn mặt nào mà chẳng đẹp, đâu cần tự ti như vậy???",hy_vong,buon,0.05241205,0.2960308,2,review,keep,,Default keep original
+1196,"tôi trước nhá: tôi từng vứt tờ vé số 6,7 tỷ vào thùng rác🥹🥹",that_vong,vui,0.05100216,0.29743424,2,review,keep,,Default keep original
+4658,Đánh thế là quá hay rồi. Tưởng đài với Trung kèo dưới mình à mà chê.,vui,gian_du,0.11712122,0.2978345,2,review,keep,,Default keep original
+7479,mày lấy sỏi xếp thành tên dume khôn như tao này .,gian_du,hy_vong,0.07396762,0.299529,2,review,keep,,Default keep original
+3968,t ngắm người yêu tao cười mà càng ngắm tao càng yêu lúc giận cơ nhìn muốn cắn cho mấy phát tao bị cuồng người yêu rồi cái,hy_vong,that_vong,0.060482096,0.30014494,2,review,keep,,Default keep original
+2376,móe . con nhện . cười đau cả ruột .,vui,buon,0.1301248,0.30073136,2,review,keep,,Default keep original
+4873,"Các dì vẫn luôn tự hào có đứa cháu lớn phổng hơn người, xinh đẹp , ngoan ngoãn và tràn đầy năng lượng ! Em là nàng tiên được giáng xuống ở với bố mẹ ! Em ở trọ trần gian giờ em đi thôi ! Vẫn thương nhớ em mãi 💚",buon,hy_vong,0.15548557,0.3021207,2,review,keep,,Default keep original
+2701,Hoa Dại iu thương zu chưa,buon,vui,0.06155512,0.30308264,2,review,keep,,Default keep original
+1044,"Thiện tai thiện tai, các cụ đừng phóng xinh nữa nhé, để tiền mua chim cho mọi người nghèo ý, mấy năm nay các cụ phóng xinh nhiều quá lên sắp hết chim rồi",gian_du,hy_vong,0.06766716,0.3038054,2,review,keep,,Default keep original
+6031,tao sẽ chỉ tự an ủi là đấy chỉ có trong phim truỵên ngôn tình,that_vong,hy_vong,0.12394278,0.3076965,2,review,keep,,Default keep original
+764,Ng ta nói khi yêu màu Hồng lấy về màu đen đó quý zị,that_vong,vui,0.05545831,0.3081264,2,review,keep,,Default keep original
+4900,diệu kì quá,vui,gian_du,0.121350445,0.30850708,2,review,keep,,Default keep original
+4596,Hi vọng có ai đó cung cấp ảnh camera nhà dân trích xuất lại những cảnh truy đuổi trên đoạn đường bỏ chạy. Để biết tính chất nguy hiểm như thế nào. Không có lửa sao có khói.,hy_vong,lo_au,0.14137697,0.30920053,2,review,keep,,Default keep original
+235,Khánh Linh nhìn giống biểu tượng trong thang máy nay tui gặp quá,vui,lo_au,0.103642166,0.30949664,2,review,keep,,Default keep original
+3149,"Bella Bích đôi khi xin vía tài lộc còn dễ hơn xin vía làm to ,vì xin cũng có đc đâu mà xin chi cho mệt .",that_vong,hy_vong,0.10620742,0.30952498,2,review,keep,,Default keep original
+616,"Mừng cho con, chúc con mau bình phục",hy_vong,gian_du,0.05651295,0.30976808,2,review,keep,,Default keep original
+4118,tao thì muốn là đéo bao giờ . nhưng mẹ tao thì muốn ngay bây giờ,hy_vong,gian_du,0.06174457,0.31042045,2,review,keep,,Default keep original
+4404,bọn dân trí thấp tưởng thế là hay .,gian_du,vui,0.07032608,0.31062156,2,review,keep,,Default keep original
+1295,"Vì anh nói rất thích đọc comment và luôn đọc hết comment nên em xin phép comment để nói rằng kênh youtube của anh quá là tuyệt vời lun ạ. Em xem video đầu tiên của anh khi học năm nhất để viết essay về financial crisis 2007-08. Giờ năm cuối sắp ra trường, đang apply công việc và gặp nhiều thất bại, trải qua nhiều sự thất vọng huhu nên khi xem video nè em thấy được motivate lắm ạ. Cảm ơn anh vì bài học về sự kiên trì, dám nghĩ dám làm ạ. Em chúc anh luôn hạnh phúc vui vẻ để ra nhiều video nha",that_vong,hy_vong,0.1089055,0.31121546,2,review,keep,,Sadness -> keep negative/original
+1176,Mỗi lần nghe bài hát này và những tin tức về VN nổi cả da gà vì tự hào!,vui,buon,0.17335404,0.31135246,2,review,keep,,Default keep original
+1323,"không, nếu em dám show cảm xúc của mình ra thì em cực kỳ can đảm đó. Tất nhiên cũng ko nên khóc nhiều quá vì sau này nếu em bộc lộ cảm xúc ra thì ko có tốt trong việc làm ăn này nọ. Anh đã khóc lúc trong bệnh viện sau khi phải phẩu thuật lần 2 cái khớp háng của anh. Nhưng mà giữa việc em khóc 1 cái cho đã so với việc em kìm nén rồi 1 ngày nghĩ quẫn thì anh theo hướng đầu tiên hơn.",hy_vong,lo_au,0.09007356,0.31215152,2,review,change,buon,Sadness context -> buon
+168,giá như có thể quay ngược thời gian 🥹,buon,hy_vong,0.20949146,0.31241,2,review,keep,,Default keep original
+5194,ước mơ tao 🙂 chỉ có thể sao chép lại và tao lên màu cực xấu !,that_vong,hy_vong,0.1847508,0.31266052,2,review,keep,,Default keep original
+5699,đi đại học hay đi xklđ em mông lung quá ( mng cho em xin lời khuyên ạ,lo_au,hy_vong,0.098734796,0.31333065,2,review,keep,,Default keep original
+433,"""nhan sắc là gì? chỉ có lớp da mỏng manh thôi, thứ qutrong là tâm hồn thuần khiết.....""",hy_vong,buon,0.07905048,0.31345725,2,review,keep,,Default keep original
+4174,Bắc Bún chó vs chả má xin video cs bro ơiii,vui,gian_du,0.113379434,0.31363627,2,review,keep,,Default keep original
+2036,"Chu Diệp Anh con diễn thật tuyệt vời. Ánh mắt, biểu cảm khiến người xem ko thể ko rơi nước mắt. Chúc mừng con.",vui,buon,0.11138843,0.3136514,2,review,keep,,Joy signals -> keep original
+9947,nghe em giải thích….,hy_vong,buon,0.10680209,0.31473058,2,review,keep,,Default keep original
+2717,tất cả mọi người đều không có được hoàn hảo?? tôi cũng vậy bạn cũng vậy?? chỉ là qua mấy cái app chỉnh sửa và trang điểm? so đo với mặt mộc thì tất cả mọi người đều bằng nhau.,hy_vong,gian_du,0.055779476,0.3150615,2,review,keep,,Default keep original
+5304,Ráng đẻ thêm 1 đưa con trai r mình đặt ten nyc cho con.,hy_vong,that_vong,0.06513205,0.31612623,2,review,change,buon,Sadness context -> buon
+9070,Mong các con sau này thương nhau dù đứa nghèo đứa giàu cũng đùm bọc nhau.vì bố mẹ không bên các con mãi.bố mẹ già mất đi hoặc chẳng may mất đi các con là chỗ dựa của nhau là mừng rồi.,hy_vong,that_vong,0.10828886,0.31780052,2,review,keep,,Default keep original
+8266,"Tuỳ hoàn cảnh sống của mỗi người sẽ quyết định dộ dày của da mặt họ. M mới 18t nên chưa trải sự đời nhiều nên có lẽ một vài thất bại sẽ khiến m yếu đuối. Nhưng khi m ra đời m trải qua nhiều thăng trầm thì m muốn khóc cũng sẽ k có nước mắt mà khóc Có thể hiện tại m yếu đuối, nhưng sau này m có thể trở nên lỳ hơn, mạnh mẽ hơn",that_vong,hy_vong,0.09922796,0.3187404,2,review,keep,,Sadness -> keep negative/original
+4053,khẩu trang là thứ ko thể thiếu khi ra ngoài.. tự ti chính bản thân mik ^^,buon,hy_vong,0.21868871,0.3195674,2,review,keep,,Default keep original
+6694,per anh có định quát mắng em không,lo_au,hy_vong,0.10244603,0.32019556,2,review,keep,,Default keep original
+8976,Tuy tôi ko đẹp nhưng tôi vẫn rất tự tin …,hy_vong,buon,0.17759754,0.3221367,2,review,keep,,Default keep original
+619,"nó sẽ ra cái ốp , lo gì thiếu đồ chơi",hy_vong,gian_du,0.079420984,0.32273233,2,review,keep,,Default keep original
+10142,"Tội nghiệp con quá, được sống trong vòng tay yêu thương của ba mẹ chưa được bao lâu thì đã mất,mong con an nghỉ nhé và kiếp sau con sẽ được hạnh phúc nhiều hơn nữa nha",buon,hy_vong,0.25331903,0.3231157,2,review,change,vui,Joy signals -> vui
+1069,Mới xem video cầu hôn xong.,vui,buon,0.19933066,0.32421166,2,review,keep,,Default keep original
+7590,"sao giống chị vậy hai em, hai em có phước hơn chị, chị còn có hai con còn nhỏ đó em",that_vong,hy_vong,0.08428274,0.32448083,2,review,keep,,Default keep original
+1579,"Có 2 giấc mơ nữa cũg thành sự thật 😌 mà nó k ướt đẫm như này , nó díh díh",hy_vong,that_vong,0.066284664,0.3247984,2,review,keep,,Default keep original
+1296,Vănn Bội nìm hi vọng mỏng manh những vẫn hi vọng kh phải sự thật 🙏🏻,hy_vong,that_vong,0.05635129,0.32525334,2,review,keep,,Default keep original
+893,Em vừa phải đối mặt với một kì thi và bây giờ đang đối mặt với những con điểm với những áp lực từ phía gia đình!<br>Video của chị ra rất đúng lúc!!!,lo_au,hy_vong,0.14057434,0.32615584,2,review,keep,,Anxiety -> keep original
+8066,"Văn Minh Nguyễn nước nào cũng có các vấn nạn riêng chú ơi dù là giàu mạnh văn hóa cỡ nào tjì đều có mặt trái ,nhìn vào thực tế chung thì VN cũng đã khá hơn trước đây rất nhiều rồi. 5 10 năm trước vẫn khổ lắm chú à. Uy tín visa hạng bét còn k dc đi xklđ nữa ấy chú. Còn để nói về tiêu cực thì rất khó tránh được trong giai đoạn hình thành và phát triển. Ai ý thức dc sốg tốt thì hay cứ cố gắng sống tốt. Ng lãnh đạo cũng khó lắm ,chỉ mong họ cố gắng hết mình vì dân thôi, mong họ toàn diện thì rất khó ,bản thân mình là ng có ý thức tốt mà đôi khi cũng k tránh khỏi sai lầm...",hy_vong,that_vong,0.20001948,0.32629034,2,review,keep,,Default keep original
+4727,"bth, t xấu nhưng chưa bao h quá tự ti về bản thân, làm đ j có ai hoàn hảo đâu ,có ng đẹp nhưng nết kì thì cx vứt, kém sắc mà giỏi thì ai nói j đâu",hy_vong,that_vong,0.06680354,0.3270856,2,review,keep,,Default keep original
+9542,Vòg tuần tuần hoàn nhỉ. Bắt rồi thả ...hài vcl,gian_du,vui,0.11256605,0.32722914,2,review,keep,,Default keep original
+7596,Nhìn thương chú quá mong mtq giúp đỡ chú,hy_vong,buon,0.2349962,0.3283865,2,review,keep,,Default keep original
+9295,lâu lâu lại mong mất điện để nấu cơm rác . nk mát 1 tí . chứ cứ 42 độ có mà khỏi ăn,hy_vong,that_vong,0.10379078,0.3293158,2,review,keep,,Default keep original
+2639,per mày này . nhưng mà lúc già sắp chết,vui,gian_du,0.0727948,0.3302424,2,review,keep,,Default keep original
+7312,"Tước giấy phép rồi ,bao giờ mới đi học lại được vẫy ?",that_vong,hy_vong,0.10013731,0.33103505,2,review,keep,,Default keep original
+4229,Em rụt rè vì khiếm khuyết của cơ thể. Nếu được như người bình thường chắc tương lai em tươi sáng hơn vì trước đây em rất hoà đồng,hy_vong,buon,0.051548615,0.3314161,2,review,keep,,Default keep original
+4748,Như phim lun má wtf?🙂,vui,gian_du,0.12721828,0.33190027,2,review,keep,,Default keep original
+5342,tại sao mày nằm viện mà vẫn xinh thế ??,vui,gian_du,0.050675247,0.33226776,2,review,keep,,Default keep original
+2427,14 / 2 năm sau tau sẽ là ông già cô đơn ....,that_vong,hy_vong,0.100109205,0.3337029,2,review,keep,,Sadness -> keep negative/original
+8866,Ngủ ngoan con nhé ❤ Từ đây sẽ không còn đau đớn nữa 😪,buon,hy_vong,0.24375655,0.33375904,2,review,keep,,Default keep original
+3543,"mình cũng nhạy cảm, cũng buồn, cũng tổn thương, hay suy nghĩ nhiều, cũng cảm giác như cả thế giới hạnh phúc trừ mình, nên mình tự đi tìm hạnh phúc của mình. tạm thời là vẫn ổn, cho đến khi bất ổn thôi",that_vong,hy_vong,0.12786148,0.333932,2,review,change,vui,Joy signals -> vui
+3852,Chị ơi<br>Tầm 20 ngày nữa là chúng em thi tuyển sinh rồi ạ<br>Rất có thể chúng em sẽ có một kết quả xấu<br>Chúng em phải làm sao và làm như nào hay nên làm j để vượt qua cú sooc này ạ,lo_au,hy_vong,0.13958803,0.33402953,2,review,keep,,Default keep original
+1300,xl nma mới nhìn hình tưởng đang ấy,vui,buon,0.063391395,0.3348152,2,review,keep,,Default keep original
+2363,@tchang @3112014🙈 việc cởi khẩu trang cx ngại...,lo_au,hy_vong,0.11361732,0.33517697,2,review,keep,,Default keep original
+3700,Thật may mắn vì nước mình vẫn còn có rất nhiều ng tốt,hy_vong,buon,0.21769755,0.3354701,2,review,keep,,Default keep original
+4547,để cho dân dầm xíu goy chở zìa đồn,gian_du,hy_vong,0.06906391,0.33557156,2,review,keep,,Default keep original
+6274,lựa chọn cách thức tuyển như thế nào thì tốt quá rồi,hy_vong,that_vong,0.06684676,0.33594623,2,review,keep,,Default keep original
+8872,Tội chú quá chúc chú sức khoẻ thật nhiều.,buon,hy_vong,0.241971,0.33609185,2,review,keep,,Default keep original
+3366,Em thật sự không biết phải ntn<br>Khi điểm thi cấp 3 quá kém😔<br>Tất cả mọi người đều nhìn em bằng ánh mắt khác và không ai nghĩ những cố gắng những gì trước đó của em là sự thật đều nghĩ đó là nhờ cái này nhờ cái kia<br>Em không muốn đi đâu 😔 chỉ muốn ở nhà em không muốn tiếp xúc với ng khác 😫...<br>Giờ em kh biết mình nên cố gắng vì cái gì??? Hoàn toàn kh có điểm tựa 💔<br>• nỗi thất vọng tràn trề về sự thất bại của mình •😔,buon,hy_vong,0.11821984,0.33630356,2,review,keep,,Disappointment -> keep original
+5613,giá như....,hy_vong,buon,0.061192792,0.33651173,2,review,keep,,Default keep original
+9207,Mong rằng năm sau mình sẽ hk vô lại và nhìn thấy cái bình luận này,hy_vong,buon,0.09379339,0.33666897,2,review,keep,,Default keep original
+10053,đm main mới hay quá đi,vui,gian_du,0.18183121,0.33730233,2,review,keep,,Default keep original
+6388,bạn này sau này sẽ khó bước qua cái bóng của vai diễn này 🙂,that_vong,hy_vong,0.10565924,0.33738333,2,review,keep,,Default keep original
+4895,hối hận cx đã muộn rồi gáng bước tiếp thôi❤,buon,hy_vong,0.2395002,0.33749002,2,review,keep,,Regret -> keep original
+7090,"Ai cần giúp thì lên tận nơi dc là tốt nhất , k nên quyên góp qua bên thứ 3",lo_au,hy_vong,0.06474797,0.33770502,2,review,keep,,Default keep original
+1932,lấy vợ xong béo quá rồi . hình như ai cũng v à,that_vong,vui,0.1034473,0.3380666,2,review,keep,,Default keep original
+5233,"Vậy mà bác Trọng bảo. Đất nước ta chưa bao giờ có cơ đồ, tiềm lực, vị thế, uy tín quốc tế như này nay.",that_vong,hy_vong,0.05591859,0.33819386,2,review,keep,,Default keep original
+849,cho dù em có dành được bao nhiêu học bổng đi chăng nữa nhưng mãi mãi em sẽ không thể có được tôi,that_vong,hy_vong,0.19725323,0.3383992,2,review,keep,,Default keep original
+9551,tuy hơi fail 1 chút nhưng rất có năng khiếu lớn lên không chừng làm ca sĩ ấy chứ đừng đùa,hy_vong,that_vong,0.08391302,0.33906257,2,review,keep,,Default keep original
+6974,17 triệu cho một việc có thể gây tai nạn hàng loạt là quá rẻ,gian_du,hy_vong,0.05898672,0.339784,2,review,keep,,Default keep original
+682,t xấu nma t luôn tự tin với bản thân răng t ko đẹp ngk đều nói với cái tên không hay nhưng t cảm thấy đấy cũng là một ấn tượng của ngk vs t,hy_vong,buon,0.05977643,0.34043467,2,review,keep,,Default keep original
+323,"Đấy bán anh em xa. Mua láng giềng gần nó là vậy đấy. Hãy nghĩ đến cuộc sống sau này chứ không phải ngày 1, ngày 2 và nhà ai cũng có việc chứ không phải là sống cô độc mãi được đâu",hy_vong,that_vong,0.05303046,0.34061146,2,review,keep,,Default keep original
+8049,keme cuộc đời sống đã là hạnh phúc r nếu ai chê tôi tôi cảm thấy họ tht đáng thương tự ti về mik nên ms chê ngk,vui,that_vong,0.08237559,0.34066945,2,review,keep,,Joy signals -> keep original
+5062,"t ngại những ánh mắt nhìn chằm chằm vào t, họ kh nói gì nhm t vẫn có thể nghe^^",lo_au,hy_vong,0.13888629,0.34152538,2,review,keep,,Default keep original
+7025,có biết bao người có mảnh đời như vậy !,buon,hy_vong,0.06443959,0.34213254,2,review,keep,,Default keep original
+5232,Đúng là mình nhìn lên thì ko bằng ai mà nhìn xuống thì mình thấy sướng hơn ngta gấp bội lần,hy_vong,that_vong,0.11884713,0.3434893,2,review,keep,,Default keep original
+8373,lúc buồn là đi phựt thì thôi rồi như kiểu cuộc đời đáng sống ý,hy_vong,that_vong,0.09390402,0.3446144,2,review,keep,,Default keep original
+2645,có đứa nào xem mà thèm đi biển như tao không ?,hy_vong,gian_du,0.05080356,0.34480894,2,review,keep,,Default keep original
+3033,Ít người vậy mới dễ làm ăn,hy_vong,gian_du,0.087651804,0.34514508,2,review,keep,,Default keep original
+3824,Nam Mô A Di Đà Phật 🙏🙏🙏 Nam Mô A Di Đà Phật 🙏🙏🙏 Nam Mô A Di Đà Phật 🙏🙏🙏,buon,hy_vong,0.05899216,0.34587568,2,review,keep,,Default keep original
+5288,xem mà thấy cảm động quá Chúc chú thật nhiều sức khỏe,buon,hy_vong,0.16250764,0.34773985,2,review,keep,,Default keep original
+2706,đúng là khmer lỏ. thời nào cũng cắn nước ta dc,gian_du,hy_vong,0.06366289,0.3479821,2,review,keep,,Default keep original
+5310,không biết đến 2021 tao có lấy được chồng không nữa,hy_vong,that_vong,0.08470216,0.3485549,2,review,keep,,Default keep original
+820,Ngựa nào thì vẫn theo đường cũ thôi thể loại này có nước để cho nó ăn chuối xanh thì mới được￼,gian_du,hy_vong,0.121776976,0.34960836,2,review,keep,,Default keep original
+3294,Đây là tôi khi ở với ng lạ :🤐,lo_au,vui,0.06555512,0.3508051,2,review,keep,,Default keep original
+2980,"@MinhTamLV kiểu kiểu vậy, bây giờ nhìn lại lúc ấy là do mình quá quan trọng hóa vấn đề lên ấy",buon,hy_vong,0.07085378,0.35088772,2,review,keep,,Default keep original
+2264,Yêu là 1 cỗ sức mạnh khiến ta mất đi lý trí và ngu dần :U,that_vong,hy_vong,0.12286029,0.35137022,2,review,keep,,Default keep original
+4626,bộ phim đầu tiên làm tao khóc thành tiếng,buon,vui,0.06396217,0.35242522,2,review,keep,,Sadness -> keep negative/original
+7145,"Gửi mình của thứ bảy tuần sau : Mọi chuyện ổn chứ, đã hết lo chưa?",lo_au,hy_vong,0.08278682,0.35460854,2,review,keep,,Default keep original
+8431,"Vẫn nhớ về tuổi thơ,hồi hè tụ tập đá bóng thả diều chơi,kh cần điện thoại đi phá xóm",hy_vong,buon,0.05447282,0.35476047,2,review,keep,,Default keep original
+6286,Người vô tâm vôcam sống với ai cũng không có hậu.cháu trai biết sớm là ok rồi,that_vong,hy_vong,0.09486398,0.35482264,2,review,keep,,Default keep original
+9933,"per đâ ́ y , hiê ̉ u vi ̀ sao nên cha ̀ o mo ̣ i ngươ ̀ i chưa",vui,gian_du,0.091987506,0.35492393,2,review,keep,,Default keep original
+1420,Linh Trương đàn ông ngoại tình vẫn có thể bỏ bồ quay lại với vợ con Cho dù k có tình cảm vẫn có thể vì con mà chung sống Còn vợ ngoại tình là 1 đi k trở lại Khoing quan tâm con cái như nào cả,gian_du,hy_vong,0.05413434,0.3554536,2,review,keep,,Default keep original
+3134,có tiền sẽ thấy các vị gọi là thượng hạng còn không tiền sẽ chỉ thấy vị mặn của mồ hôi + nước mắt,that_vong,hy_vong,0.11444436,0.3571067,2,review,keep,,Default keep original
+5006,Em rảnh là e cứ snghi linh tinh,buon,hy_vong,0.08133724,0.35786974,2,review,keep,,Default keep original
+6802,Ko hoàn hảo cái này thì cái khác.học tập chăm chỉ vào.mn thấy có tổng thống hoặc mấy người chức cao có ai đẹp ngời ngời ko,hy_vong,gian_du,0.08824646,0.36062258,2,review,keep,,Default keep original
+5225,nếu ai cũng có ý thức tốt đẹp thì đất nước này còn gì để nói . đâu có ai hoàn toàn hoàn hảo đâu bạn . dù là moi tần lớp,buon,hy_vong,0.05728141,0.36065617,2,review,keep,,Default keep original
+1042,"Huu Khanh Pham thế theo bạn Vn vị thế được những gì. Khi mà người dân không có công ăn việc làm ổn định, mỗi năm có hàng ngàn người phải xuất khẩu lao động, sang các nước như Đài Loan, Hàn Quốc, Nhật Bản.v.v.làm việc. Thậm chí họ còn phải bỏ mạng trong thùng container.",gian_du,hy_vong,0.13016272,0.36145982,2,review,keep,,Default keep original
+1105,"Ai cũng muốn quên đi quá khứ và dành thời gian cho hiện tại và tương lai, nhưng chắc các bro cũng đồng cảm kiểu mỗi lần chuẩn bị đi ngủ or đang đi trên đường lại có một chuyện xấu hổ gì đó từ quá khứ nổi lên ...",buon,hy_vong,0.10207979,0.36230576,2,review,keep,,Default keep original
+2765,"Nhìn như mụ phù thuỷ…!! Những đứa trẻ đã cô đơn mồ côi tội lắm rồi mà còn gặp con mụ này nữa!!! Tội các con, mong các con đc vui vẻ bình an ở nới khác tốt đẹp hơn.",gian_du,hy_vong,0.075399436,0.36271706,2,review,keep,,Sadness -> keep negative/original
+7187,mình làm sao gửi những đồ cũ cho những bạn ở đó được ko vậy bạn..,hy_vong,that_vong,0.07573695,0.36497533,2,review,keep,,Default keep original
+4206,24 tuổi thấy đời đắng và khá mặn,that_vong,vui,0.05404496,0.36552155,2,review,keep,,Default keep original
+2974,gia tộc bất hạnh ậy,that_vong,vui,0.10226797,0.3664757,2,review,keep,,Default keep original
+2433,Cái sai là cái tồn tại tất yếu! Tuổi trẻ k sai lầm không vấp ngã đó chẳng khác nào b đang phỉ báng tuổi trẻ của mình bằng những sự thoải mái tầm thường....,hy_vong,that_vong,0.19149503,0.3672915,2,review,keep,,Default keep original
+4799,rảnh rảnh ngồi cưa bàn với cưa cổ thèn ngồi gần mỗi khi nó ghẹo cũng vui ??,vui,that_vong,0.05740486,0.36814344,2,review,keep,,Default keep original
+6337,Tuyết Mai không có cơ hội trả thù đâu chất gì nó thoát,hy_vong,that_vong,0.05955671,0.36816803,2,review,keep,,Default keep original
+948,"mỗi lần mẹ tao sai tao nhóm lửa , chắc tao nhóm hết 40 tờ giấy , và 1 tiếng sau mớii có lửa 😌",vui,that_vong,0.17770654,0.37256008,2,review,keep,,Default keep original
+4021,"Đúng vậy được sống đã là một món quà rồi, thất bại ta lại đứng lên đi tiếp",hy_vong,gian_du,0.07468712,0.37317833,2,review,keep,,Default keep original
+3723,Chị Giang 🧚‍♀️<br>Em là một cô gái rất nhiều năng lượng nhưng năng lượng của e lại phụ thuộc rất nhiều vào tâm lí tức thì.mà e thì lại rất khó tính trong cả công việc lẫn cuộc sống. Vì vậy một ngày của e rất rất nhanh chóng bị rơi vào tình trạng không được tốt. Vậy chị có thể cho e 1 lời khuyên dc k chị<br>Em cảm ơn chị rất nhiều ❤️,hy_vong,that_vong,0.09744773,0.37341237,2,review,keep,,Default keep original
+6701,da đen chân vòng kiềng mùn lắm mắt nhỏ ước j tôi hoàn hảo hơn...,that_vong,hy_vong,0.13971838,0.37374282,2,review,keep,,Default keep original
+1341,"mình thấy tương lai của mình nó cứ mông lung, mơ hồ kiểu gii ấy nhỉ,k biết sau này mình có nghề nghiệp cv có ổn định k hay là vẫn cứ nay đây mai đó",lo_au,hy_vong,0.16070378,0.37456414,2,review,keep,,Default keep original
+424,Không bao giờ là quá muộn.,hy_vong,that_vong,0.06863586,0.3754784,2,review,keep,,Default keep original
+578,muốn nhai luôn cả trái đất,hy_vong,that_vong,0.08662852,0.37552145,2,review,keep,,Default keep original
+6172,sống như chỉ còn một ngày để sống thì không có gì để hối hận cả,hy_vong,that_vong,0.123363316,0.37599933,2,review,change,buon,Regret -> buon
+5879,Đông Tà tối về khám phá xem trong cặp có j,hy_vong,lo_au,0.0526223,0.38020283,2,review,keep,,Default keep original
+700,còn tao thì 14 / 2 này trở đi tao không còn fa nữa mà chuyển sang những người già neo đơn .. kkk,hy_vong,that_vong,0.17064627,0.38094318,2,review,keep,,Default keep original
+1331,đức tính là quan trọng nhất . CÁI NẾT ĐÁNH CHẾT CÁI ĐẸP ! Nên các bạn có vẻ bề ngoài ko như ý đừng buồn,hy_vong,that_vong,0.08587176,0.3810162,2,review,keep,,Default keep original
+4408,mình giao tiếp kém,that_vong,hy_vong,0.11256024,0.3810529,2,review,keep,,Default keep original
+3003,nhớ ngày xưa đi học,hy_vong,buon,0.10607695,0.3816609,2,review,keep,,Default keep original
+4829,Chị ơi giúp em với em bị suy nhược thần kinh nặng ngày nào cũng mệt mỏi chóng mặt ko làm được việc gì cả khổ wa chị ơi em chỉ muốn chết thôi em đã chạy chữa nhiều nơi mà ko khỏi chị giúp em với,hy_vong,that_vong,0.09607904,0.3817512,2,review,change,buon,Sadness context -> buon
+6851,"Quỳnh Chi thì ra là ăn chán phở rồi mới về ăn cơm, chứ nó mà ngon chắc còn gọi về ăn nhiều🌚",hy_vong,gian_du,0.053817637,0.38257316,2,review,keep,,Default keep original
+9061,còn nhỏ mà đã như thế này lớn lên ai chịu được yêu chết đi được,hy_vong,that_vong,0.13141619,0.3833497,2,review,keep,,Default keep original
+4350,"Từng 6 điểm kiểm tra và khóc bù lu bù loa và bây h thì mình bị thấp hơn cả 6 nhưng vẫn cười đc, cho qua những thứ xảy ra đi! Rút kinh nghiệm từ việc đó thì sẽ tốt hơn, tập cách bình tỉnh khi điều xấu xảy ra!",hy_vong,that_vong,0.11046785,0.38404423,2,review,change,buon,Sadness context -> buon
+9602,"ngày xưa , ngoài thú vui chọc chó dí , còn chọc cho ngỗg rượt . cách giảm cân hịu quả nhất cho mấy đứa lười 😂. nhớ lại vui thật , đúg là thời sửu nhi .",vui,that_vong,0.14070159,0.38418484,2,review,keep,,Default keep original
+9598,ở đâu vậy cho địa chỉ mình gửi cho ít đồ cũ mà còn mới nhìn mà thấy thương,buon,hy_vong,0.10848716,0.384292,2,review,keep,,Default keep original
+4885,sau vụ này ý thức đậu đỗ xe của tài xế sẽ tốt hơn rất nhiều !,hy_vong,that_vong,0.14990716,0.38499603,2,review,keep,,Default keep original
+3194,"Tập trung xây dựng vững về kinh tế có cty có xe có tiền lúc 30 tuổi thì yêu em sinh viên năm nhất cho tơ mơn mởn là chuẩn nhất chứ biển 98 thì ko có gì phải sầu , chú giờ 45 đã thực hiện đúng như dòng bl 🇻🇳🇻🇳🇻🇳🇻🇳🇻🇳🇻🇳🇻🇳🇻🇳",hy_vong,that_vong,0.13147552,0.38520226,2,review,keep,,Default keep original
+7580,Lâm Huỳnh Vũ quao,vui,gian_du,0.14472389,0.38640258,2,review,keep,,Default keep original
+9917,"tôi mới sống hết 1/3 cuộc đời thôi nhưng chắc sẽ có nhiều người giống tôi đó là "" chằng hỗi hận điều gì cả"". vì sao chứ ? tôi cảm thấy biết ơn vì mình được sinh ra và tất cả những thứ tôi có, nhưng thứ tôi không có, những điều tồi tệ tôi phải nhận, những điều khiến tôi khó chịu, đều là bản thân tôi trải nghiệm, đều từ bản thân chính tôi mà ra. Cuộc sống này tôi chỉ sống một lần sao phải nuối tiếc chuyện quá khứ, tôi là chính tôi của hiện tại hài lòng với những gì mình đang có.",hy_vong,that_vong,0.21494786,0.38695174,2,review,keep,,Default keep original
+9610,uoc gi uoc gi uoc gi ...,hy_vong,buon,0.073188655,0.38701123,2,review,keep,,Default keep original
+5877,"per ít bửa đi coi , trailer thấy hấp dẫn quá",hy_vong,that_vong,0.055412613,0.3885734,2,review,keep,,Default keep original
+4137,có tiền thì có vị ngọt và không có tiền thì đắng và cay thế thôi,that_vong,hy_vong,0.15050884,0.38999566,2,review,keep,,Default keep original
+9754,Đâu liên quan gì tới nhà thơ đâu. Việc này liên quan tới người duyệt bài. Hóng táo quân năm nay.,gian_du,vui,0.1398963,0.39019185,2,review,keep,,Default keep original
+4424,bây chụp hình rồi bây chỉnh sao cho đẹp nhất rồi lâu lâu nhìn là thấy mình đẹp à,hy_vong,gian_du,0.07551955,0.39201888,2,review,keep,,Default keep original
+8918,"mình nói thật nhìn từ trên cao xuống đã thấy chóng mặt rồi , vãi",lo_au,vui,0.11120316,0.39215952,2,review,keep,,Default keep original
+1406,Chỉ mong .....,hy_vong,buon,0.0736283,0.39409727,2,review,keep,,Default keep original
+5153,mấy đứa thấy mình hiền nó làm tới hà .. quá đáng lắm luôn á !,gian_du,vui,0.10616442,0.39441445,2,review,keep,,Default keep original
+7956,Chăm pa hay đại việt đều được. Ngoại trừ căm pu chia( nghe nó hèn ),gian_du,vui,0.12705447,0.39513057,2,review,keep,,Default keep original
+218,đó là lý do tao chỉ muốn điện thoại là phương tiện liên lạc . không phảu phương tiện chứa đựng bí mật,hy_vong,that_vong,0.094515935,0.39532068,2,review,keep,,Default keep original
+6475,cứu thì Jeese cũng toang vì bếch đá haizz.,buon,vui,0.068433076,0.39842415,2,review,keep,,Default keep original
+5278,"Coi ❤️ đập mạnh, huống chí các em thi đâu,",vui,that_vong,0.09964751,0.39846742,2,review,keep,,Default keep original
+2443,Không nhờ anh cả là trung quốc thì sao mà thắng được. Tới giờ anh cả trung quốc quay như de,gian_du,hy_vong,0.076224186,0.40015972,2,review,keep,,Default keep original
+584,"t chẳng muốn phải nói "" suýt nữa thì .."" một lần nào nữa trong đời của nhau nữa đâu ... vì vậy sẽ trân trọng khi người tới .",hy_vong,that_vong,0.15663122,0.40027067,2,review,keep,,Default keep original
+5701,"tao ước gì gặp được cái thằng chế ra con xe lead , tao sẽ tán cho nó sấp mặt luôn . 😒 còn video này tao hóng mãi lúc nó so ... mà đéo thấy haha",hy_vong,that_vong,0.1277297,0.40056112,2,review,keep,,Default keep original
+7585,sống là tốt rồi kệ mẹ đời nói!,hy_vong,gian_du,0.12527205,0.40151355,2,review,keep,,Default keep original
+5085,Làm ơn ko phải sự thật đi🙏,hy_vong,buon,0.082706064,0.4079941,2,review,keep,,Default keep original
+4583,"toàn anh đẹp trai . đau tim , tan nát cõi lòng của tao ... a ................................ a",buon,vui,0.111595154,0.40821517,2,review,keep,,Default keep original
+3750,"Trần Minh Chính chuẩn bạn,những bài thơ của sgk ngày trước mãi đi cùng năm tháng.",vui,that_vong,0.09689015,0.40823036,2,review,keep,,Default keep original
+6209,Mik ko có nhan sắc nên công nhận lm điều j cx ngại thiệtt:>,buon,hy_vong,0.09203289,0.40858638,2,review,keep,,Default keep original
+6541,hút ít thôi và hãy chích nhiều hơn 😐,gian_du,hy_vong,0.08437797,0.4090911,2,review,keep,,Default keep original
+7902,tuổi thơ thật đáng yêu . chỉ có người lớn dẫn sai đường các em thôi,that_vong,hy_vong,0.15536737,0.4121801,2,review,keep,,Default keep original
+3661,Lập blog này ra đừng ai nhận ra toi . Bạn nói đúng ý của mình . Mình thì thấy thương em sinh viên đó! Chỉ mong sao em gái đó trở lại tâm sinh lý đc bình thường!!!,hy_vong,that_vong,0.20201689,0.41294372,2,review,keep,,Default keep original
+3499,Muốn đọc nhưng đọc xong lại nghe mệt. Kkk,hy_vong,that_vong,0.08198051,0.41339892,2,review,keep,,Default keep original
+7072,"khoảnh khắc anh quay mặt đi , con tim em tan nát vãi ra",buon,hy_vong,0.18695734,0.4146087,2,review,keep,,Default keep original
+2775,"Chọn sai ngàh học khi ở tuổi 18, nếu đc quay lại thì t sẽ chọn học ngàh hiện tại ngay từ đầu",buon,hy_vong,0.1312184,0.41542825,2,review,keep,,Default keep original
+6892,"đấy , chỉ có sale như tao mới tốt thôi , tao không bao giờ hỏi về nỗi đau của khách hàng : x",vui,that_vong,0.14214458,0.41587403,2,review,keep,,Default keep original
+6792,Mình đang tuổi 30 con 6 tháng vợ chồng đang sống chung với ông bà.ở tuổi này chỉ mong có việc mà làm thôi việc càng nhiều càng tốt.,hy_vong,that_vong,0.18443555,0.41610482,2,review,keep,,Default keep original
+8638,"1000 năm đô hộ , Pháp ,Mĩ Việt Nam vẫn không ngừng vươn lên 🇻🇳🇻🇳🇻🇳🇻🇳",hy_vong,that_vong,0.112703286,0.4162187,2,review,keep,,Default keep original
+105,ngửi mùi hoa sữa xong chia tay,buon,vui,0.118981436,0.4204597,2,review,keep,,Default keep original
+525,"1 câu mà người ta hay nói , đắng như vị đời",buon,vui,0.11638239,0.4277339,2,review,keep,,Default keep original
+2956,t nhận ra mình đã sai,buon,vui,0.12170285,0.4296484,2,review,keep,,Default keep original
+10076,page bị hack rồi . video hay nhất mình từg xem,buon,vui,0.20531039,0.4330745,2,review,keep,,Default keep original
+6510,Dung vậy à chèn ép cảm xúc một mình,buon,vui,0.10581422,0.43706664,2,review,keep,,Default keep original
+2215,năm ngoái do dự ngại đầu tư vào crypto với Nvidia stock năm nay hối hận day dứt mãi 🤔,buon,vui,0.16551821,0.43758324,2,review,keep,,Regret -> keep original
+5904,"Nếu đọc đc tin này thì nhắn tới e trai trong clip. A đã trải qua quãng thanh xuân rồi, tiếc là ko thể quay lại thời gian để nói với chính bản thân mình. Hãy tập trung vào sự nghiệp e ạ, tu luyện cho bản thân kiến thức, sức khoẻ. Đừng chạy theo tình cảm như vậy, dù đúng dù sai thì sau này e ko chỉ mất đi người mình yêu mà quay đầu nhìn lại còn mất đi chính bản thân mình.",buon,hy_vong,0.22464222,0.44921374,2,review,keep,,Disappointment -> keep original
+2342,nếu được chọn lại mình sẽ không bước chân vào thành phố này,buon,hy_vong,0.23212233,0.4617033,2,review,keep,,Default keep original
+4588,"Cám ơn c . E mới phát hiện ra bệnh ngày hôm qua và e cũng khá tiêu cực . E cũng nghĩ đến kết quả xấu nhất , rồi cũng khóc. Nhưng đúng như c nói, e đã dậy, ra ngoài ăn uống, chơi cùng con e , nằm trong vòng tay ck e ngủ 1 giấc. Sáng nay e vẫn bắt đầu 1 ngày mới bằng cách viết ra những gì mình phải làm để điều trị bệnh của mình. Và e đã hoàn thành mọi việc phải làm hôm nay. Tối nay chỉ còn việc sắp xếp cữ thuốc mai mình phải uống và những công việc mai mình phải làm . Cám ơn c nhiều 🥰",hy_vong,lo_au,0.25381973,0.48408186,2,review,change,buon,Sadness context -> buon
