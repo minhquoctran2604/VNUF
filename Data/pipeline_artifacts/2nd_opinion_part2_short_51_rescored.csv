@@ -1,0 +1,52 @@
+id,text_raw,original_label,predicted_label,original_label_probability,label_quality_score,action,new_label,review_note,my_label
+9938,đúng☺️,vui,trung_tinh,0.18447463,0.38442805,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+4227,@云英☁️🛴ồn,gian_du,trung_tinh,0.09325846,0.3700148,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+2193,Inspirational,hy_vong,trung_tinh,0.1899974,0.36509693,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+6611,Great,vui,trung_tinh,0.13356055,0.349361,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+4436,nhìn kinh,gian_du,trung_tinh,0.030065026,0.17505896,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+9881,Porsche #1,vui,trung_tinh,0.1997656,0.3847862,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+9247,ap luc☺️,lo_au,trung_tinh,0.042768307,0.2227053,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+3747,ĐỪng vào,lo_au,trung_tinh,0.04821333,0.22492737,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+7269,Trời đánh,that_vong,trung_tinh,0.1147266,0.3684479,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+9721,Cpi đây,lo_au,trung_tinh,0.060954835,0.26271993,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+733,Xám lộn,gian_du,trung_tinh,0.05067347,0.2830631,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+1832,Thằng dốt,gian_du,trung_tinh,0.05965267,0.22518894,change,trung_tinh,"Câu chửi thẳng -> giữ gian_du (sửa lại sau thảo luận)",gian_du
+3882,gãy tay,that_vong,trung_tinh,0.06287543,0.230899,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+2179,hứa mà,that_vong,trung_tinh,0.095387176,0.32670254,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+2889,ổn thoi,hy_vong,trung_tinh,0.07617126,0.33642524,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",hy_vong
+710,Tiền mà ra,that_vong,trung_tinh,0.11899664,0.31900877,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+2371,bình yên thật,vui,trung_tinh,0.2498341,0.35969177,change,trung_tinh,"Cảm thán tích cực -> giữ vui (sửa lại sau thảo luận)",vui
+2791,Gd suy đồi...!,gian_du,trung_tinh,0.2326323,0.36717224,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",that_vong
+2993,comment thứ 5.000,vui,trung_tinh,0.23793979,0.38987327,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+929,Làm đơn đi,hy_vong,trung_tinh,0.16182607,0.3364442,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+8169,Giá như …,hy_vong,trung_tinh,0.11633226,0.39911532,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+9814,gớm không tưởng,gian_du,trung_tinh,0.09502369,0.41125143,change,trung_tinh,"'gớm' = ghê tởm -> giữ gian_du (sửa lại sau thảo luận)",gian_du
+1183,Gần 30 rồi,lo_au,trung_tinh,0.026563464,0.17572248,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+8943,nên phát huy,hy_vong,trung_tinh,0.043595243,0.18504462,change,trung_tinh,"Đây là lời khuyên hoặc nhận định chung, phù hợp trung_tinh.",__REMOVE__
+1175,Phim k hay,that_vong,trung_tinh,0.063447185,0.25666812,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",that_vong
+1072,Kênh mới nè.,vui,trung_tinh,0.13414657,0.24786481,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+6243,Hát live đi,vui,trung_tinh,0.087627955,0.24420783,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+1747,Mai vẫn vậy,that_vong,trung_tinh,0.06320886,0.20833784,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+6100,Ngip trả thôi,gian_du,trung_tinh,0.060560774,0.21299413,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+9473,93 chưa ổn định,lo_au,trung_tinh,0.108660996,0.2929099,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+6,Ai đi xem hk🤨,vui,trung_tinh,0.17433675,0.39797986,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+4652,Mình pass lại nhé,hy_vong,trung_tinh,0.31270394,0.39604145,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+6176,Cecilia Pham căng nhỉ,lo_au,trung_tinh,0.032669075,0.19647208,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+2822,chia tay đi bạn,gian_du,trung_tinh,0.018479936,0.2198213,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+6022,mốc từ trong trứng,gian_du,trung_tinh,0.03809769,0.38604662,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+9298,chưa ai chịu được,gian_du,trung_tinh,0.0654534,0.3609997,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+9317,Hong Anh đi xem,hy_vong,trung_tinh,0.28058207,0.36019704,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+6803,Bác tài 100 điểm,vui,trung_tinh,0.1331756,0.22175744,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+1659,nhói lòng lớp tôi,that_vong,trung_tinh,0.09371806,0.2909775,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+1789,Phong ba bão táp,lo_au,trung_tinh,0.090910606,0.34752384,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+85,tan tành rồi .,that_vong,trung_tinh,0.20203757,0.34680945,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",that_vong
+1603,Còn người còn của,hy_vong,trung_tinh,0.120064914,0.34432176,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+295,chuẩn không cần chỉnh,vui,trung_tinh,0.14769436,0.32645318,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+7728,Vấn đề kỹ năng,gian_du,trung_tinh,0.14610466,0.32288426,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+460,t k có bạn👍,buon,trung_tinh,0.05764033,0.3205962,change,trung_tinh,"Cô đơn tự trào (👍 mỉa mai) -> giữ buon (sửa lại sau thảo luận)",buon
+113,có 5tr thôi à,that_vong,trung_tinh,0.116629936,0.28274614,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+8095,Phim hay nha bn,vui,trung_tinh,0.14663818,0.2882501,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",vui
+712,Ko có ragnar sao,that_vong,trung_tinh,0.11679227,0.31184798,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+8850,🇻🇳🇻🇳🇻🇳🇻🇳Việt Nam muôn năm,vui,trung_tinh,0.16123617,0.30815682,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",vui
+4435,per giảm tốc kìa,lo_au,trung_tinh,0.052913137,0.21634561,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__
+1188,Đi xem chug nè,hy_vong,trung_tinh,0.17361902,0.31573656,change,trung_tinh,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh.",__REMOVE__

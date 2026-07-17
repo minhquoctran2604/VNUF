@@ -1,0 +1,4 @@
+id,text_raw,original_label,predicted_label,original_label_probability,label_quality_score,action,new_label,review_note
+6591,Tôi chú,buon,trung_tinh,0.04275009,0.2581613,remove,,Câu quá ngắn hoặc không đủ ngữ nghĩa để xác định cảm xúc.
+5981,Dỡ nha,that_vong,trung_tinh,0.049033906,0.38204712,remove,,Câu quá ngắn hoặc không đủ ngữ nghĩa để xác định cảm xúc.
+3261,Báo tới,gian_du,trung_tinh,0.086797215,0.17213523,remove,,Câu quá ngắn hoặc không đủ ngữ nghĩa để xác định cảm xúc.

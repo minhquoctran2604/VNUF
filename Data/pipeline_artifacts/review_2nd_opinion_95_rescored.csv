@@ -1,0 +1,96 @@
+id,text_raw,original_label,ai2_de_xuat,n_words,my_label,my_note,status
+7497,Khoa Duc Nguyen chỉ có 3/ mới thích Trump mà ông,that_vong,vui,11,__REMOVE__,"Câu gãy/vô nghĩa, không đủ ngữ cảnh",REMOVE
+4809,Dung Phung anh chiến oánh cho bây h,lo_au,that_vong,8,__REMOVE__,"Đã thống nhất: câu dọa dẫm trêu đùa, quá cụt",REMOVE
+2881,Hoàng Thiên Ngọc icon này là chưq có nguoi yeu nhé,buon,gian_du,11,vui,"Trêu đùa chuyện người yêu, không phải gốc lẫn AI2",nhãn_thứ_3
+5695,ngày xưa nghèo . có bếp dầu là mai rồi .,hy_vong,that_vong,11,buon,"Hoài niệm nghèo khó, không phải gốc/AI2",nhãn_thứ_3
+9928,pháp không còn khoảng thời gian bình yên nữa rồi,lo_au,gian_du,10,lo_au,"Lo lắng/tiếc nuối mất bình yên, giữ gốc",giữ_gốc
+3577,per con nhện cản bước bé xuống cầu thang,lo_au,hy_vong,9,lo_au,"Lo lắng nhỏ về an toàn, đúng nhãn gốc",giữ_gốc
+3320,nước ngoài cái gì cũng to kể cả sinh vật,lo_au,hy_vong,10,trung_tinh,"Nhận xét phiếm, không đủ mạnh để thành cảm xúc",nhãn_thứ_3
+8221,Phuoc Truong tưởng lẩu gà bến tre chứ?,vui,that_vong,8,vui,"Đùa giỡn về món ăn, AI2 sai",giữ_gốc
+618,Trịnh Bảo Ngọc k xem cũng biết win r,vui,that_vong,9,vui,"Tự tin/phấn khích dự đoán thắng, AI2 sai",giữ_gốc
+250,Nè ck. Nay thôi nhé Hiếu Hà,lo_au,that_vong,7,__REMOVE__,"Quá cụt, thiếu ngữ cảnh để biết hướng cảm xúc",REMOVE
+6884,Lê Viết Giang cười xg cái bùn,buon,vui,7,vui,"""Cười xg cái bùn"" = cười sảng, hợp AI2",đồng_ý_AI2
+6425,Bốn này phải tước bằng vĩnh viễn ở VN phát nhé qua nên tai nạn rất nhieu,lo_au,gian_du,17,gian_du,"Đòi xử phạt nghiêm, hợp AI2",đồng_ý_AI2
+6302,"chiến tranh có gì vui đâu nhỉ , chỉ gây đâu thương",gian_du,vui,12,buon,"BẪY TỪ ""vui"": câu PHỦ ĐỊNH ""chiến tranh KHÔNG vui"", AI2 bị lừa y hệt lỗi phủ định đã gặp",nhãn_thứ_3
+2220,c trai như thế nào tuyệt chủng rồi,buon,vui,8,vui,"Đùa cợt kiểu than trai đẹp tuyệt chủng, hợp AI2",đồng_ý_AI2
+9919,Dành cho những bạn sinh viên Ngôn ngữ Anh thì sẽ có biết đến một môn được gọi là Ngữ Nghĩa Học hay còn gọi là Semantics. Lúc trước khi học môn này thì mình nghĩ nó khá khó và chỉ có Tiếng Việt mình mới dễ ... nhưng mà thật ra là dễ lag ko khác gì Tiếng Anh,buon,hy_vong,60,vui,"Nhẹ nhõm vì môn học dễ hơn tưởng, không phải buồn",nhãn_thứ_3
+6758,Nguyễn Sin người ta đòi kiện anh kìa,lo_au,gian_du,8,lo_au,"Cảnh báo bị kiện, đúng nhãn gốc",giữ_gốc
+4815,Hô Bảo Nghĩa bỏ công an 30km & 5s sau khi bị bắt là đủ biết đẳng cấp,vui,that_vong,18,vui,"Khâm phục/ấn tượng, AI2 sai",giữ_gốc
+4512,bây h trông cho tới rằm vs m1 kiếm tiền thôi,hy_vong,that_vong,11,hy_vong,"Mong chờ ngày rằm kiếm tiền, đúng nhãn gốc",giữ_gốc
+2208,Bọn này là 👿 dương nhân quả sẽ đến sớm,lo_au,hy_vong,10,gian_du,"Icon 👿 + nguyền rủa = giận dữ, không phải hy vọng",nhãn_thứ_3
+8029,"đi hát văn nghệ cho trường nguyên cấp 1 , kiếm được kha khá . cấp 2 vỡ giọng , khỏi hát",buon,gian_du,22,buon,"Hoài niệm/cam chịu về vỡ giọng, đúng nhãn gốc",giữ_gốc
+4647,"Đy Qua Mùa Hạ đánh bố dc. đập ti vi dc, thì tớ làm vk quang or ny quang- chắc 3 ngày nát như tương bần",lo_au,gian_du,26,gian_du,"Mô tả bạo lực gia đình, hợp AI2",đồng_ý_AI2
+7088,Phong Nguyen giáo sư có cách nào chống hack k,hy_vong,gian_du,10,lo_au,"Cầu cứu chống hack, không phải gốc/AI2",nhãn_thứ_3
+3273,Nguyễn Văn Mến phải xem b ah,hy_vong,gian_du,7,trung_tinh,"Yêu cầu đơn thuần, không cảm xúc",nhãn_thứ_3
+4745,có hai vị tướng top 10 thế giới và. 2 danh nhân văn hoá thế giới và 1 người từ chối nobel hoà bình,vui,that_vong,24,vui,"Tự hào liệt kê thành tựu, AI2 sai",giữ_gốc
+547,mình chỉ nói đến cơ hội việc làm thôi chứ không bàn luận gì về việc ông ấy là người như thế nào bạn nhé ??,gian_du,hy_vong,26,trung_tinh,"Câu thanh minh/làm rõ, không rõ cảm xúc",nhãn_thứ_3
+8509,Nguyễn Thị Mai Trinh vào xác nhận koii,hy_vong,gian_du,8,trung_tinh,Yêu cầu xác nhận đơn thuần,nhãn_thứ_3
+7388,"Quang Thế có ghi làm bảo vệ siêu thị kìa b , ở phan thiết có 2 cái siêu thị th nên ghi v khác j ghi rõ địa chỉ đâu",lo_au,that_vong,31,that_vong,"Bực bội thông tin mơ hồ, hợp AI2",đồng_ý_AI2
+2542,Nam Yến phải trường Tân Hồng không bay? Kaka,vui,that_vong,9,vui,"""Kaka"" = cười thật, AI2 sai",giữ_gốc
+5510,nếu lái xe là dân đen thì thế nào chú . có dám đậu ở đóa không,lo_au,that_vong,17,gian_du,"Phê phán bất công/đặc quyền, không phải gốc/AI2",nhãn_thứ_3
+935,Giang Lại Hương đừng cho Kem tự hút trân châu nữa,lo_au,gian_du,11,lo_au,"Cảnh báo an toàn (nghẹn trân châu), đúng nhãn gốc",giữ_gốc
+5107,thế em ăn anh được không ?,hy_vong,that_vong,7,vui,"Câu tán tỉnh đùa cợt, không phải gốc/AI2",nhãn_thứ_3
+8898,đến bao giờ mới nhận được tiền nhỉ,hy_vong,that_vong,8,that_vong,"Sốt ruột/thất vọng chờ tiền, hợp AI2",đồng_ý_AI2
+8707,Nguyễn Hoàng Giang mua xe xăng đc tặng trạm xăng đấy,hy_vong,gian_du,11,trung_tinh,"Chia sẻ thông tin, không rõ cảm xúc mạnh",nhãn_thứ_3
+3958,bất kì hoa gì có mùi đều không thích,gian_du,vui,9,trung_tinh,Sở thích cá nhân đơn thuần,nhãn_thứ_3
+1508,không biết có ai ở trong ngôi nhà không,lo_au,that_vong,9,lo_au,"Câu hỏi bất an, đúng nhãn gốc",giữ_gốc
+7296,Chắc do hệ luỹ của phim Hàn toàn giết người hàng loạt,lo_au,that_vong,12,lo_au,"Lo ngại ảnh hưởng phim ảnh, giữ gốc",giữ_gốc
+9557,per bếp lò xo huyền thoại của ngoại hay nấu nè,vui,that_vong,11,vui,"Hoài niệm ấm áp về bà ngoại, AI2 sai",giữ_gốc
+7626,1 % kìa rồi ra cổng gọi thế nào,lo_au,that_vong,9,lo_au,"Lo lắng thực dụng về pin điện thoại, đúng nhãn gốc",giữ_gốc
+4280,"Cám ơn thầy, thở đi thôi- là có cả kho tàng :)))<br>3 cách vượt qua bất ổn tâm lý <br>Cách 1: Phương pháp 5 nhìn 4 chạm 3 nghe 2 ngửi 1 nếm <br>Cách 2: Tư duy 3% <br>Cách 3: Phương pháp thở 4 thì",vui,gian_du,45,vui,"Cảm ơn tích cực, AI2 sai hoàn toàn",giữ_gốc
+9319,Trọng Anh Nguyễn hảo có bị sao ko thế trọng,lo_au,gian_du,10,lo_au,"Hỏi thăm lo lắng, đúng nhãn gốc",giữ_gốc
+1478,Ngọc Quỳnh xem ik bạn kết HE,vui,that_vong,7,vui,"Giới thiệu hào hứng, AI2 sai",giữ_gốc
+1905,Nhiều thế? Cấp số nhân thì không biết sẽ như thế nào?,lo_au,hy_vong,12,lo_au,"Băn khoăn lo lắng, đúng nhãn gốc",giữ_gốc
+720,thực ra là ko biết mở lời ntn,lo_au,that_vong,8,lo_au,"Bối rối xã hội, đúng nhãn gốc",giữ_gốc
+5007,"mới đầu mày sẽ thấy vui , từ từ nó quậy cho mày ????",gian_du,vui,14,gian_du,"Cảnh báo ""quậy phá"", giữ nhãn gốc",giữ_gốc
+3564,đường của nhà nước co phải nhà cụ đâu mà kêu ca,gian_du,hy_vong,12,gian_du,"Phản bác gay gắt, đúng nhãn gốc",giữ_gốc
+5559,người ta có bạn bè nhìn vui thật,buon,vui,8,buon,"BẪY TỪ ""vui"": câu thực chất tủi thân/ghen tị, AI2 bị lừa",giữ_gốc
+8483,nhưng liệu như vậy sẽ dễ dàng để người khác xen vào không,lo_au,hy_vong,13,lo_au,"Lo ngại bị xen vào, đúng nhãn gốc",giữ_gốc
+3103,Cài đặt chế độ riêng tư đi bạn,hy_vong,that_vong,8,trung_tinh,Hướng dẫn kỹ thuật thuần túy,nhãn_thứ_3
+5725,Cách tốt nhất là làm việc để tiến lên,hy_vong,that_vong,9,hy_vong,"Câu động viên tiến lên, đúng nhãn gốc",giữ_gốc
+48,Quốc gia chông covid tốt nhất thế giới,vui,that_vong,8,that_vong,"Meme mỉa mai chính sách chống dịch, không phải tự hào thật",đồng_ý_AI2
+10057,khi nào tao thấy thích . mà thích rồi chưa có người thích cùng .,that_vong,vui,15,that_vong,"Thất tình/không được đáp lại, đúng nhãn gốc, AI2 bị bẫy từ ""thích""",giữ_gốc
+1756,"Thanh Kim Huyền hạn chế cho nấm ăn thạch chị ơi, cho ăn thì mớm nhỏ chứ k để tự ăn đc",lo_au,that_vong,22,lo_au,"Cảnh báo an toàn, đúng nhãn gốc",giữ_gốc
+2979,"Scarlett Lovemình nghe nói tư bản ngày càng thâm nhập sâu vào vn qua các cuộc thi hoa hậu đc tổ chức liên tục gần đây, và điều này lâu dài sẽ ảnh hưởng tiêu cực đến vn, điều này có đúng không bạn?",lo_au,hy_vong,44,lo_au,"Lo ngại ảnh hưởng xã hội, đúng nhãn gốc",giữ_gốc
+3258,thật ra là nó muốn kiếm em gái anh trai mưa đấy,vui,that_vong,12,vui,"Trêu chọc bạn bè, AI2 sai",giữ_gốc
+3504,nói câu trước đá câu sau vẫn là sai bét đúng không cả nhà,that_vong,hy_vong,14,that_vong,"Phê phán mâu thuẫn lời nói, đúng nhãn gốc, AI2 sai hẳn",giữ_gốc
+6484,"bạn bè nói chuyện cũng chụp post facebook , vui không ?",gian_du,vui,12,gian_du,"BẪY TỪ ""vui"": mỉa mai bạn bè giả tạo chỉ để chụp ảnh, AI2 bị lừa",giữ_gốc
+3331,mấy vụ giết người chặt xác gần đây ở việt nam toàn là người hiền lành 🤔🤔🤔,lo_au,that_vong,17,lo_au,"Bất an về tội ác, đúng nhãn gốc",giữ_gốc
+5145,1 con ốc cũng có thể gây ra vấn đề về an toàn,lo_au,hy_vong,13,lo_au,"Cảnh báo an toàn, đúng nhãn gốc",giữ_gốc
+5584,thế tao mới quyết tâm tìm ra facebook thật của nó để no hết đường lừa các em mới lớn đó,hy_vong,that_vong,21,gian_du,"Quyết tâm vạch trần kẻ lừa đảo, không phải gốc/AI2",nhãn_thứ_3
+6640,Tiến độ dự án đang chậm hơn dự kiến khiến tôi rất băn khoăn về khả năng hoàn thành.,lo_au,that_vong,19,lo_au,"Lo lắng dự án trễ tiến độ rõ ràng, đúng nhãn gốc",giữ_gốc
+99,Nguyễn Đức Cường chuẩn rồi. Nói hay lắm. Xong rồi thì đi mua 5 nghìn dưa cà về ăn cơm.,vui,gian_du,20,vui,"Giọng trêu đùa nhẹ nhàng, không phải giận",giữ_gốc
+10173,A cho e hỏi làm thế nào để chạm đc vào học bổng toàn phần ạ,hy_vong,that_vong,16,hy_vong,"Hỏi về học bổng đầy hy vọng, đúng nhãn gốc",giữ_gốc
+9561,dân trí thấp thế thì bao giờ mới phát triển đất nước được,gian_du,hy_vong,13,gian_du,"Chỉ trích dân trí, đúng nhãn gốc, AI2 sai hẳn",giữ_gốc
+4903,Chưa bao giờ chiếm được Việt Nam,vui,that_vong,7,vui,"Tự hào lịch sử dân tộc, AI2 sai",giữ_gốc
+6449,vậy đi chục năm cho nhớ đời,gian_du,buon,7,gian_du,"Hả hê muốn người khác bị phạt nặng, đúng nhãn gốc",giữ_gốc
+2605,"Thanh Thanh bạn thử tìm hiểu mấy cái chết kinh dị ở nhà máy í, ko ít công nhân chết vì rơi vào cái loại máy xay, máy trộn và vì nó là làm dây chuyền lớn nên máy lớn chứ ko phải máy nhỏ, dễ đi như chơi",lo_au,that_vong,49,lo_au,"Mô tả chết chóc rùng rợn, đúng nhãn gốc",giữ_gốc
+1029,ho mạnh có thể làm gãy xương sườn cơ à ??,lo_au,hy_vong,11,lo_au,"Câu hỏi lo lắng về sức khỏe, đúng nhãn gốc",giữ_gốc
+1710,a ơi..e có quần áo mới lắm.. chị mặc vừa hết đo a..a ở đâu.. có ở khu vực thủ Đức ko ạ,hy_vong,that_vong,23,hy_vong,"Lời mời chào hào hứng/mong kết nối, đúng nhãn gốc",giữ_gốc
+4462,1 lần thôi cũng đủ xao xuyến anh rồi,hy_vong,that_vong,9,hy_vong,"Xao xuyến/mong đợi lãng mạn, AI2 sai",giữ_gốc
+4106,Luong Nguyen để công khai đi ạ,hy_vong,gian_du,7,trung_tinh,Yêu cầu hành chính,nhãn_thứ_3
+1915,Địa chỉ chỗ làm đi ad đến lấy tiền công lại nhé,hy_vong,that_vong,12,trung_tinh,Yêu cầu hành chính thuần túy,nhãn_thứ_3
+272,nghe mát lòng mát gan thế ????,vui,that_vong,7,vui,"""Mát lòng mát gan"" = thành ngữ TÍCH CỰC, AI2 hiểu sai idiom",giữ_gốc
+2261,Thế giới còn bảo việc lớn lao đang chờ bạn.,hy_vong,that_vong,10,hy_vong,"Câu khích lệ ""việc lớn đang chờ"", đúng nhãn gốc",giữ_gốc
+5112,Việc quản lý tài chính cá nhân trong thời kỳ lạm phát đang là một bài toán khó khiến tôi phải suy nghĩ nhiều.,lo_au,gian_du,24,lo_au,"Lo lắng tài chính rõ ràng, đúng nhãn gốc",giữ_gốc
+6654,thêm cái nữa là VN đứng thứ 2 thế giới trong việc phòng dịch,hy_vong,that_vong,14,vui,"Tự hào thành tích chống dịch, không phải gốc/AI2",nhãn_thứ_3
+5679,Nhà dột từ nóc. Đây là những dấu hiệu sụp đổ của một quốc gia,lo_au,that_vong,15,that_vong,"Thất vọng về vận mệnh đất nước, hợp AI2",đồng_ý_AI2
+296,"Xong tao rồi, có lần còn ngồi ghế sau cho con bú",lo_au,that_vong,12,that_vong,"Giọng cạn kiệt/cam chịu vì làm mẹ, hợp AI2",đồng_ý_AI2
+262,"Không có nhan sắc, nhưng bạn biết bạn không sai!",vui,that_vong,10,vui,"Câu động viên tích cực rõ ràng, AI2 sai",giữ_gốc
+7533,vậy 27 tuổi sai còn làm lại được không,lo_au,hy_vong,9,hy_vong,"Hỏi hy vọng làm lại cuộc đời, hợp AI2",đồng_ý_AI2
+5054,"đây là tao khi bảo "" tao biết đường mà , tin tao ."" 🙂",hy_vong,that_vong,15,vui,"Tự trào kiểu meme, không phải gốc/AI2",nhãn_thứ_3
+6342,ưới gì honey của mình sau này cũng thế,hy_vong,that_vong,9,hy_vong,"Ước mong về tương lai, đúng nhãn gốc",giữ_gốc
+9833,Khoan khoan c nghe e giải thích,lo_au,vui,7,lo_au,"Nài nỉ khẩn cấp được nghe giải thích, không phải vui",giữ_gốc
+3257,"Khôn mấy chục năm, dại trong vài giây. Chúc mừng em là ứng viên sáng giá gia nhập CLB Juve (áo sọc xanh trắng).",gian_du,hy_vong,24,gian_du,"Mỉa mai ""CLB Juve"" (cắm sừng), AI2 sai hoàn toàn",giữ_gốc
+972,chính những người như thế họ rất cẩn trọng khi bật xi nhan đấy,lo_au,that_vong,14,gian_du,"Mỉa mai chỉ trích, không phải thất vọng thuần",nhãn_thứ_3
+7471,"anh biết em có nhiều chuyện , nhưng việc trước mắt là em nộp phạt đã , nếu không xe em sẽ bị thu vào đồn",that_vong,hy_vong,26,lo_au,"Cảnh báo hậu quả pháp lý, không phải gốc/AI2",nhãn_thứ_3
+1784,tôi làm trades . lương tôi không có .. chỉ có thu nhập thôi có tính là cao nhất việt nam không ??? tháng tôi kiếm từ 3000 - 5000,hy_vong,that_vong,30,vui,"Khoe thu nhập, không phải thất vọng",nhãn_thứ_3
+6036,và Bác Hồ của chúng ta đc cả thế giới công nhận là vỹ nhân,vui,that_vong,15,vui,"Tự hào về Bác Hồ, AI2 sai",giữ_gốc
+2750,"Hằng PT uh,thấy hồi đó đi học mà gặp trời mưa thì nội bùn đi học",gian_du,buon,16,buon,"Hoài niệm tuổi học trò, hợp AI2",đồng_ý_AI2
+3886,quan trọng vẫn là cái phải đẹp trai . rồi mới sau đó nữa ... lạ gì các bà,gian_du,vui,19,vui,"Đùa giỡn về ngoại hình, hợp AI2",đồng_ý_AI2
+6568,thế đéo nào cái hộp bé tý lại đựng được ba cái mũ nhỉ,vui,gian_du,14,vui,"Kinh ngạc/ấn tượng, không phải giận",giữ_gốc
+6528,Biết kiếm đâu một người yêu mình thật sự đây?,hy_vong,that_vong,10,that_vong,"Giọng cam chịu/tuyệt vọng tìm tình yêu thật, hợp AI2",đồng_ý_AI2
+4325,"Cách để vượt qua cảm xúc tiêu cực<br>1. Uống 1 ly nước và đi tắm (thay ra gối, đi ngủ)<br>2. Suy nghĩ về nó 1 chút: phân tích nguyên nhân, vv<br>3. Làm 1 cái gì đó (ko nhất thiết phải là việc to tát: rửa chén, lau nhà, vvv)<br>4. Bỏ đi những mối quan hệ độc hại. <br>5. Chịu trách nhiệm cho chính mình <br>Bây giờ mình phải làm gì để đạt được điều đó, v.v chứ ko đổ lỗi.",hy_vong,gian_du,80,trung_tinh,"Danh sách hướng dẫn thông tin, không phải giận",nhãn_thứ_3
+6593,chắc phải đi một chuyến thôi :3,hy_vong,that_vong,7,hy_vong,"Icon :3 + dự định đi chơi, không phải thất vọng",giữ_gốc
+6693,"Việt Nam lại có máy bay rơi, khoa học và kinh tế quyết định cho khoa học kỹ thuật, như thế này thì mạng sống của những người tham gia những chương trình bay sẽ đi về đâu.",that_vong,hy_vong,38,that_vong,"Chỉ trích an toàn hàng không, đúng nhãn gốc, AI2 sai hẳn",giữ_gốc
+853,Trương Hạnh Công Dân qua mua hòm ủng hộ cho thực tế chứ chúc không thảo mai quá bạn,gian_du,hy_vong,19,gian_du,"Chỉ trích giả tạo/đạo đức giả, đúng nhãn gốc",giữ_gốc

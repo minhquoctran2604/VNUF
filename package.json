@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@mimo-ai/cli": "^0.1.5"
+  }
+}

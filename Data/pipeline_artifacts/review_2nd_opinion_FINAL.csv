@@ -1,0 +1,660 @@
+id,text_raw,original_label,predicted_label,original_label_probability,label_quality_score,action,new_label,review_note
+9713,Ngọc Trầm Thủy Thượng cay,gian_du,trung_tinh,0.036354337,0.10773638,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5019,Tàn canh chuyến này,that_vong,trung_tinh,0.026128367,0.110402375,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+942,Nguyễn Hoàng Ngân thôi nhen,gian_du,trung_tinh,0.04719496,0.11426264,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6734,Trần Dinh Kini thì cũng tới đó vướng lại rồi đó,that_vong,trung_tinh,0.046016,0.11577839,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7497,Khoa Duc Nguyen chỉ có 3/ mới thích Trump mà ông,that_vong,trung_tinh,0.041057847,0.11942664,remove,,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+9936,Trúc Phương Lê kiện thoi,vui,trung_tinh,0.032401983,0.12176564,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+7546,Bình An độc toàn thân,gian_du,trung_tinh,0.038437635,0.12510419,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6527,điềm báo gì đây,lo_au,trung_tinh,0.02304529,0.12620044,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+660,vẫn là chính sách trên giấy tờ,that_vong,trung_tinh,0.032326654,0.12789372,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5134,liệu có bền lâu,lo_au,trung_tinh,0.03235541,0.13124534,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3944,đây là lần cuối cùng các bạn nhìn thấy anh ấy,buon,trung_tinh,0.009831143,0.1323053,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4222,Hoa Vu sau uống trà sữa bằng thìa thôi nhể,lo_au,trung_tinh,0.039234973,0.13752618,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4331,bếp thiiêu chân mày,vui,trung_tinh,0.0370768,0.13893336,remove,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+4809,Dung Phung anh chiến oánh cho bây h,lo_au,trung_tinh,0.03993435,0.14477465,remove,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+4825,thiếu cà fe,hy_vong,trung_tinh,0.041783433,0.1497626,remove,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+8591,thấy bản thân mk ở đây,buon,trung_tinh,0.0454706,0.15039167,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2881,Hoàng Thiên Ngọc icon này là chưq có nguoi yeu nhé,buon,trung_tinh,0.01610275,0.15066707,change,vui,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+10211,Chu Bích Ngọc hút ít thôi nhé,lo_au,trung_tinh,0.022833467,0.15118763,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5928,lòng đường không phải nhà cụ nên cụ sai nhé . vỉa hè to vậy rồi cụ còn muốn như thế nào,gian_du,trung_tinh,0.03878579,0.15436807,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9026,Phi Long tao mua vf8 đợt đầu đây,vui,trung_tinh,0.04122309,0.15837175,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9318,Đoàn Thanh Sơn đau emmm,buon,trung_tinh,0.024250489,0.15949968,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2690,Phan MyHạnh Phan cho ăn trân châu bằng muỗng thôi,lo_au,trung_tinh,0.037433285,0.16693631,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5495,Chuẩn Nhưng tìm đâu ra,that_vong,trung_tinh,0.04540639,0.16886365,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1198,Phấn đầu lời bác hồ dạy. Sánh vai các cường quốc 5 châu.,hy_vong,trung_tinh,0.025029885,0.16926917,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4436,nhìn kinh,gian_du,trung_tinh,0.030065026,0.17505896,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1183,Gần 30 rồi,lo_au,trung_tinh,0.026563464,0.17572248,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9059,"cái này gọi là truyền thống , không thể nói là quên được",buon,trung_tinh,0.015878757,0.17687798,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6300,Khánh Hòa lớp trưởng cứ phải cứng rắn lên bn,hy_vong,trung_tinh,0.03631845,0.17785406,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+872,Bình tĩnh nghe em nói Mọi chiện ko như anh thấy đâu,lo_au,trung_tinh,0.020473279,0.17812687,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6764,Đình Du anh nằm dưới gầm giường nhà em à?,vui,trung_tinh,0.040388044,0.17855462,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5695,ngày xưa nghèo . có bếp dầu là mai rồi .,hy_vong,trung_tinh,0.039430298,0.18282187,change,buon,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+3807,"Trần Hưng cùng toà với a phải ko, tối ngủ khoá chặt cửa vào a nhé",lo_au,trung_tinh,0.04916015,0.18315399,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4287,ông trời tính lấy thêm của t 1 người t thương nữa hả?,lo_au,trung_tinh,0.02567566,0.18400145,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8943,nên phát huy,hy_vong,trung_tinh,0.043595243,0.18504462,remove,,"Đây là lời khuyên hoặc nhận định chung, phù hợp trung_tinh."
+9928,pháp không còn khoảng thời gian bình yên nữa rồi,lo_au,trung_tinh,0.04383608,0.19179407,keep,,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+8460,Nguyen Huu Tai cả 2.. đều đỉnh,vui,trung_tinh,0.03539447,0.19214666,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4145,Quốc Ca dân tộc ta là sự ghi nhận theo chiều dài lịch sử từ khi chưa có độc,vui,trung_tinh,0.033169545,0.19245592,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3577,per con nhện cản bước bé xuống cầu thang,lo_au,trung_tinh,0.031818222,0.19511539,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+3318,"trưa nay nhà em ăn cơm , admin nói với mấy chú truyền hình đừng chiếu tin này lên nha",gian_du,trung_tinh,0.045171686,0.19511613,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3320,nước ngoài cái gì cũng to kể cả sinh vật,lo_au,trung_tinh,0.03781392,0.19566622,change,trung_tinh,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+8221,Phuoc Truong tưởng lẩu gà bến tre chứ?,vui,trung_tinh,0.02797013,0.19599715,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+6176,Cecilia Pham căng nhỉ,lo_au,trung_tinh,0.032669075,0.19647208,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5566,"Tôi bị dính dấu hiệu 2,4,5 rồi",lo_au,trung_tinh,0.048112754,0.19727647,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2042,không gì hơn ngoài tình thân,vui,trung_tinh,0.04044297,0.19766542,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3774,Màn cầu hôn lãng mạn chưa đầy 24 giờ,vui,trung_tinh,0.027835598,0.19853914,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7235,Ngân Hà ấy tt ko nhận nha,that_vong,trung_tinh,0.047808144,0.20399302,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6110,Có phải fb này đánh ngừoi ko,gian_du,trung_tinh,0.037519228,0.20866355,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+618,Trịnh Bảo Ngọc k xem cũng biết win r,vui,trung_tinh,0.035069585,0.2113924,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+250,Nè ck. Nay thôi nhé Hiếu Hà,lo_au,trung_tinh,0.015683362,0.21156636,remove,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+3695,Huỳnh Phương Linh sầu,buon,trung_tinh,0.032069247,0.21229935,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3553,Hân Ngọc Bảo Nguyễn thiệt luôn á .,that_vong,trung_tinh,0.03850844,0.21347386,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4032,Nhi Little đúng là đời,that_vong,trung_tinh,0.036640458,0.21696225,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2994,"Đời còn dài, gái còn nhiều.",hy_vong,trung_tinh,0.03643921,0.2170499,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2822,chia tay đi bạn,gian_du,trung_tinh,0.018479936,0.2198213,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4713,Còn người là còn của !,hy_vong,trung_tinh,0.04248786,0.22029215,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7218,Kim Ngân những thiên thần nhỏ và ÁC QUỶ,gian_du,trung_tinh,0.01832732,0.22101173,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7278,Mạng lag lúc đang chơi game,gian_du,trung_tinh,0.023333913,0.22173357,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9247,ap luc☺️,lo_au,trung_tinh,0.042768307,0.2227053,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2557,ae phục vụ ngày xưa của mình đâu rồi . sao thấy thương bạn này,buon,trung_tinh,0.016823433,0.22352645,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1235,Hạnh Sino có tiền cũng ko mua được tuổi thơ m nhỉ,buon,trung_tinh,0.025555486,0.22393891,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3747,ĐỪng vào,lo_au,trung_tinh,0.04821333,0.22492737,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9181,có nên kể mấy cái tiêu cực ko nhỉ ??,lo_au,trung_tinh,0.021899644,0.23265675,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2614,Ngọc Thảo dì ruột của cháu e vào đây mà đọc,buon,trung_tinh,0.02276516,0.23641467,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6896,tao chắc chắn là cái sừng đã mọc,gian_du,trung_tinh,0.0323639,0.23654118,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+745,tôi nói với các ông nhé . dắt bộ qua chốt cũng chưa chắc ngon ăn per,lo_au,trung_tinh,0.03712914,0.2381978,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8685,Thắng đời 2-0 nội ngoại điều thw,vui,trung_tinh,0.0153934,0.24058506,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+801,Bây giờ thì Việt nam có thể xóa sổ trong 3 ngày...đó là thực tế của cuối năm 79.,buon,trung_tinh,0.034359172,0.24113089,keep,,"Đây là lời khuyên hoặc nhận định chung, phù hợp trung_tinh."
+6884,Lê Viết Giang cười xg cái bùn,buon,trung_tinh,0.029658088,0.24204046,change,vui,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+9751,Ở quê bẫy đầy chắc chim này dễ bẫy,hy_vong,trung_tinh,0.047396865,0.24339634,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6425,Bốn này phải tước bằng vĩnh viễn ở VN phát nhé qua nên tai nạn rất nhieu,lo_au,trung_tinh,0.038783602,0.24534804,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+274,Đinh Thị Thanh Huyền đó là bệnh về tâm lý mà . Cũng may đó là cô gái . Chứ là con trai thì giờ còn bộ xương . Dương vật teo tóp. Suy thận. Nằm chờ ngày niệm,lo_au,trung_tinh,0.045211285,0.25194508,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7445,Đặng Thu đi thi đi thay hoi so,lo_au,trung_tinh,0.033067346,0.2528025,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7966,nhưng nó giỏi và bản lĩnh đó,vui,trung_tinh,0.041274365,0.25314078,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8353,Ng Bao Tran xĩu nha,lo_au,trung_tinh,0.027131474,0.25369507,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2896,Trần Quang Tùng xuống 24 cho đỡ suy thôi,that_vong,trung_tinh,0.04608072,0.255205,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2004,Quay clip up lên facebook thôi. Chuyện mà nổi thì bên kia quan hệ cỡ nào cũng khó chìm xuồng đc,gian_du,trung_tinh,0.04788597,0.2565388,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6591,Tôi chú,buon,trung_tinh,0.04275009,0.2581613,remove,,Câu quá ngắn hoặc không đủ ngữ nghĩa để xác định cảm xúc.
+6302,"chiến tranh có gì vui đâu nhỉ , chỉ gây đâu thương",gian_du,trung_tinh,0.02899511,0.26555014,change,buon,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+6341,Trường Bino thiếu mợ chợ vẫn vui,hy_vong,trung_tinh,0.016948046,0.2656167,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4514,Pham Thanh Hoa nghe nói cũng đã te ra quần rồi em sơ thật,gian_du,trung_tinh,0.045913108,0.2720188,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9579,chắc phải 6 năm chưa nấu kiểu này rồi trước nấu hôm đầu cơm dẻo ai cũng khen ngon,vui,trung_tinh,0.03180615,0.27301842,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2532,@lanh💢 ôn thi shao r ..?,lo_au,trung_tinh,0.045913298,0.27311817,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8296,như ốc bươu vàng thì là thảm họa rồi,lo_au,trung_tinh,0.04212972,0.2757152,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4758,tao đẹp trai vào trang tao mà coi đi,vui,trung_tinh,0.033574354,0.27687252,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2220,c trai như thế nào tuyệt chủng rồi,buon,trung_tinh,0.043951795,0.2810529,change,vui,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+7729,nên xử lý nghiêm khắc,hy_vong,trung_tinh,0.042335704,0.28579402,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9919,Dành cho những bạn sinh viên Ngôn ngữ Anh thì sẽ có biết đến một môn được gọi là Ngữ Nghĩa Học hay còn gọi là Semantics. Lúc trước khi học môn này thì mình nghĩ nó khá khó và chỉ có Tiếng Việt mình mới dễ ... nhưng mà thật ra là dễ lag ko khác gì Tiếng Anh,buon,trung_tinh,0.013426626,0.2897608,change,vui,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+3690,Muốn coi clip ở đâu z m.n,gian_du,trung_tinh,0.04675984,0.29362026,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3670,per tôi đợi ngày nhận thiệp cưới của ông,hy_vong,trung_tinh,0.015667977,0.29506022,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2691,chưa báo hiếu chame đk ngày nào,buon,trung_tinh,0.045072276,0.29515135,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6758,Nguyễn Sin người ta đòi kiện anh kìa,lo_au,trung_tinh,0.040338017,0.29546326,keep,,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+864,"Tăng Ngọc bệnh mà, này đáng thương hơn là chế nhạo.",buon,trung_tinh,0.018336982,0.29865247,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7375,Myru Brett Nguyen no cũng chết,buon,trung_tinh,0.032936547,0.3001759,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4166,"tưởng chỉ có trong phim thôi chứ , nay chơi vậy luôn à",vui,trung_tinh,0.0374231,0.30225644,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2545,mấy thanh niên đi xong về có yêu nhau không nhỉ ?,vui,trung_tinh,0.03272264,0.30314595,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2800,Ai rồi cũng bị buộc phải lớn,buon,trung_tinh,0.0457969,0.30532554,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2338,biết thế ngày xưa mua bitcoin 💀,buon,trung_tinh,0.044910416,0.30605108,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3299,per bữa cuối nó ngồi chỗ đó nhìn mà khóc còn cuối khoá thì bth,buon,trung_tinh,0.03565293,0.30733728,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4815,Hô Bảo Nghĩa bỏ công an 30km & 5s sau khi bị bắt là đủ biết đẳng cấp,vui,trung_tinh,0.024929715,0.30872202,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+4512,bây h trông cho tới rằm vs m1 kiếm tiền thôi,hy_vong,trung_tinh,0.047935616,0.30887973,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2208,Bọn này là 👿 dương nhân quả sẽ đến sớm,lo_au,trung_tinh,0.03187356,0.30906355,change,gian_du,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+7954,chủ thớt sấp mặt rồi,buon,trung_tinh,0.021656122,0.31202847,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6466,Lê Thảo đang yêu đời coi cho trầm cảm nè keo,buon,trung_tinh,0.024443533,0.3120618,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5959,làm sao tôi có thể yêu được loài người đây ???,gian_du,trung_tinh,0.04108545,0.3136755,keep,,"Đây là lời khuyên hoặc nhận định chung, phù hợp trung_tinh."
+7334,mày chuẩn bị ra rìa rồi con,gian_du,trung_tinh,0.03798077,0.31591815,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7586,Thôi về quê đi cho lành,that_vong,trung_tinh,0.04223394,0.31651366,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2670,"tôi không tỏ tình crs, k kịp nói do nhà tôi chuyển nhà gấp :"")",buon,trung_tinh,0.042622097,0.31862321,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9115,Ai cũng bắt đầu từ đâu đó mà 🫂,hy_vong,trung_tinh,0.0417693,0.31961623,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8029,"đi hát văn nghệ cho trường nguyên cấp 1 , kiếm được kha khá . cấp 2 vỡ giọng , khỏi hát",buon,trung_tinh,0.033430584,0.32183632,keep,,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+3223,Kiện ccmnđ chứ,hy_vong,trung_tinh,0.039347865,0.32595587,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+3702,và đó đéo phải là tao,buon,trung_tinh,0.045602523,0.32659635,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+2655,Hoàng dừng ngay việc cho Bim ăn chân châu,lo_au,trung_tinh,0.039244626,0.32697773,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8540,hình như sau boss bị chết ạ,buon,trung_tinh,0.04427389,0.335059,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+132,Coi đúng lúc ổng chết là bỏ phim Tới giờ,buon,trung_tinh,0.028410265,0.3353088,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8395,Nam Ngọc Lương ý tôi là lòng 1 chút chuyện vào những tập sau này thôi chứ ko phải làm ngay thời điểm nhạy cảm này đâu,lo_au,trung_tinh,0.03597242,0.33659783,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9630,bạn trai thì chưa . nhưng mỗi lần thằng bạn nó cắt tóc cạo râu thì auto nhìn đẹp trai,vui,trung_tinh,0.044883694,0.3423536,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6503,"Thanh Trúc nhưng mà sướng mà em, có cái sướng nào không mất sức đâu",vui,trung_tinh,0.04672142,0.34673995,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4647,"Đy Qua Mùa Hạ đánh bố dc. đập ti vi dc, thì tớ làm vk quang or ny quang- chắc 3 ngày nát như tương bần",lo_au,trung_tinh,0.039876137,0.3534057,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+217,Em từng bị HR từ chối ở vị trí bán hàng tại một store do người Trung Quốc quản lý với lý do rụt rè. <br>Cái giá phải trả cho việc rụt rè thực sự rất lớn và là tín hiệu báo bản thân cần nâng cấp và thay đổi.,buon,trung_tinh,0.0379732,0.3535195,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+10060,Uplate cho anh em là ông chồng đã khoá TCN😤roàiii,gian_du,trung_tinh,0.03347126,0.35386917,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4902,"ánh sáng mà tôi có được, đều là tôi tự đóng tiền điện mà ra",vui,trung_tinh,0.04197672,0.35654575,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2230,đừng bỏ tao ra đi mà,lo_au,trung_tinh,0.026714357,0.3571726,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+164,tóm lại gọi là nghệt thuật của kinh doanh là bán lỗ ho nhanh,vui,trung_tinh,0.032727316,0.36617988,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+223,Đứng trước ngã rẽ của,lo_au,trung_tinh,0.036083024,0.3771696,remove,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+5981,Dỡ nha,that_vong,trung_tinh,0.049033906,0.38204712,remove,,Câu quá ngắn hoặc không đủ ngữ nghĩa để xác định cảm xúc.
+6022,mốc từ trong trứng,gian_du,trung_tinh,0.03809769,0.38604662,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3802,tạm biệt ánh sáng của đời tao,buon,trung_tinh,0.047500066,0.39082944,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1718,Quốc gia phục hồi nhanh nhất sau chiến tranh,hy_vong,trung_tinh,0.020331226,0.40729582,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+462,Sơn Hoàng thế tiền tao đâu,gian_du,trung_tinh,0.06697806,0.13564047,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7987,Nguyễn Văn Hoàng fuckboi mà,gian_du,trung_tinh,0.055226095,0.13566846,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8211,Văn Phúc rũ nhậu mà,vui,trung_tinh,0.054976583,0.13953483,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3739,Nguyễn Hoa giống bênh lx chổ vài trăm ra 5trieu,that_vong,trung_tinh,0.051912244,0.14294153,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4654,thứ t cần là phim xuân hạ thu đông,hy_vong,trung_tinh,0.056361403,0.14731646,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8586,per cái đoạn vén tóc là quen lắm nhá . thích lém ý,hy_vong,trung_tinh,0.0706301,0.14739716,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5829,ra đường không cầm theo đá phong thủy rồi,that_vong,trung_tinh,0.05706061,0.14867726,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4629,To Hoai Nguyen ốc uống trà sữa phải cẩn thận này mẹ,lo_au,trung_tinh,0.06715447,0.15313342,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6010,Bữa Lào mới tạch con y chag thì phải,that_vong,trung_tinh,0.052370574,0.15314296,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2398,Ha Thanh trải nghiệm đúng ko.,hy_vong,trung_tinh,0.074869566,0.16376162,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2135,Lại là hà lỗi phải ko ?,that_vong,trung_tinh,0.05421994,0.16588494,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3030,Quan trọng là nó chưa biết mình sai ở đâu a à,that_vong,trung_tinh,0.058668464,0.16659713,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8421,Văn Hoàng Long Tây môn Khánh bạn hay và hấp dẫn,vui,trung_tinh,0.08715455,0.16804501,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7424,ý tưởng thông minh đó con,vui,trung_tinh,0.061404787,0.16930512,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7088,Phong Nguyen giáo sư có cách nào chống hack k,hy_vong,trung_tinh,0.08169883,0.17148018,change,lo_au,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+3261,Báo tới,gian_du,trung_tinh,0.086797215,0.17213523,remove,,Câu quá ngắn hoặc không đủ ngữ nghĩa để xác định cảm xúc.
+3273,Nguyễn Văn Mến phải xem b ah,hy_vong,trung_tinh,0.08997886,0.17232239,change,trung_tinh,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+7339,thế mới bảo . chủ động riết rồi nó xem thường,that_vong,trung_tinh,0.061545257,0.17478415,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4745,có hai vị tướng top 10 thế giới và. 2 danh nhân văn hoá thế giới và 1 người từ chối nobel hoà bình,vui,trung_tinh,0.07515911,0.17586175,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+6237,liệu nó có bay nổi hay không ?.,lo_au,trung_tinh,0.06293922,0.17597085,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6790,Quản Lâm Vũ tìm mấy chỗ xa trung tâm chứ nội thành thì khó b ui,that_vong,trung_tinh,0.052527223,0.17631584,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+547,mình chỉ nói đến cơ hội việc làm thôi chứ không bàn luận gì về việc ông ấy là người như thế nào bạn nhé ??,gian_du,trung_tinh,0.07630007,0.18006,change,trung_tinh,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+4569,chụp không biết bao nhiêu lần rồi,that_vong,trung_tinh,0.09531822,0.18111718,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+10020,"Cường Seven A đó cản trở công an làm việc là sai nhưng a đó ko phải người chăn dắt á b, nhiều người nói a đó là người chăn dắt trẻ ko à.",gian_du,trung_tinh,0.08991178,0.18119305,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7267,Hoang Mai Phuong Hoang Long Hoàng Việt tương lai cô ấy đấy,hy_vong,trung_tinh,0.078988895,0.1822027,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4194,vẫn chọn tech là ngân hàng đồng hành,hy_vong,trung_tinh,0.05171689,0.18415743,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6249,ngày mới tốt lành nha,hy_vong,trung_tinh,0.13113365,0.18492496,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2798,Lanh Hồng x3 chân châu nè bà nội,lo_au,trung_tinh,0.061573297,0.18516141,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8767,Thanh Thảo có video ko,hy_vong,trung_tinh,0.09317991,0.18607712,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4848,Phạm Việt xem video porsche vàng rồi,hy_vong,trung_tinh,0.10756599,0.18624294,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6726,Phong Nguyen con này để bay huấn luyện bay ra biển bảo vệ biển chưa đủ sức.,gian_du,trung_tinh,0.062184636,0.18859881,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3248,per thông minh là đây chớ đâu,vui,trung_tinh,0.09183393,0.18878543,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7132,Tưởng chỉ có trong phim,lo_au,trung_tinh,0.06510315,0.19088379,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6188,Tôi chỉ cần làn da đẹp,hy_vong,trung_tinh,0.10138817,0.19098994,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+10089,Diên Diên tag để đọc mà kĩ kĩ,hy_vong,trung_tinh,0.097155675,0.19103289,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6161,đã bước thì bước tiếp thôi,hy_vong,trung_tinh,0.09736324,0.19168252,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2565,Jiso Nguyen thằng đó rồi. trc phải khoá trang cá nhân. trc nó chạy con pọt màu vàng,gian_du,trung_tinh,0.08498685,0.19187418,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5413,hôm nay cậu thế nào,hy_vong,trung_tinh,0.09151224,0.1926451,change,trung_tinh,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+4594,Ngân Hà dặn con la nè,lo_au,trung_tinh,0.05884057,0.19272295,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3157,Tưởng trong phim mới có,lo_au,trung_tinh,0.08410205,0.19329861,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1969,Đưa ng Việt nam qua thì đông vui thôi lo gì,hy_vong,trung_tinh,0.05663065,0.19519925,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5808,Ngọc Bích Đỗ cuối tuần nhé mẹ,hy_vong,trung_tinh,0.12427771,0.19678882,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+371,lỗi của lái tàu nhé,that_vong,trung_tinh,0.056407597,0.19688544,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3838,bài thi được điểm cao,vui,trung_tinh,0.07649575,0.19729105,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3053,Nhục chưa,gian_du,trung_tinh,0.057960995,0.19808462,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2948,sắp có nút vàng rồi chị,hy_vong,trung_tinh,0.08409145,0.19903672,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2252,Đoàn Hương rồi cuối cùng có chịu thụt ít đất vô mở rộng ngõ không b.,that_vong,trung_tinh,0.0655553,0.20027587,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1316,dụ đấy ... đừng tin,gian_du,trung_tinh,0.06536392,0.2026965,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1192,đứa nào nhây hơn đứa đấy thắng,vui,trung_tinh,0.09201269,0.20373112,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3173,có nên bỏ fan một người ko,that_vong,trung_tinh,0.06177811,0.20514408,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+10121,bật lưu dc ko ạ,hy_vong,trung_tinh,0.090989776,0.20565853,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6105,Út Bo Hung Bội Ngọc đọc đi,hy_vong,trung_tinh,0.1004608,0.20688409,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5041,Châu Hải Yến chính nó!!,vui,trung_tinh,0.06795206,0.20744216,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+1747,Mai vẫn vậy,that_vong,trung_tinh,0.06320886,0.20833784,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3293,Thu Thùy cho bơ uống trà sữa ít thôi,lo_au,trung_tinh,0.061081275,0.21050787,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3084,Gia Vỹ Nghỉ đặt đơn chứ?,hy_vong,trung_tinh,0.07823176,0.21120259,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4600,ai chả có nét đẹp riêng chỉ là bạn chưa biết khai thác nó đúng cách thoi,hy_vong,trung_tinh,0.065966636,0.21154803,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8039,per tiến cử bản thân nào,vui,trung_tinh,0.07677468,0.21215159,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+6100,Ngip trả thôi,gian_du,trung_tinh,0.060560774,0.21299413,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8509,Nguyễn Thị Mai Trinh vào xác nhận koii,hy_vong,trung_tinh,0.07692269,0.21334755,change,trung_tinh,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+2861,Vương Bích Trân 6 vãi,gian_du,trung_tinh,0.075063504,0.21417645,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4435,per giảm tốc kìa,lo_au,trung_tinh,0.052913137,0.21634561,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7388,"Quang Thế có ghi làm bảo vệ siêu thị kìa b , ở phan thiết có 2 cái siêu thị th nên ghi v khác j ghi rõ địa chỉ đâu",lo_au,trung_tinh,0.06157073,0.21664044,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2885,Đợt này trơi k mưa nhma van bun,buon,trung_tinh,0.055534784,0.21878439,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+88,Kiện đi bạn,hy_vong,trung_tinh,0.12560114,0.21946973,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+64,per lại lật nữa hả,gian_du,trung_tinh,0.08113226,0.22039634,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5429,"Nguyễn Quỳnh Chi ko rõ tâm tư, không thấu nổi hồng trần",that_vong,trung_tinh,0.09668287,0.22039843,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4704,Tuan Anh Pham chuẩn là phải cmt à,gian_du,trung_tinh,0.13790849,0.2208215,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3969,mày làm anh tao hơi lâu rồi đấy,gian_du,trung_tinh,0.050566923,0.22085634,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5675,Này lên phường tặng 2 quyển tập thì tuyệt,vui,trung_tinh,0.07381296,0.22122484,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6803,Bác tài 100 điểm,vui,trung_tinh,0.1331756,0.22175744,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5087,đúng là không thể chấp nhận được,gian_du,trung_tinh,0.06780905,0.2229937,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4884,Phan Thế Anh vì anh chơi chưa đủ liều đó ạ,that_vong,trung_tinh,0.06575203,0.22367474,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9790,tiến lên(miền nam),hy_vong,trung_tinh,0.12353893,0.22473454,remove,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2366,Huyền Leo chỗ nào cũng hiện hồn,gian_du,trung_tinh,0.09752823,0.22474793,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1832,Thằng dốt,gian_du,trung_tinh,0.05965267,0.22518894,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8761,đó căn bản chỉ là phép lịch sự tối thiếu thôi,that_vong,trung_tinh,0.07921068,0.22649351,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3882,gãy tay,that_vong,trung_tinh,0.06287543,0.230899,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2542,Nam Yến phải trường Tân Hồng không bay? Kaka,vui,trung_tinh,0.154399,0.2322275,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2834,Thành công thành công phải thật thành công,hy_vong,trung_tinh,0.08067354,0.23233658,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9183,per biết phân biệt phải trái không vậy ??? và có biết đỗ như thế nào là đúng luật không ???,gian_du,trung_tinh,0.103671186,0.23274985,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5510,nếu lái xe là dân đen thì thế nào chú . có dám đậu ở đóa không,lo_au,trung_tinh,0.07348381,0.23301435,change,gian_du,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2911,Phía trước toàn là bóng tối,buon,trung_tinh,0.074058555,0.23331752,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+4504,tôi từng là lính lăng bác nên tôi hiểu tự hào dân tộc là gì,vui,trung_tinh,0.09920812,0.2334064,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9294,Mà grab hình như chỉ hồi có 80% à,that_vong,trung_tinh,0.08398012,0.2338886,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4513,Văn Phúc muốn đi coi,hy_vong,trung_tinh,0.11240542,0.23545203,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7058,Việt Nam tuy diện tích bé nhưng vị trí địa lý toàn đắc địa.,vui,trung_tinh,0.121451646,0.23579413,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+592,Chang Chang khiếp,lo_au,trung_tinh,0.103619285,0.23606008,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+935,Giang Lại Hương đừng cho Kem tự hút trân châu nữa,lo_au,trung_tinh,0.07849251,0.23622552,keep,,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+1081,Đang trách nhất vẫn là cô và nhà trường,gian_du,trung_tinh,0.060502123,0.2371471,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4964,Biết bao giờ mới lành lại đây,that_vong,trung_tinh,0.11236436,0.23765525,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5107,thế em ăn anh được không ?,hy_vong,trung_tinh,0.096838765,0.23890558,change,vui,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+9315,đúng là mỹ nhanh gọn dứt khoát,vui,trung_tinh,0.12404076,0.2400577,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9972,không sao đâu :) bệnh này lây qua đường tình bạn,vui,trung_tinh,0.12870294,0.24009097,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6427,bài nhạc khiến tôi mang nhiều suy tư,buon,trung_tinh,0.06253442,0.24084675,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5503,gặp đúng người thì sẽ nói rất nhiu,vui,trung_tinh,0.07010746,0.24085298,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7382,Vào đây lọc được khá thằng,vui,trung_tinh,0.1552788,0.24121156,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8898,đến bao giờ mới nhận được tiền nhỉ,hy_vong,trung_tinh,0.12716377,0.24351195,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+6288,và QG phân biệt vùng miền top2 tg,that_vong,trung_tinh,0.100027114,0.24394244,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+10107,"Liên Hoa tầm này mà nhà phố gì nữa , mua luôn cái con phố ấy",vui,trung_tinh,0.05143904,0.24409893,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6243,Hát live đi,vui,trung_tinh,0.087627955,0.24420783,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9133,Trường Bino - Vợ anh đã xem và không nói gì,that_vong,trung_tinh,0.090908356,0.24444321,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4284,Giảm tỉ lệ dân số cũng tốt,hy_vong,trung_tinh,0.09614869,0.24569663,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8707,Nguyễn Hoàng Giang mua xe xăng đc tặng trạm xăng đấy,hy_vong,trung_tinh,0.12787956,0.24597341,change,trung_tinh,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+3931,ăn cả thế giới đã,hy_vong,trung_tinh,0.10004117,0.24599186,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+3501,lấy củi chứ bao nhiêu rơm cho đủ,that_vong,trung_tinh,0.108785205,0.24683881,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3,Mèo Min Min kkkk gì?,vui,trung_tinh,0.053642545,0.2469275,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1301,tam đảo trời đẹp các mem à,vui,trung_tinh,0.07565095,0.24714386,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4918,Linh Nguyễn Ngọc bạn mai mai sân si sâu bít rồi,gian_du,trung_tinh,0.16638942,0.2476635,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1072,Kênh mới nè.,vui,trung_tinh,0.13414657,0.24786481,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2385,Phạm Mai Linh từ giờ nhịn cả chị cả em,lo_au,trung_tinh,0.050681297,0.24820709,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8080,Đồ giả làm từ họi ba đơi hít nha a,gian_du,trung_tinh,0.10018824,0.24960622,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3958,bất kì hoa gì có mùi đều không thích,gian_du,trung_tinh,0.074964695,0.24978906,change,trung_tinh,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+5570,Phuong Diem cần gì lãng mạn sống có trách nhiệm bao dung rộng lượng là đc rồi,hy_vong,trung_tinh,0.18347412,0.24989247,keep,,"Đây là lời khuyên hoặc nhận định chung, phù hợp trung_tinh."
+6023,"nhìn 1 cái , cười 1 cái rồi về thôi",vui,trung_tinh,0.08126845,0.25040382,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4690,Đức Hạnh con bồ cũng định đập tài xế đấy,gian_du,trung_tinh,0.14585964,0.25067666,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8430,Thùy Linhh a cho e cái gì kô,vui,trung_tinh,0.083305046,0.25135967,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6220,Trinh Mi Nhon đi ko,hy_vong,trung_tinh,0.11895322,0.25162247,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6195,"Thiện Tim 1 tháng chỉ dc hỗ trợ 1 lần thôi, ko có lần 2",that_vong,trung_tinh,0.060345322,0.25165808,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6612,"Bạn ơi, lên công an xã trình báo đi",hy_vong,trung_tinh,0.17174247,0.25248748,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1508,không biết có ai ở trong ngôi nhà không,lo_au,trung_tinh,0.13053362,0.25267762,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+348,"Điện Thọai Hoàng Thông nó đi vission đổi gió thế thôi chứ nó có mấy chiếc porche, mẹc, audi đnag để ở nhà đó con.",gian_du,trung_tinh,0.13307238,0.25311413,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9552,per thử cảm giác mạnh,hy_vong,trung_tinh,0.0807022,0.2531789,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9786,sau này đừng quên nhau nha,hy_vong,trung_tinh,0.12601355,0.2534061,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1100,chỉ cần chọn đúng người đúng thời điểm thôi,hy_vong,trung_tinh,0.18714693,0.25429106,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1175,Phim k hay,that_vong,trung_tinh,0.063447185,0.25666812,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2977,Mk ko bằng đứa trẻ,that_vong,trung_tinh,0.09194831,0.25754654,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7296,Chắc do hệ luỹ của phim Hàn toàn giết người hàng loạt,lo_au,trung_tinh,0.10310831,0.25783533,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+8843,Lan Anh Lê mấy đứa mày mè là hay cúng xôi chè lắm,gian_du,trung_tinh,0.09432929,0.2579639,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9557,per bếp lò xo huyền thoại của ngoại hay nấu nè,vui,trung_tinh,0.18098177,0.25851783,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+7626,1 % kìa rồi ra cổng gọi thế nào,lo_au,trung_tinh,0.0753152,0.2586552,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+8238,phải học cách tự tin lên chứ bạn,hy_vong,trung_tinh,0.1961163,0.2587965,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3341,hôm nay bạn đi làm . tiền đâu mà mua,that_vong,trung_tinh,0.11279987,0.25907624,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1160,Lê Phan thèm nha.i đầu nó hk,hy_vong,trung_tinh,0.062150385,0.25944555,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+352,"Hoàng Thị Thủy Mình đồng ý với quan điểm của bạn. Bà Thuận này ""đầu đất"".",gian_du,trung_tinh,0.13102996,0.26005167,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8476,đừng bao giờ đùa kiểu này nghe mọi người,gian_du,trung_tinh,0.107536696,0.2607839,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4280,"Cám ơn thầy, thở đi thôi- là có cả kho tàng :)))<br>3 cách vượt qua bất ổn tâm lý <br>Cách 1: Phương pháp 5 nhìn 4 chạm 3 nghe 2 ngửi 1 nếm <br>Cách 2: Tư duy 3% <br>Cách 3: Phương pháp thở 4 thì",vui,trung_tinh,0.074142955,0.2610672,keep,,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+9721,Cpi đây,lo_au,trung_tinh,0.060954835,0.26271993,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8641,Sắp tới phú quý i chang,hy_vong,trung_tinh,0.13904604,0.26277304,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6815,đi ngoài đường trái phải còn không biết mà vẫn sống thì giỏi đấy nhỉ,gian_du,trung_tinh,0.056838468,0.2630949,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6043,vn là vậy . bn công chăm sóc của tao đổ sông đổ biển .,that_vong,trung_tinh,0.14268439,0.26385745,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9567,ông lại tự phức tạp hóa vấn đề lên thôi,gian_du,trung_tinh,0.07179656,0.26395547,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6295,Phan Hoa Trâm dì ruột của cháu viết c nầy. Thương cle đó,buon,trung_tinh,0.052741278,0.26480514,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8577,đúng là không có nhân tính,gian_du,trung_tinh,0.10938341,0.26503274,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+29,đứng tóp1 thới giới về bàn phím và yang hồ mạng chấp địa cầu này lun cx k bằg,vui,trung_tinh,0.053468276,0.2654192,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8673,vợ chồng nhà này mặc quần áo ngủ đôi à ??,vui,trung_tinh,0.13632926,0.26578844,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9319,Trọng Anh Nguyễn hảo có bị sao ko thế trọng,lo_au,trung_tinh,0.137662,0.26661366,keep,,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+1478,Ngọc Quỳnh xem ik bạn kết HE,vui,trung_tinh,0.13490298,0.26662737,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+6955,từ ngày ra trường là chưa về,that_vong,trung_tinh,0.11164134,0.2669604,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7451,Cháu nó ở nhà ngoan lắm đây. rồi các cháu có thể học làm người bình thường được k,hy_vong,trung_tinh,0.063333295,0.26746202,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1284,chỉ còn lại tro tàn,buon,trung_tinh,0.070685185,0.2684903,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3789,per hôm nào chụp kiểu nhỉ .,hy_vong,trung_tinh,0.15293716,0.26911673,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+225,bốc toàn trúng may mắn lần sau,buon,trung_tinh,0.056105282,0.26932847,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6181,đã trải qua và thấy chuẩn cơm má nấu,vui,trung_tinh,0.1178977,0.26964128,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8109,ko phải do bạn xấu chỉ là do bạn không tự tin mà thôi..,hy_vong,trung_tinh,0.08630547,0.26968563,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6891,Thy'y Chinh có video kh,hy_vong,trung_tinh,0.15406787,0.27056837,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1494,"<b>Ngủ</b> và <b>thức</b> là 2 từ trái nghĩa, vậy tại sao <b>ngủ dậy</b> và <b>thức dậy</b> lại là 2 từ đồng nghĩa? =)))",vui,trung_tinh,0.12031702,0.27104855,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5371,có tiền mua cả cây nhỉ,hy_vong,trung_tinh,0.16011468,0.2722658,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+728,thành phần nào cũng có ăn hiếp con gái thua cả súc sinh,gian_du,trung_tinh,0.061147,0.27248245,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1905,Nhiều thế? Cấp số nhân thì không biết sẽ như thế nào?,lo_au,trung_tinh,0.08843487,0.27381766,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+4898,per viêm màn túi cấp nghiêm trọng,lo_au,trung_tinh,0.09883407,0.2741608,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6895,Ngọc Huyền ng ta giục oy kìa lấy thôi,gian_du,trung_tinh,0.16544701,0.27461708,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7316,"Mấy chn này trên app là bình thường bà ui, lần sau thấy ngta ko rep thì tự hiểu đc rồi",gian_du,trung_tinh,0.08874544,0.27572364,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+703,per ngồi ôm bụng cười và liên tưởng đến nhiều nhân vật,vui,trung_tinh,0.07767891,0.27619174,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+10093,Đăng Hoàng cậu nhà mình dạo ni nói hay hè,vui,trung_tinh,0.10458807,0.27634603,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+720,thực ra là ko biết mở lời ntn,lo_au,trung_tinh,0.08739078,0.27697456,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+3196,tôi từng được sống . nhưng đấy là truyện của năm ngoái rồi,that_vong,trung_tinh,0.19273293,0.27760366,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9263,chưa bao giờ b đến đích là gì cả,that_vong,trung_tinh,0.1657688,0.27807307,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6824,Trần Thao hở ra chỗ nào ?,gian_du,trung_tinh,0.18083085,0.27835885,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4868,Xuân Nghĩa xem phim Hàn Quốc và phim Mỹ quá 180 phút.,gian_du,trung_tinh,0.07005098,0.27837133,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8938,sau này nhất định phải nói chuyện lịch sự không phải một người đọc mà là mọi người cùng đọc,lo_au,trung_tinh,0.05814731,0.2785892,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5007,"mới đầu mày sẽ thấy vui , từ từ nó quậy cho mày ????",gian_du,trung_tinh,0.13141407,0.27889162,keep,,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+387,được đấy tao thích,vui,trung_tinh,0.13901597,0.27928752,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3564,đường của nhà nước co phải nhà cụ đâu mà kêu ca,gian_du,trung_tinh,0.15934594,0.2800163,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+937,Gia Bảo coi đi ck,hy_vong,trung_tinh,0.15868606,0.28005174,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+762,Phan Thị Thu Ngân kkk ko chạy đi mô đc,vui,trung_tinh,0.070087366,0.28024286,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9584,"nhìn là biết sapa rồi , thế cũng đố",that_vong,trung_tinh,0.10339749,0.2810811,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8785,"công trình 850 năm tuổi , xây dựng 100 năm mới hoàn thành chỉ còn là đống cháy sắt vụn .",that_vong,trung_tinh,0.1325216,0.28220665,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+113,có 5tr thôi à,that_vong,trung_tinh,0.116629936,0.28274614,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+733,Xám lộn,gian_du,trung_tinh,0.05067347,0.2830631,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+778,Gặp đúng người sẽ nói chuyện rất nhìu,vui,trung_tinh,0.099388,0.2838725,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2716,Chỉnh sửa ảnh Free bọn nhà báo thôi,gian_du,trung_tinh,0.09266837,0.284633,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1841,lúc ngoại còn sống cũng hay xin ngoại 10k 2 chục gì đó,buon,trung_tinh,0.0963697,0.28498316,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1549,nó lợi dụng ở 1 khía cạnh nào đó mà thôi,gian_du,trung_tinh,0.0744511,0.28617454,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5559,người ta có bạn bè nhìn vui thật,buon,trung_tinh,0.055838946,0.28673202,keep,,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+8095,Phim hay nha bn,vui,trung_tinh,0.14663818,0.2882501,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+815,Le Tuan ko nhớ thì sẽ vài bé nữa như thế,lo_au,trung_tinh,0.057190772,0.28893524,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8483,nhưng liệu như vậy sẽ dễ dàng để người khác xen vào không,lo_au,trung_tinh,0.090652026,0.28895557,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+9539,4 năm tìm hiểu kh biết đánh lần nào chưa,that_vong,trung_tinh,0.1660569,0.2901008,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1659,nhói lòng lớp tôi,that_vong,trung_tinh,0.09371806,0.2909775,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2124,co khi kh giám ra đường☺️,lo_au,trung_tinh,0.07338393,0.29121763,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1401,Cam có ba que như chú không,gian_du,trung_tinh,0.102487974,0.29127344,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9055,Sắp có vụ vòng cẩm thạch v2,vui,trung_tinh,0.058145236,0.29244763,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5803,chỉ có trong truyền thuyết . mà khái niệm truyền thuyết trong ngữ văn lớp 6 là không có thật,that_vong,trung_tinh,0.1431929,0.29254472,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9473,93 chưa ổn định,lo_au,trung_tinh,0.108660996,0.2929099,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3926,trời ơi tháng 6 tôi về nước bạn có liên hệ với tôi được không bạn bạn ơi,hy_vong,trung_tinh,0.20617633,0.2932127,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3103,Cài đặt chế độ riêng tư đi bạn,hy_vong,trung_tinh,0.17792863,0.2933904,change,trung_tinh,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2792,Đang bế tắc thật,that_vong,trung_tinh,0.067033336,0.29447392,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5725,Cách tốt nhất là làm việc để tiến lên,hy_vong,trung_tinh,0.10694193,0.2946426,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+9359,Không biết bé giờ sao rồi,buon,trung_tinh,0.09862175,0.29503918,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6066,Quách Thanh Thủy Vậy sao kêu thời nay khó? Thời xưa thì dễ à?,gian_du,trung_tinh,0.18008828,0.29508895,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+10072,Như Ýy thiên linh cái,hy_vong,trung_tinh,0.15487728,0.29528415,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+48,Quốc gia chông covid tốt nhất thế giới,vui,trung_tinh,0.0545418,0.29601717,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+8757,Cha ông ta đi mở cõi đỉnh thật,vui,trung_tinh,0.11377205,0.2960221,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+173,per đừng có mà thân thiết với tôi,gian_du,trung_tinh,0.07380109,0.2968362,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4375,Mấu chốt để thay đổi từ trang thái tiêu cực sang tích cực nằm ở cách kiểm soát suy nghĩ của chính mình.,hy_vong,trung_tinh,0.1314396,0.29688644,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8926,1 đế chế tự vẽ sự thật thì nó chưa được 1/10,gian_du,trung_tinh,0.057038866,0.29730186,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3068,gia đình có nhưng tình yêu không thì sao,that_vong,trung_tinh,0.14392588,0.29771245,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8375,Vũ Đại Hải vào hóng hớt đường phố mà xem ai sai nhé rồi bênh,gian_du,trung_tinh,0.059868887,0.29801893,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5696,"Kẻ Mộng Mơ coi phim này chưa, thấy hay lắm",vui,trung_tinh,0.16990042,0.2981281,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9091,Ván 3 đanhs 1 hồi thua luôn,that_vong,trung_tinh,0.15999496,0.29817638,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7765,các bác có thấy ko báo cáo năm nào cũng GDP tăng trưởng đó,gian_du,trung_tinh,0.16034526,0.2982856,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8845,Đức Trần bạn không mệt kh có nghĩa là ngkhac cũng vậy,gian_du,trung_tinh,0.13310397,0.29840425,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+94,per mới bắt đầu tuần thánh mà chúa ơii,vui,trung_tinh,0.18866207,0.29876268,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7659,Dương An hề gớm hơn ma,gian_du,trung_tinh,0.12702012,0.2991088,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1328,Xuân Nghĩa xem mấy phim ngta rạch chỗ ngực đk? rạch xong còn cắm cái ống vào chỗ rạch.,gian_du,trung_tinh,0.1495731,0.29962113,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2828,cậu quên lời hứa của chúng ta rồi sao,gian_du,trung_tinh,0.094608046,0.29972082,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9877,per ta nguyện nằm im,hy_vong,trung_tinh,0.06722999,0.3006791,change,that_vong,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+6662,trời đánh tránh miếng ăn,that_vong,trung_tinh,0.14224674,0.3008654,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+10099,mấy bạn làm s hiểu dc cgiac của chúng tôi chứ?,that_vong,trung_tinh,0.13100798,0.30093363,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3036,Bỏ phim từ lúc đó luôn,that_vong,trung_tinh,0.121957086,0.30169827,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+111,Nói là phục hồi sau chiến tranh thì đối với t chỉ có Việt Nam là nhanh nhất TG thế thôi,vui,trung_tinh,0.088982046,0.30179238,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+325,Lê Hồng Nhung haloween cho hoá trang xuống hòm,hy_vong,trung_tinh,0.13069378,0.30186176,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2564,Nguyen thế mà xe xếp hàng để lên bà nà ấy bác,gian_du,trung_tinh,0.16230553,0.30202073,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7801,"Trần Bắc em 92 cũng vẫn học lớp lá, lớn hơn chút thì mới được học nhà xây",that_vong,trung_tinh,0.15724605,0.3020494,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8503,"muốn tố cáo phòng khám, thì liên hệ ai vậy mọi người",gian_du,trung_tinh,0.12005111,0.3022927,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+10057,khi nào tao thấy thích . mà thích rồi chưa có người thích cùng .,that_vong,trung_tinh,0.17044063,0.30263788,keep,,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+1756,"Thanh Kim Huyền hạn chế cho nấm ăn thạch chị ơi, cho ăn thì mớm nhỏ chứ k để tự ăn đc",lo_au,trung_tinh,0.06733943,0.30329794,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+1882,Chắc các cháu uống nhầm thuốc rồi,lo_au,trung_tinh,0.08564705,0.30371052,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7489,Ruby Duong giờ nói sao giờ,gian_du,trung_tinh,0.13222805,0.3042447,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3855,Thời mạt pháp,that_vong,trung_tinh,0.10799031,0.30511525,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9689,thật là một sự mỉa mai,that_vong,trung_tinh,0.08526715,0.30520517,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2939,Hoài Chinh cùg nhau xem đyê,vui,trung_tinh,0.0801788,0.30529976,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2979,"Scarlett Lovemình nghe nói tư bản ngày càng thâm nhập sâu vào vn qua các cuộc thi hoa hậu đc tổ chức liên tục gần đây, và điều này lâu dài sẽ ảnh hưởng tiêu cực đến vn, điều này có đúng không bạn?",lo_au,trung_tinh,0.062476706,0.30653274,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+216,em thấy nó đúng đấy chứ,vui,trung_tinh,0.14896129,0.30665815,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8850,🇻🇳🇻🇳🇻🇳🇻🇳Việt Nam muôn năm,vui,trung_tinh,0.16123617,0.30815682,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9872,con gái không phải là người tham tiền tham trai đẹp tham này nọ đâu nhé ... chẳng qua họ cần tìm chỗ dựa thôi .,gian_du,trung_tinh,0.15345837,0.30865633,keep,,"Đây là lời khuyên hoặc nhận định chung, phù hợp trung_tinh."
+6362,đeo khẩu trang +100 tự tin,hy_vong,trung_tinh,0.18302923,0.30866462,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3258,thật ra là nó muốn kiếm em gái anh trai mưa đấy,vui,trung_tinh,0.14200662,0.30892727,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+9414,gặp tao thì tao khinh,gian_du,trung_tinh,0.07516308,0.30910245,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4518,lại là câu chuyện 1 chút bệnh thành tích của phụ huynh,that_vong,trung_tinh,0.16234101,0.3096408,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1145,vô địch awc 2019 nx,vui,trung_tinh,0.09092155,0.31081307,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1013,vừa đây về đông kinh hồn càng về đêm càng đông,lo_au,trung_tinh,0.15399116,0.31099617,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+369,làm đéo gì có ai nói chuyện thân thiết với tao đâu mà,gian_du,trung_tinh,0.15504405,0.31126857,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+712,Ko có ragnar sao,that_vong,trung_tinh,0.11679227,0.31184798,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7982,có lẽ vậy là tốt nhất,hy_vong,trung_tinh,0.0877415,0.31203184,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7018,Phương Thảo ơ ngta có nói địa chỉ đâu =))) ông con trai ở hp thì đúng rồi còn gì,vui,trung_tinh,0.10172255,0.31203586,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8748,tao còn phải đợi 3 tháng nữa là đủ 1 gia đình nhỏ rồi,hy_vong,trung_tinh,0.13356437,0.31277213,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3504,nói câu trước đá câu sau vẫn là sai bét đúng không cả nhà,that_vong,trung_tinh,0.12164018,0.31296918,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+3836,Hieu Dao biet truoc r chu,that_vong,trung_tinh,0.10761353,0.31333768,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2504,vợ chồng đã hiểu và sống tốt . thì với tôi ngày nào cũng là ngày tao / y .,hy_vong,trung_tinh,0.087299965,0.31401724,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9031,đáng nhẽ nên làm việc này từ sớm . chứ hàn quốc họ làm từ lâu rồi ạ,that_vong,trung_tinh,0.14076449,0.31412613,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5435,Hồng Phạm cuộc đời toàn cứt vs đái ko vậy,gian_du,trung_tinh,0.17993331,0.31446883,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2989,"gắng , nhanh khỏi bệnh rồi về bên anh",hy_vong,trung_tinh,0.14685954,0.31449315,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+324,Hằng Nhi làm gì đc nó mà tới công chuyện,gian_du,trung_tinh,0.19239011,0.3147018,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3506,Đức Nam Hà bố cho quần vàng đi coi i,hy_vong,trung_tinh,0.1777256,0.3147449,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3055,2 tên sủa giống nhau đêm đêm thì rủ nhau hú ??,gian_du,trung_tinh,0.07939184,0.31496787,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1188,Đi xem chug nè,hy_vong,trung_tinh,0.17361902,0.31573656,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8794,một buổi 8 con nhiêu ghê,gian_du,trung_tinh,0.06884058,0.31581253,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2049,Phan Thế Anh chơi đồ thì phải chết thôi chứ seo,that_vong,trung_tinh,0.087414496,0.31609118,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8257,Hồ Nguyễn Thông bất hiếu là tội lớn nhất của đời người đó,gian_du,trung_tinh,0.12282517,0.31691474,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9403,per cấm dừng đỗ đâu cụ thớt ???,gian_du,trung_tinh,0.2141873,0.31711787,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3042,đây chính là lý do tao giảm cân toàn thất bại,that_vong,trung_tinh,0.20038193,0.31809866,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4115,Dung Phung gái có công thì chồng khg phụ Yên. Tâm. Đi.,hy_vong,trung_tinh,0.13940421,0.31832725,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8046,Sa Rang bây giờ mới xin thì muộn rồi. Xin cho con thì được,that_vong,trung_tinh,0.15097323,0.3188687,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+710,Tiền mà ra,that_vong,trung_tinh,0.11899664,0.31900877,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4270,Theo điều ABC BLHS bạn có thể kiện dám lấy hình ảnh riêng tư phát tân trên mạng,gian_du,trung_tinh,0.07135725,0.31924453,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8710,Lễ Trần á lại cay,gian_du,trung_tinh,0.19901246,0.31934184,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2346,đi chơi còn bỏ quên cả não ấy,gian_du,trung_tinh,0.10085619,0.3200238,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7026,@ladycarecoin Đọc sách không thôi sẽ không phải là lối thoát. Áp dụng hành động sửa chữa những kiến thức từ sách mới thực sự là lối thoát,hy_vong,trung_tinh,0.18353403,0.32046375,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+460,t k có bạn👍,buon,trung_tinh,0.05764033,0.3205962,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8858,thật ra nhiều lúc bị bố mẹ chửi không hiểu vì lí do gì và những câu chửi ấy có những từ không chấp nhận nổi,gian_du,trung_tinh,0.07195636,0.320835,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7543,chẳng là cái gì cả,gian_du,trung_tinh,0.11601869,0.320948,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3519,Nguyễn Tuấn Kiệt ô là đọc ko kỹ rồi. Ở các điểm sạc của vin nó chỉ được sạc nhanh chứ k sạc được loại sạc chậm 11kw. Còn muốn sạc ở nhà thì mua riêng dây sạc khác giá từ 4-6tr là dùng bt điện lưới ở nhà chứ k cần 3 pha luôn,that_vong,trung_tinh,0.15336446,0.32166523,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4761,per bữa nào làm thử mày,vui,trung_tinh,0.12926972,0.3224855,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5891,phải rọ mõm chủ mới đúng,gian_du,trung_tinh,0.19492279,0.32265207,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7728,Vấn đề kỹ năng,gian_du,trung_tinh,0.14610466,0.32288426,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6484,"bạn bè nói chuyện cũng chụp post facebook , vui không ?",gian_du,trung_tinh,0.08676695,0.32341337,keep,,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+9094,tận cùng của tan vỡ ah có biết là gì không ?,that_vong,trung_tinh,0.18319835,0.32342383,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6530,Trọng Anh Nguyễn làm đơn cho chúng nó đi hết đi a ạ,gian_du,trung_tinh,0.12957166,0.32354778,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9135,Sách hồi đó nó ko hổ lốn như bây giờ,that_vong,trung_tinh,0.16513972,0.32360017,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2222,"A vision có mỗi cái nhà ở Hàng Điếu cho thuê, cũng chỉ đủ ăn qua ngày ý các bạn",that_vong,trung_tinh,0.09721055,0.32424054,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7913,Kim Ngân xem thử hk 🙄,hy_vong,trung_tinh,0.12287985,0.3247638,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3331,mấy vụ giết người chặt xác gần đây ở việt nam toàn là người hiền lành 🤔🤔🤔,lo_au,trung_tinh,0.09558206,0.32534605,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+6207,Lắm thế,lo_au,trung_tinh,0.06906068,0.3254707,remove,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+5594,mình làm ở sài gòn gặp nhiều bạn ở miền ngoài nhưng thích nghe nhất giọng ở phú yên nghe hay hay sau ah có ai vậy không,vui,trung_tinh,0.06967807,0.3258072,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+295,chuẩn không cần chỉnh,vui,trung_tinh,0.14769436,0.32645318,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2179,hứa mà,that_vong,trung_tinh,0.095387176,0.32670254,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+10182,thấy không có gì hấp dẫn,that_vong,trung_tinh,0.18657066,0.32831755,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7377,Thu Thủy m liệu hồn đó,gian_du,trung_tinh,0.19810085,0.32835343,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7909,"Vụ ở Lào 4/10, vụ này ở Việt Nam 6/11. May mắn hơn Lào là 2 phi công Việt Nam vẫn còn sống. Ps: Bangladesh 5/9, Lào 4/10, Việt Nam 6/11. Con số 4,5,6",that_vong,trung_tinh,0.08906099,0.32854426,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5145,1 con ốc cũng có thể gây ra vấn đề về an toàn,lo_au,trung_tinh,0.10752102,0.32920912,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+10183,"Bn nói thì đúng đó , nhưng mình lo .",lo_au,trung_tinh,0.061308715,0.3292688,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5584,thế tao mới quyết tâm tìm ra facebook thật của nó để no hết đường lừa các em mới lớn đó,hy_vong,trung_tinh,0.14628601,0.3298368,change,gian_du,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+7455,Đa phần 1 đi ko trở lại,that_vong,trung_tinh,0.13661967,0.33005965,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6640,Tiến độ dự án đang chậm hơn dự kiến khiến tôi rất băn khoăn về khả năng hoàn thành.,lo_au,trung_tinh,0.08750116,0.3308596,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2748,các em thật là vãi,gian_du,trung_tinh,0.080861524,0.33224183,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7276,qtrong là mày phải có tiền chứ nghèo xem,gian_du,trung_tinh,0.13089338,0.332453,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7940,mấy kiếp tu luyện mà có 5 triệu thôi à ?,that_vong,trung_tinh,0.16619861,0.33343083,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+10246,Đỗ Thanh dạy thằng ck trc,gian_du,trung_tinh,0.21220143,0.33357087,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9867,Hưng Lan có phait ng đâu mà có tính,gian_du,trung_tinh,0.22081716,0.33473238,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2013,nghe có trà sữa là thích rồi,hy_vong,trung_tinh,0.08433745,0.33513838,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7303,ko hiểu sao lương cao thế nhỉ,gian_du,trung_tinh,0.11554252,0.33560738,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2781,bảo ba mẹ dẫn đi bác sĩ ngay đi,lo_au,trung_tinh,0.08039945,0.33571196,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9187,ngửa thấy mùi là đã thấy kinh rồi,gian_du,trung_tinh,0.0633519,0.33635396,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2889,ổn thoi,hy_vong,trung_tinh,0.07617126,0.33642524,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+929,Làm đơn đi,hy_vong,trung_tinh,0.16182607,0.3364442,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+99,Nguyễn Đức Cường chuẩn rồi. Nói hay lắm. Xong rồi thì đi mua 5 nghìn dưa cà về ăn cơm.,vui,trung_tinh,0.06285369,0.3367399,keep,,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+9943,đang họp nhớ gì không nhớ nhớ cái bếp,lo_au,trung_tinh,0.06547379,0.33684456,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+397,cứ nghĩ đến chuyện ra trường thất nghiệp là rén ...,lo_au,trung_tinh,0.1025198,0.33690482,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+10173,A cho e hỏi làm thế nào để chạm đc vào học bổng toàn phần ạ,hy_vong,trung_tinh,0.1970072,0.3375835,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+5930,Trần Thị Thu Trang vch,lo_au,trung_tinh,0.10187776,0.3380952,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9561,dân trí thấp thế thì bao giờ mới phát triển đất nước được,gian_du,trung_tinh,0.06842128,0.33820522,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+4903,Chưa bao giờ chiếm được Việt Nam,vui,trung_tinh,0.19647971,0.33852613,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+5064,per đừng ảo tưởng nhé,gian_du,trung_tinh,0.1463358,0.33887428,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6669,thực ra em mới đang phải là sự lựa chọn chứ không phải là người được lựa chọn đâu .,that_vong,trung_tinh,0.17007436,0.33969378,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6449,vậy đi chục năm cho nhớ đời,gian_du,trung_tinh,0.101811774,0.33994228,keep,,"Nội dung thể hiện rõ buon, không phù hợp nhãn gốc."
+2605,"Thanh Thanh bạn thử tìm hiểu mấy cái chết kinh dị ở nhà máy í, ko ít công nhân chết vì rơi vào cái loại máy xay, máy trộn và vì nó là làm dây chuyền lớn nên máy lớn chứ ko phải máy nhỏ, dễ đi như chơi",lo_au,trung_tinh,0.19736728,0.34045815,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+1029,ho mạnh có thể làm gãy xương sườn cơ à ??,lo_au,trung_tinh,0.14121069,0.34073263,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+5183,quen với quên rồi thì hết đau thôi mà,buon,trung_tinh,0.08323383,0.34086818,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5438,một cái tết nhiều tiền,hy_vong,trung_tinh,0.20483097,0.34088838,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+10165,"cái khó ló cái khôn , yên tâm",hy_vong,trung_tinh,0.12019015,0.34102648,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1710,a ơi..e có quần áo mới lắm.. chị mặc vừa hết đo a..a ở đâu.. có ở khu vực thủ Đức ko ạ,hy_vong,trung_tinh,0.1370489,0.34246588,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+73,Tôn Hoa Sen nên tìm hiểu những trường hợp này cầu mong cho clip này đến tới đó,hy_vong,trung_tinh,0.2599307,0.34302908,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6416,mấy đứa chân ngắn qua sao,lo_au,trung_tinh,0.123608164,0.34322387,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+501,sau này có nhắn tin thì không phải là chào em mà là chào mọi người,that_vong,trung_tinh,0.09446598,0.3432858,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8037,Npp Đèn Chung Huyền chán nhỉ như kiểu phong trào vậy,that_vong,trung_tinh,0.08511793,0.34342432,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1603,Còn người còn của,hy_vong,trung_tinh,0.120064914,0.34432176,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4462,1 lần thôi cũng đủ xao xuyến anh rồi,hy_vong,trung_tinh,0.21808043,0.34489942,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2985,là khi lạc giữa 1 biển người hôm khai giảng nhưng vẫn nhìn thấy người đó rõ nhất,vui,trung_tinh,0.06257296,0.34557545,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9726,Công Đạt a bay vào Bình Dương xly vụ này đi a .,hy_vong,trung_tinh,0.21245545,0.34561223,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8320,là chọn sai người ☺️,buon,trung_tinh,0.11488408,0.34583488,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5014,thôi nhà đang yên ổn,that_vong,trung_tinh,0.1502368,0.34609786,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+85,tan tành rồi .,that_vong,trung_tinh,0.20203757,0.34680945,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+137,mất tiền khôn cũng đáng mà .,that_vong,trung_tinh,0.15440843,0.3468275,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8336,Đánh mất giá trị của bản thân,buon,trung_tinh,0.08183217,0.3472945,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6482,Không đi chơi nhiều hơn ở cấp 3,buon,trung_tinh,0.16678384,0.3474489,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1789,Phong ba bão táp,lo_au,trung_tinh,0.090910606,0.34752384,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4106,Luong Nguyen để công khai đi ạ,hy_vong,trung_tinh,0.24814497,0.34799802,change,trung_tinh,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+1414,Thuỳ Dung tán thành. 2 thằng nhóc này nhìn có vẻ ngông lắm ba gai,gian_du,trung_tinh,0.07978564,0.34854987,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3876,Lên vụ ở Vĩnh Long đi ad,hy_vong,trung_tinh,0.20589738,0.34889364,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9624,Mộc Linh Tây mẹ không cho nuôi mèo bà ơi,that_vong,trung_tinh,0.16093358,0.3489887,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6611,Great,vui,trung_tinh,0.13356055,0.349361,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2395,Sao các em không nói gì đi,gian_du,trung_tinh,0.11969248,0.34970915,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9832,tao cũng sắp bị đuổi ra khỏi nhà roi,that_vong,trung_tinh,0.17721981,0.34985095,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9009,Nguyễn Ngọc Annh kphai mỗi tui đâu nka,that_vong,trung_tinh,0.19733445,0.34989008,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9040,Bui My Duyen ko có clip hả ta,hy_vong,trung_tinh,0.077146776,0.3509663,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5155,Cho tên nhà xe lên luôn đi,hy_vong,trung_tinh,0.10929733,0.3510831,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7371,xem ra giá cả và chất lượng mà không oke thì không ổn ...,gian_du,trung_tinh,0.050456855,0.35172558,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6777,LêThị VânAnh về a gt ny cái,hy_vong,trung_tinh,0.19265266,0.35214344,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1766,kéo cái áo chấn động tam giới,vui,trung_tinh,0.20015101,0.35226527,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+404,"T chọn sai, nhưng bây giờ t làm cho nó đúng",hy_vong,trung_tinh,0.17503972,0.35250264,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+385,thế chân ngắn như tao thì phải làm sao với cái cầu,that_vong,trung_tinh,0.19357423,0.352512,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6007,t nghĩ thợ chụp đéo có tâm bằng thợ make đăng và thợ photoshop đâu,that_vong,trung_tinh,0.13680087,0.35271594,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1185,"sản phẩm tốt đấy , có tính ứng dụng cao",vui,trung_tinh,0.06690595,0.35304886,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6796,93 thật sự gian nan,that_vong,trung_tinh,0.13490754,0.3530861,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2653,điên,gian_du,trung_tinh,0.08676645,0.35338748,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8011,Đưa bộ mặt của vc chủ lên luon,gian_du,trung_tinh,0.12777367,0.35369277,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1915,Địa chỉ chỗ làm đi ad đến lấy tiền công lại nhé,hy_vong,trung_tinh,0.26022342,0.3543961,change,trung_tinh,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+6868,ng dân biết phải làm sao bệnh chồng bệnh,that_vong,trung_tinh,0.17547818,0.3545367,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2511,Đợi chết mới truy tố hả gì,gian_du,trung_tinh,0.13413666,0.35454914,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1959,có những người không có ý thức bỏ quần áo rách hoặc mặc rồi để vào tủ để đỡ phải đi vứt ...,gian_du,trung_tinh,0.1727346,0.35478455,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7263,An Tuấn Hoàng 10đ không có nhưng,that_vong,trung_tinh,0.1570514,0.35499057,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8486,"yep . chính tao . đi vệ sinh thôi cũng phải đảo qua , mà giờ thì người ta sắp đi lấy chồng rồi",that_vong,trung_tinh,0.10968354,0.3555082,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+180,Võ Quỳnh Bé Loan đi xem k 2 em,hy_vong,trung_tinh,0.14018889,0.35555452,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+272,nghe mát lòng mát gan thế ????,vui,trung_tinh,0.07622476,0.35559905,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2261,Thế giới còn bảo việc lớn lao đang chờ bạn.,hy_vong,trung_tinh,0.0867832,0.35853013,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2371,bình yên thật,vui,trung_tinh,0.2498341,0.35969177,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9317,Hong Anh đi xem,hy_vong,trung_tinh,0.28058207,0.36019704,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7759,Mai Mai nhiều lúc nghĩ thế mà làm ko được,that_vong,trung_tinh,0.16795975,0.3603328,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2943,"per hay đó bro , trừ điểm bro chưa bao ăn - 10",gian_du,trung_tinh,0.1711209,0.36046866,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5986,Huu Tinh Tran ké với,hy_vong,trung_tinh,0.15300737,0.36089355,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9298,chưa ai chịu được,gian_du,trung_tinh,0.0654534,0.3609997,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8112,Điện Thọai Hoàng Thông xem thêm clip đi rồi phán. Dễ bị dắt mũi quá,gian_du,trung_tinh,0.18356471,0.36126676,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9395,Vũ Kim Anh mất mẹ tâm lý (,buon,trung_tinh,0.05006317,0.36140615,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9452,"Vinh Xuân Hoàng xin ngài,please",hy_vong,trung_tinh,0.053206265,0.36171824,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3687,Đang 30t lun. 94 lận đận đủ thứ,that_vong,trung_tinh,0.17110161,0.36288914,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4343,Cuộc sống là một con đường với nhiều nẻo đường người thì chọn theo bản đồ mà người trước đưa người thì dùng kinh của bản thân để tìm ra con đường riêng nhưng khi chọn con đường nào chỉ cần hạnh phúc,hy_vong,trung_tinh,0.17398961,0.36321276,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5112,Việc quản lý tài chính cá nhân trong thời kỳ lạm phát đang là một bài toán khó khiến tôi phải suy nghĩ nhiều.,lo_au,trung_tinh,0.061019536,0.36363134,keep,,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+6654,thêm cái nữa là VN đứng thứ 2 thế giới trong việc phòng dịch,hy_vong,trung_tinh,0.1871119,0.36380473,change,vui,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+7168,Nguyễn Hoàng Giang đúng kiểu thiếu hiểu biết nhưng lại thích thể hiện,gian_du,trung_tinh,0.22826472,0.36386865,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+10149,đỗ chỗ này hay bị mưa gạch lắm,lo_au,trung_tinh,0.1404856,0.36414027,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+652,Ai bày cho Cháu câu nói giống người thế??,gian_du,trung_tinh,0.16922086,0.36471862,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7672,Lòng ng thật khốn nạn.,that_vong,trung_tinh,0.1333843,0.36494386,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2193,Inspirational,hy_vong,trung_tinh,0.1899974,0.36509693,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3822,14 / 2 năm ngoái tao mọc sừng . nên 14 / 2 năm nay tao quyết định cưa sừng,buon,trung_tinh,0.050973866,0.36526743,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9716,súc vật là có thật .,gian_du,trung_tinh,0.14773338,0.36599314,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2791,Gd suy đồi...!,gian_du,trung_tinh,0.2326323,0.36717224,change,that_vong,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5187,Có nên truy cứu hình sự với phụ huynh của những đứa này ?,gian_du,trung_tinh,0.21335049,0.36744982,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6063,gửi đứa nào chưa có người yêu,hy_vong,trung_tinh,0.108366884,0.36756146,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5679,Nhà dột từ nóc. Đây là những dấu hiệu sụp đổ của một quốc gia,lo_au,trung_tinh,0.08449094,0.36782554,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+296,"Xong tao rồi, có lần còn ngồi ghế sau cho con bú",lo_au,trung_tinh,0.069656484,0.36802167,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+1601,chủ em này không phải người nữa rồi,gian_du,trung_tinh,0.21543333,0.3680356,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7269,Trời đánh,that_vong,trung_tinh,0.1147266,0.3684479,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6939,per đã thích phá game còn thích hổ báo,gian_du,trung_tinh,0.17571981,0.36934015,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4227,@云英☁️🛴ồn,gian_du,trung_tinh,0.09325846,0.3700148,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3851,Chẳng khi nào là đường 1 chiều cả. Muốn thay đổi thì ở tuổi nào cũng có thể rẽ được mà,hy_vong,trung_tinh,0.18094717,0.37023613,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3556,Ngọt ngào đến mấy cũng tan thành mây,that_vong,trung_tinh,0.18865101,0.37024936,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+262,"Không có nhan sắc, nhưng bạn biết bạn không sai!",vui,trung_tinh,0.123680435,0.3704558,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+7533,vậy 27 tuổi sai còn làm lại được không,lo_au,trung_tinh,0.051998112,0.3709557,change,hy_vong,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+3736,@ivankaquynh Nướng lên nữa mới thấy cái cảnh,vui,trung_tinh,0.16784681,0.37128523,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5054,"đây là tao khi bảo "" tao biết đường mà , tin tao ."" 🙂",hy_vong,trung_tinh,0.05768575,0.3718119,change,vui,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+7519,Cho hỏi sau này ra tòa án thằng kia có bồi thường thiệt hại cho nhà nghỉ ko ạ.,that_vong,trung_tinh,0.16808006,0.37204003,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7800,Trần Nguyên coi nèeeee. Đi hoang sơ thích hơn,hy_vong,trung_tinh,0.1576072,0.37219507,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6342,ưới gì honey của mình sau này cũng thế,hy_vong,trung_tinh,0.14705561,0.37336552,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+9833,Khoan khoan c nghe e giải thích,lo_au,trung_tinh,0.1215787,0.37406993,keep,,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+7843,Tương tác qua lại nhé XE HAY,hy_vong,trung_tinh,0.29584873,0.37425095,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3257,"Khôn mấy chục năm, dại trong vài giây. Chúc mừng em là ứng viên sáng giá gia nhập CLB Juve (áo sọc xanh trắng).",gian_du,trung_tinh,0.05710819,0.37441808,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+972,chính những người như thế họ rất cẩn trọng khi bật xi nhan đấy,lo_au,trung_tinh,0.10894474,0.3745404,change,gian_du,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+2191,phim này thật ra hay nhưng không có tính thực tế . không hay bằng truyện .,that_vong,trung_tinh,0.17549686,0.3751852,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9839,Ai có clip không ạ,hy_vong,trung_tinh,0.23753363,0.3751921,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5452,Nguyễn Sin a yên tâm đi đi e ỡ nhà e kiếm thằg khác ném đá tiếp,gian_du,trung_tinh,0.096475266,0.37524143,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1228,Kỉ niệm khó quên! Trân trọng nhé bạn,vui,trung_tinh,0.061259698,0.3756094,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9717,cần xem cái kết của bọn này,hy_vong,trung_tinh,0.21495257,0.37625307,keep,,"Đây là lời khuyên hoặc nhận định chung, phù hợp trung_tinh."
+6485,thói ích kỷ,gian_du,trung_tinh,0.1474341,0.37668067,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3849,Ai thích vẽ chân dung thì ib m nha,hy_vong,trung_tinh,0.18246461,0.37692457,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9312,@Chấp nhận là lời tôi muốn nghe,hy_vong,trung_tinh,0.18751033,0.37778085,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6055,tao mà nhậu xong đi cái đường này xác định,lo_au,trung_tinh,0.051437207,0.37800705,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7471,"anh biết em có nhiều chuyện , nhưng việc trước mắt là em nộp phạt đã , nếu không xe em sẽ bị thu vào đồn",that_vong,trung_tinh,0.17202576,0.3780604,change,lo_au,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+5174,chả có gì vui,that_vong,trung_tinh,0.118059725,0.378576,keep,,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+8600,tu hao quoc gia hinh chu S,vui,trung_tinh,0.084435016,0.37879306,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4649,chưa chi đã để thua từ hình ảnh này . thua,that_vong,trung_tinh,0.15373741,0.3799536,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7069,căn bản là họ không đáng cho mình trân trọng thôi . per,gian_du,trung_tinh,0.160761,0.38007224,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1784,tôi làm trades . lương tôi không có .. chỉ có thu nhập thôi có tính là cao nhất việt nam không ??? tháng tôi kiếm từ 3000 - 5000,hy_vong,trung_tinh,0.08847881,0.3801908,change,vui,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+1313,biết giả vẫn phải tạo,that_vong,trung_tinh,0.18716626,0.38103622,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4565,"Xuân Nghĩa chắc ý bạn là lấy con dao rạch 1 phát r cắm ống hút và tạo đường thở ạ. Mẹ là bs nhưng chuyên khoa nào, trong phim khác thực tế, lý thuyết khác thực hành. Đứng trong cương vị ng mẹ lúc đó đã làm hết khả năng của một ng mẹ một người bác sĩ r bạn ơi",gian_du,trung_tinh,0.096608356,0.38119155,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6783,"rồi , chợt mình tỉnh giấc :) mơ đủ rồi đó",vui,trung_tinh,0.08382101,0.3814471,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3311,nghe ảo ghê nhưng cũng có lý,vui,trung_tinh,0.1054206,0.3820185,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4507,Kẻ thù ngay chính trong ngôi nhà bạn,lo_au,trung_tinh,0.10735589,0.38204542,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+452,thế không đạt được gì à,that_vong,trung_tinh,0.19914402,0.38208672,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1027,Việt Nam Tôi Đó Ngàn Năm Sáng Tươi ❤,hy_vong,trung_tinh,0.21148859,0.38232043,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8129,Nhưng em trong đầu em nó là có nên làm không làm đi nhưng không dám,lo_au,trung_tinh,0.14179239,0.3836073,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6036,và Bác Hồ của chúng ta đc cả thế giới công nhận là vỹ nhân,vui,trung_tinh,0.15662256,0.3841101,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+10197,mai tao cũng đi ship mới được . có bài này áp dụng luôn .,hy_vong,trung_tinh,0.11144377,0.38419113,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9938,đúng☺️,vui,trung_tinh,0.18447463,0.38442805,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7821,làm lại từ đầu,buon,trung_tinh,0.14578107,0.38451797,remove,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+9881,Porsche #1,vui,trung_tinh,0.1997656,0.3847862,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1147,tuổi trẻ tài cao là đây,vui,trung_tinh,0.1554634,0.38487363,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7237,"vui nhất là câu "" lấy ghế ra ngồi nhìn """,vui,trung_tinh,0.21535748,0.38500345,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5660,per trình mày vẫn còn thấp chán,that_vong,trung_tinh,0.22750786,0.38530716,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2628,"chuẩn đó , mà quên chưa có người yêu",that_vong,trung_tinh,0.10647477,0.38536596,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+699,Low Tech tui cũng drop walking dead sau khi Glenn chết.,that_vong,trung_tinh,0.13489586,0.3854434,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+10141,"vẫn là thụ động , làm sao phải chặn đứng hiện tượng rải đinh .",that_vong,trung_tinh,0.1932043,0.38560367,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7458,này hỏi nhà trường thời nay $$$$$ và $$$ chỉ trong mắt bọn họ thôi,gian_du,trung_tinh,0.23705572,0.3860079,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1440,Chúc mấy cô bảo mẫu có chuyến công tác tốt,hy_vong,trung_tinh,0.10934411,0.3871928,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6818,fa đéo thích video này,gian_du,trung_tinh,0.14043696,0.3877518,keep,,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+2750,"Hằng PT uh,thấy hồi đó đi học mà gặp trời mưa thì nội bùn đi học",gian_du,trung_tinh,0.17772235,0.38782567,change,buon,"Nội dung thể hiện rõ buon, không phù hợp nhãn gốc."
+2920,Đặng Đình Đạt m ít văn lại đi,gian_du,trung_tinh,0.23316535,0.38787866,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3823,nấu thì nấu được mà không biết có ăn được hay không thôi,gian_du,trung_tinh,0.14194775,0.3888486,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3224,tôi đoán rằng ông này đã lấy vợ trước khi lên mặt trăng,vui,trung_tinh,0.09093825,0.38893443,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8511,Sân khấu hề Paris 2024 Và trò hề phương tây,gian_du,trung_tinh,0.13505588,0.38913706,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5607,tao thích con bé nuốt chuối,hy_vong,trung_tinh,0.15264836,0.38930148,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2623,Điệp Mlô ước đc như bạn,hy_vong,trung_tinh,0.1649634,0.38948482,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4796,@kazuzazi Thì qua 1 đêm nó dồn nén nên mới nhiều tâm sự,buon,trung_tinh,0.12255788,0.38954374,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5113,Phú Quý sẽ là Phú Quốc thứ 2 trong tương lai,hy_vong,trung_tinh,0.19593622,0.38955444,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7831,Ma Xó tk này nhiều vụ lắm rồi,gian_du,trung_tinh,0.25651035,0.3898101,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2993,comment thứ 5.000,vui,trung_tinh,0.23793979,0.38987327,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1249,"cảm thấy thay được thì thay , giáo viên bây giờ thừa nhiều mà",gian_du,trung_tinh,0.1503834,0.39112383,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3886,quan trọng vẫn là cái phải đẹp trai . rồi mới sau đó nữa ... lạ gì các bà,gian_du,trung_tinh,0.16164343,0.39189357,change,vui,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+5678,chỉ khi gặp người rất thân ms nói nhiều đc...,lo_au,trung_tinh,0.11657349,0.39197955,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1457,"Đẹp trai. học giỏi , con nhà giàu có quyền lực....!",hy_vong,trung_tinh,0.09939472,0.39320838,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5969,ko biết có ai nghèo ko nhỉ chứ t ko có bn,buon,trung_tinh,0.107489906,0.39379936,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+10139,"per tiền bạc là phù du , quan trọng là tình nghĩa",hy_vong,trung_tinh,0.25855222,0.39381167,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9022,Điều khiển ra khỏi KDC chỉ là truyền thuyết chứ sự cố kỹ thuật ko bay đc thì điều khiển bằng niềm tin à,that_vong,trung_tinh,0.1815023,0.39426693,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6923,vỡ tan là như thế ấy,that_vong,trung_tinh,0.17946047,0.39450547,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9454,Quốc Phong chuẩn.giàu thì thượng đẳng hơn ng khác à,gian_du,trung_tinh,0.23205791,0.39509082,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+607,sao mình không thấy mình vậy ta ??,that_vong,trung_tinh,0.16679633,0.39527386,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+7415,Muốn gời cho chi bằng cach nao e,hy_vong,trung_tinh,0.19182144,0.3960156,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4652,Mình pass lại nhé,hy_vong,trung_tinh,0.31270394,0.39604145,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6568,thế đéo nào cái hộp bé tý lại đựng được ba cái mũ nhỉ,vui,trung_tinh,0.06349003,0.396452,keep,,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+9968,Nguyen học nhiều để chết hay gì,that_vong,trung_tinh,0.19176355,0.39653426,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3054,No your gf is a redflag,gian_du,trung_tinh,0.052777413,0.3967524,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+5768,"tại cái gậy thôi , còn đâu là vẫn đẹp",vui,trung_tinh,0.18716516,0.39701,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6528,Biết kiếm đâu một người yêu mình thật sự đây?,hy_vong,trung_tinh,0.15183146,0.39702025,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+7205,loài vật đang dần dần có trí khôn và hành động như một con người còn một số người thì đang tiến hóa ngược,that_vong,trung_tinh,0.097094476,0.3971007,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6,Ai đi xem hk🤨,vui,trung_tinh,0.17433675,0.39797986,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1337,gia đình thì không còn . tình yêu thì chưa có gì chắc chắn .,that_vong,trung_tinh,0.23179314,0.39831346,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+3930,haizzzz đó là 1 câu chuyện khá bùn,buon,trung_tinh,0.13740633,0.39853662,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8169,Giá như …,hy_vong,trung_tinh,0.11633226,0.39911532,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+8567,Nhung Nhung ghê thật chắc phải cả 100 nhát,gian_du,trung_tinh,0.15344486,0.399293,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9350,Đặng Huy tao mua ở quán chứ trộm cắp gì,gian_du,trung_tinh,0.28624317,0.39966357,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5424,Cảm động thật.,vui,trung_tinh,0.20459937,0.4001398,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4253,Hạnh Thông Trần may quá nối lại đc rồi nè ba,vui,trung_tinh,0.14544843,0.40030035,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2271,"chỉ hút sắt, thép. Còn đồng, chì, bạc, nhôm, ...mạ vàng đâu hút.",gian_du,trung_tinh,0.07772003,0.40044874,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+4452,Giang có thể cho ra bài nào nói về cách khéo leo về việc nhận quà từ người khác ko,hy_vong,trung_tinh,0.25531882,0.40096915,keep,,"Đây là lời khuyên hoặc nhận định chung, phù hợp trung_tinh."
+1308,Phan Trí Luận phá tài sản và đã đền cho chủ rạp. Tài sản này của bên cho thuê phông bạt chứ k phải của nhà cô dâu,gian_du,trung_tinh,0.28351587,0.4010901,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4515,hè về chỉ thích ăn cái này .,hy_vong,trung_tinh,0.13664512,0.40237176,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9276,Đợt này thế giới sẽ chuyển trục. Bố cục thế giới lại thay đổi rồi. Chúc mừng Tân Tổng Thống.,hy_vong,trung_tinh,0.19581054,0.40253076,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+4325,"Cách để vượt qua cảm xúc tiêu cực<br>1. Uống 1 ly nước và đi tắm (thay ra gối, đi ngủ)<br>2. Suy nghĩ về nó 1 chút: phân tích nguyên nhân, vv<br>3. Làm 1 cái gì đó (ko nhất thiết phải là việc to tát: rửa chén, lau nhà, vvv)<br>4. Bỏ đi những mối quan hệ độc hại. <br>5. Chịu trách nhiệm cho chính mình <br>Bây giờ mình phải làm gì để đạt được điều đó, v.v chứ ko đổ lỗi.",hy_vong,trung_tinh,0.26672402,0.402708,change,trung_tinh,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc."
+3300,Thằng đó tự tử luôn hã mn,buon,trung_tinh,0.08494223,0.4027369,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6593,chắc phải đi một chuyến thôi :3,hy_vong,trung_tinh,0.18754569,0.40286082,keep,,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc."
+4038,chơi thế không hay nha page dume,gian_du,trung_tinh,0.18316577,0.40375873,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1439,Võ Thị Mỹ Hằng trách nhiều nhất là GV chủ nhiệm kìa. Tại sao ko gọi PH khi thấy bé vắng? Cô có điểm danh ko?,gian_du,trung_tinh,0.259362,0.40429556,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8208,thoáng chốc thành đống sắt vụn,that_vong,trung_tinh,0.12994958,0.4061796,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+718,per c . bị tinh thần đi xem đi 👻,vui,trung_tinh,0.050203066,0.40639672,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6041,thật ko thích bản thân mik,buon,trung_tinh,0.1550371,0.4074983,keep,,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc."
+8504,"em nói z thôi, chứ em cũng rén rồi",lo_au,trung_tinh,0.09922721,0.40819886,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2995,lâu lắm rồi chưa ăn được miếng cơm cháy .,that_vong,trung_tinh,0.27601707,0.408238,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6693,"Việt Nam lại có máy bay rơi, khoa học và kinh tế quyết định cho khoa học kỹ thuật, như thế này thì mạng sống của những người tham gia những chương trình bay sẽ đi về đâu.",that_vong,trung_tinh,0.10627698,0.4083842,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+3764,xấu còn đóng vai mất dạy,gian_du,trung_tinh,0.12768221,0.40856713,keep,,"Nội dung thể hiện rõ buon, không phù hợp nhãn gốc."
+6756,Nguyễn Sin khầy giải quyết chuyện này xong chưa khầy,gian_du,trung_tinh,0.16016784,0.40921658,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1649,Vân Nguyễn có bằng chứng ngoại tình thì tài sản phân chia về ông này hết đấy ạ.,gian_du,trung_tinh,0.27470425,0.409566,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9423,&quot;Bỏ đi những mối quan hệ độc hại&quot; tình bạn 13 năm đó các bạn ạ? Nó làm mình suy nghĩ rất nhiều nhưng cuối cùng mình vẫn chấp nhận buông ... Một khi họ đã k thích k cần hoặc có cái nhìn quá tiêu cực về một vấn đề gì đó thì họ khó nhìn tích cực về sự việc lắm. Xưa mình chỉ nghĩ khi chơi với nhau ng ta có đối xử k tốt ích kỷ với ai cũng đc miễn sao với mình k như v là đc nhưng ...đời đôi khi k như ta tưởng,buon,trung_tinh,0.0851135,0.40991136,keep,,"Đây là lời khuyên hoặc nhận định chung, phù hợp trung_tinh."
+7422,cái gì nó cũng có hạn sử dụng cả 🙂,that_vong,trung_tinh,0.17903915,0.40991703,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9513,cho hết vào trường giáo dưỡng,gian_du,trung_tinh,0.1884786,0.41044703,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5044,"Giám đốc sở giao dục còn tham ô cho đầy túi tham, thì thời gian đâu nghĩ đến các sự nghiệp trồng người nữa anh.",gian_du,trung_tinh,0.18784864,0.41092515,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7587,per tổ đội đánh rắm vào mà xem,gian_du,trung_tinh,0.2612771,0.41121823,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9814,gớm không tưởng,gian_du,trung_tinh,0.09502369,0.41125143,remove,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6238,vẫn ế bền vững,that_vong,trung_tinh,0.19321379,0.4113897,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6206,Bên mĩ thì 1 rưỡi sáng rồi theo g Washington nhưng mong kết quả giữ dc đến khi đếm đến những tấm phiếu muộn cuối cùng dc kiểm,hy_vong,trung_tinh,0.26585108,0.4118337,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8890,thì cứ cho nó đỗ xong bác gọi phường xuống giải quyết cho nó cẩu đi là xong,gian_du,trung_tinh,0.22346711,0.41215754,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+9712,sớm chút nữa có lẽ đã khác rồi đúng không ?,that_vong,trung_tinh,0.23644078,0.4123518,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1358,Haiz họ Lamd Náo loạn<br><br>Mệt q<br><br>Mún YÊn mà K dc<br><br>Hành Ng ốm KHổ sở Lun hxjhduud,gian_du,trung_tinh,0.19620812,0.41247988,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3567,Thât tư hao khi nghe 2 tiêng viêt nam,vui,trung_tinh,0.08936846,0.41325372,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9348,per ghét cái kiểu rõ ràng là chuyện của riêng 2 người vậy mà …,gian_du,trung_tinh,0.20826818,0.41362816,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+8394,"Thôi, ít ra còn may mắn có 1 cuộc sống đẹp, ngoài kia còn nhiều người có 1 miếng bánh ăn còn vui mà",hy_vong,trung_tinh,0.2801015,0.41383323,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+1155,Bạn Muốn Hẹn Hò? ng lớn họ đi xe khách chứ có điên nê làm v,gian_du,trung_tinh,0.33563572,0.41515428,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+6741,Hàn Thị Thu Dịu hihi sao b hay z,vui,trung_tinh,0.31085667,0.41540045,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+6520,Không ai hiểu mình 🥀,buon,trung_tinh,0.10038688,0.4154747,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+9904,Nguyen John Ko bao giờ. Bố là Tổng thống phe cộng hoà thì con ko đồng tính đâu,gian_du,trung_tinh,0.2485329,0.4155487,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+2266,hẳn là phạt 5 triệu luôn,gian_du,trung_tinh,0.24378821,0.41615885,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+568,xem mấy lần rồi vẫn thấy hay,vui,trung_tinh,0.12151835,0.41642195,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+2061,Top4 Châu Á cũng là lần đầu LOL ra mắt tại Á Vận Hội. Mong thể thao điện tử được công nhận và phát triển nhiều hơn.,hy_vong,trung_tinh,0.15240158,0.41684094,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5746,này ai chả muốn haiz,gian_du,trung_tinh,0.07877784,0.41699147,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+3238,"yêu nhau lắm cắn nhau đau , tao thấy dòng chảy tiền kiếp của 2 đứa mày là vậy",buon,trung_tinh,0.08914673,0.41716224,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+5882,per lên lịch hẹn hò nhanh,hy_vong,trung_tinh,0.205365,0.4194523,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1839,"từ không tật nguyền , trở thành tật nguyền để nuôi mấy cái không đáng",gian_du,trung_tinh,0.15019926,0.4210428,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+853,Trương Hạnh Công Dân qua mua hòm ủng hộ cho thực tế chứ chúc không thảo mai quá bạn,gian_du,trung_tinh,0.26762688,0.42164427,keep,,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc."
+7825,chuẩn bị bước sang 31! phải thật vững bước nào các bạn tôi,hy_vong,trung_tinh,0.31553197,0.42346174,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.
+7119,Huyền Ân binh thường mà nhỉ? Mà hình như cái thần thái bạn này là vậy chứ không có vibe dễ thương đâu,gian_du,trung_tinh,0.31442007,0.42373145,keep,,"Nội dung mang tính thông tin hoặc cảm xúc chưa đủ rõ, phù hợp trung_tinh."
+1229,Ờ thì củng khóc théc,lo_au,trung_tinh,0.14856654,0.44621497,keep,,Nội dung thể hiện cảm xúc phù hợp với nhãn gốc.

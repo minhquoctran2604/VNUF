@@ -1,0 +1,23 @@
+id,text_raw,original_label,predicted_label,original_label_probability,label_quality_score,action,ai2_de_xuat,review_note,n_words,my_label,my_note,status
+9936,Trúc Phương Lê kiện thoi,vui,trung_tinh,0.032401983,0.12176564,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc.",5,gian_du,"""Kiện"" (kiện tụng) mang tính đối đầu, đủ tín hiệu",đồng_ý_AI2
+4331,bếp thiiêu chân mày,vui,trung_tinh,0.0370768,0.13893336,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",4,__REMOVE__,"Câu gãy/lỗi chính tả, không rõ nghĩa",REMOVE
+4825,thiếu cà fe,hy_vong,trung_tinh,0.041783433,0.1497626,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",3,__REMOVE__,"Quá cụt, ""thiếu cà fe"" không đủ tín hiệu cảm xúc",REMOVE
+3223,Kiện ccmnđ chứ,hy_vong,trung_tinh,0.039347865,0.32595587,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc.",3,gian_du,"Có từ tục tĩu + ""kiện"" -> rõ giận dữ, đồng ý AI2",đồng_ý_AI2
+3702,và đó đéo phải là tao,buon,trung_tinh,0.045602523,0.32659635,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc.",6,gian_du,"Từ tục + phủ nhận gay gắt -> giận dữ, đồng ý AI2",đồng_ý_AI2
+223,Đứng trước ngã rẽ của,lo_au,trung_tinh,0.036083024,0.3771696,change,hy_vong,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc.",5,__REMOVE__,"Câu bị CẮT CỤT (""đứng trước ngã rẽ của"" ... gì?)",REMOVE
+5413,hôm nay cậu thế nào,hy_vong,trung_tinh,0.09151224,0.1926451,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",5,trung_tinh,Câu hỏi thăm xã giao đơn thuần,nhãn_thứ_3
+5041,Châu Hải Yến chính nó!!,vui,trung_tinh,0.06795206,0.20744216,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",5,vui,"Reo lên nhận ra ai đó ""chính nó!!"" -> hào hứng, giữ gốc",giữ_gốc
+8039,per tiến cử bản thân nào,vui,trung_tinh,0.07677468,0.21215159,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",6,vui,"Giọng đùa/thách thức bạn bè, giữ gốc",giữ_gốc
+88,Kiện đi bạn,hy_vong,trung_tinh,0.12560114,0.21946973,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc.",3,gian_du,"""Kiện đi bạn"" nghiêng xúi giục/bất bình hơn hy vọng",đồng_ý_AI2
+9790,tiến lên(miền nam),hy_vong,trung_tinh,0.12353893,0.22473454,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",3,__REMOVE__,"Câu quá cụt/ám chỉ (có thể trích dẫn bài hát), thiếu ngữ cảnh",REMOVE
+2911,Phía trước toàn là bóng tối,buon,trung_tinh,0.074058555,0.23331752,change,hy_vong,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc.",6,buon,"""Phía trước toàn bóng tối"" = tuyệt vọng rõ, AI2 đọc NGƯỢC hoàn toàn",giữ_gốc
+592,Chang Chang khiếp,lo_au,trung_tinh,0.103619285,0.23606008,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",3,lo_au,"""khiếp"" = phản ứng sợ hãi, giữ gốc",giữ_gốc
+3931,ăn cả thế giới đã,hy_vong,trung_tinh,0.10004117,0.24599186,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",5,hy_vong,"""Ăn cả thế giới"" = tham vọng/khát khao, giữ gốc",giữ_gốc
+9877,per ta nguyện nằm im,hy_vong,trung_tinh,0.06722999,0.3006791,change,gian_du,"Nội dung thể hiện rõ gian_du, không phù hợp nhãn gốc.",5,that_vong,"""Nguyện nằm im"" = buông xuôi/cam chịu, khác cả gốc lẫn AI2",nhãn_thứ_3
+6207,Lắm thế,lo_au,trung_tinh,0.06906068,0.3254707,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",2,__REMOVE__,"""Lắm thế"" quá mơ hồ, không rõ về cái gì",REMOVE
+5438,một cái tết nhiều tiền,hy_vong,trung_tinh,0.20483097,0.34088838,change,that_vong,"Nội dung thể hiện rõ that_vong, không phù hợp nhãn gốc.",5,hy_vong,"Ước mong Tết đủ tiền, giữ gốc",giữ_gốc
+5174,chả có gì vui,that_vong,trung_tinh,0.118059725,0.378576,change,vui,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc.",4,that_vong,"BẪY TỪ ""vui"": ""chả có gì vui"" là PHỦ ĐỊNH, AI2 lại bị lừa lần nữa",giữ_gốc
+7821,làm lại từ đầu,buon,trung_tinh,0.14578107,0.38451797,change,hy_vong,"Nội dung thể hiện rõ hy_vong, không phù hợp nhãn gốc.",4,__REMOVE__,"""Làm lại từ đầu"" 2 nghĩa trái ngược (quyết tâm/cam chịu), không đủ phân biệt",REMOVE
+6818,fa đéo thích video này,gian_du,trung_tinh,0.14043696,0.3877518,change,vui,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc.",5,gian_du,"Từ tục + ""không thích"" -> giận dữ, giữ gốc, AI2 sai",giữ_gốc
+6041,thật ko thích bản thân mik,buon,trung_tinh,0.1550371,0.4074983,change,vui,"Nội dung thể hiện rõ vui, không phù hợp nhãn gốc.",6,buon,"""Không thích bản thân"" = tự ti/buồn rõ, giữ gốc, AI2 sai",giữ_gốc
+3764,xấu còn đóng vai mất dạy,gian_du,trung_tinh,0.12768221,0.40856713,change,buon,"Nội dung thể hiện rõ buon, không phù hợp nhãn gốc.",6,gian_du,"Câu chỉ trích/miệt thị người khác, giữ gốc, AI2 sai",giữ_gốc
