@@ -1,4 +1,4 @@
-1# Kế hoạch xử lý `review_2nd_opinion.csv` (Đã cập nhật)
+# Kế hoạch xử lý `review_2nd_opinion.csv` (Đã cập nhật)
 
 Mày nói đúng, góc nhìn của tao hơi cứng nhắc. Nếu một câu ("thấy bản thân mk ở đây") có thể dùng ở cả video vui lẫn buồn, thì tức là bản thân câu chữ đó **không mang cảm xúc cố định**, đưa về `trung_tinh` là hợp lý nhất để tránh model bị nhiễu.
 Đồng thời, ý tưởng thêm lệnh `remove` cho những câu dọa dẫm trêu đùa/vô nghĩa ("anh chiến oánh cho bây h") là **cực kỳ xuất sắc** để làm sạch rác trong data.
