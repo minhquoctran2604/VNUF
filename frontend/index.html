@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="vi" class="h-full bg-zinc-950">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VNUF Assistant — Trợ lý Cảm xúc</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 */
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow-x: clip;
+    }
+    
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #27272a; border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #3f3f46; }
+
+    @keyframes pulse-wave {
+      0%, 100% { opacity: 0.3; transform: translateY(0); }
+      50% { opacity: 1; transform: translateY(-3px); }
+    }
+    .wave-1 { animation: pulse-wave 1.2s infinite 0s; }
+    .wave-2 { animation: pulse-wave 1.2s infinite 0.2s; }
+    .wave-3 { animation: pulse-wave 1.2s infinite 0.4s; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-100 h-full flex flex-col selection:bg-indigo-500/30 selection:text-indigo-200">
+  
+  <!-- Main Full-Width Container Shell -->
+  <div class="w-full h-full flex flex-col bg-zinc-950">
+
+    <!-- Top Full-Width Header -->
+    <header class="h-16 border-b border-zinc-800/80 bg-zinc-950/90 backdrop-blur-md shrink-0 sticky top-0 z-20">
+      <div class="max-w-5xl mx-auto h-full px-4 sm:px-8 flex items-center justify-between">
+        <div class="flex items-center gap-3.5">
+          <div class="relative flex items-center justify-center">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-500 via-purple-500 to-emerald-400 p-[1.5px] shadow-md shadow-indigo-500/10">
+              <div class="w-full h-full bg-zinc-900 rounded-[10px] flex items-center justify-center text-emerald-400 font-bold text-sm">
+                ✨
+              </div>
+            </div>
+            <span class="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-emerald-500 border-2 border-zinc-950 rounded-full"></span>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <h1 class="font-bold text-zinc-100 text-base tracking-tight">VNUF Trợ Lý Cảm Xúc</h1>
+              <span class="px-2.5 py-0.5 text-[10px] font-bold bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded-full uppercase">v1.0</span>
+            </div>
+            <p class="text-xs text-zinc-400">Lắng nghe thấu hiểu & chẩn đoán tâm trạng</p>
+          </div>
+        </div>
+        
+        <button 
+          onclick="clearChat()" 
+          title="Làm mới cuộc trò chuyện" 
+          class="text-xs text-zinc-400 hover:text-zinc-100 px-3.5 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 transition flex items-center gap-1.5 active:scale-95 shadow-sm"
+        >
+          <svg class="w-3.5 h-3.5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+          <span>Làm mới</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Scrollable Chat Stream (Spacious Max Width) -->
+    <main class="flex-1 overflow-y-auto w-full">
+      <div class="max-w-5xl mx-auto min-h-full px-4 sm:px-8 py-8 flex flex-col justify-end">
+        
+        <!-- Welcome / Empty State Card -->
+        <div id="welcome-state" class="my-auto py-12 text-center space-y-6">
+          <div class="inline-flex p-4 rounded-2xl bg-zinc-900/90 border border-zinc-800 text-indigo-400 shadow-xl shadow-indigo-950/20">
+            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
+          </div>
+          
+          <div class="space-y-2">
+            <h2 class="text-2xl sm:text-3xl font-bold text-zinc-100 tracking-tight">Chào bạn! Hôm nay tâm trạng bạn thế nào?</h2>
+            <p class="text-sm text-zinc-400 max-w-lg mx-auto leading-relaxed">
+              Hãy chia sẻ bất kỳ câu chuyện hay cảm xúc nào của bạn. Trợ lý AI sẽ lắng nghe và đưa ra phản hồi phù hợp.
+            </p>
+          </div>
+
+          <!-- Quick Prompt Buttons Grid -->
+          <div class="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-2xl mx-auto">
+            <button onclick="sendPrompt('Vừa nhận được tin vui công việc sướng rơn! 🎉')" class="text-xs bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 border border-zinc-800 p-4 rounded-2xl transition text-left active:scale-98 shadow-sm group">
+              <span class="font-bold text-sm block text-zinc-100 group-hover:text-indigo-400 transition">🎉 Tin vui công việc</span>
+              <span class="block text-xs text-zinc-400 mt-1">Chia sẻ khoảnh khắc hào hứng & thành công</span>
+            </button>
+            <button onclick="sendPrompt('Thực sự cảm thấy khá lo lắng và áp lực dạo này 😰')" class="text-xs bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 border border-zinc-800 p-4 rounded-2xl transition text-left active:scale-98 shadow-sm group">
+              <span class="font-bold text-sm block text-zinc-100 group-hover:text-indigo-400 transition">😰 Cảm thấy áp lực</span>
+              <span class="block text-xs text-zinc-400 mt-1">Tâm sự khi gặp lo âu, bế tắc & căng thẳng</span>
+            </button>
+            <button onclick="sendPrompt('Tự dưng thấy hụt hẫng và cô đơn giữa đám đông 😔')" class="text-xs bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 border border-zinc-800 p-4 rounded-2xl transition text-left active:scale-98 shadow-sm group">
+              <span class="font-bold text-sm block text-zinc-100 group-hover:text-indigo-400 transition">😔 Hụt hẫng & cô đơn</span>
+              <span class="block text-xs text-zinc-400 mt-1">Giải tỏa nỗi niềm tâm sự giấu kín</span>
+            </button>
+            <button onclick="sendPrompt('Hôm nay là một ngày trôi qua bình thường thôi ☕')" class="text-xs bg-zinc-900/80 hover:bg-zinc-800 text-zinc-200 border border-zinc-800 p-4 rounded-2xl transition text-left active:scale-98 shadow-sm group">
+              <span class="font-bold text-sm block text-zinc-100 group-hover:text-indigo-400 transition">☕ Một ngày bình thường</span>
+              <span class="block text-xs text-zinc-400 mt-1">Trò chuyện nhẹ nhàng thư giãn tâm hồn</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Messages Stream -->
+        <div id="chat" class="space-y-6"></div>
+
+        <!-- Typing Indicator -->
+        <div id="typing-indicator" class="hidden flex items-start gap-3.5 my-4">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-500 to-emerald-400 p-[1.5px] shrink-0 mt-0.5 shadow-sm">
+            <div class="w-full h-full bg-zinc-900 rounded-[9px5] flex items-center justify-center text-emerald-400 text-xs font-bold">✨</div>
+          </div>
+          <div class="bg-zinc-900 border border-zinc-800 rounded-2xl rounded-tl-xs px-5 py-3.5 text-zinc-400 text-xs flex items-center gap-2 shadow-sm">
+            <span>AI đang phân tích cảm xúc & suy nghĩ</span>
+            <span class="inline-flex gap-1 items-center ml-1">
+              <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full wave-1"></span>
+              <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full wave-2"></span>
+              <span class="w-1.5 h-1.5 bg-emerald-400 rounded-full wave-3"></span>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- Bottom Sticky Input Bar (Broad Container) -->
+    <footer class="p-4 sm:p-6 bg-zinc-950/95 border-t border-zinc-800/80 backdrop-blur-md shrink-0">
+      <div class="max-w-5xl mx-auto">
+        <form id="msg-form" class="flex items-center gap-3 bg-zinc-900/90 border border-zinc-800 focus-within:border-indigo-500/80 focus-within:ring-2 focus-within:ring-indigo-500/20 rounded-2xl p-2 transition-all shadow-xl" onsubmit="event.preventDefault(); send();">
+          <label for="user-msg" class="sr-only">Tin nhắn của bạn</label>
+          <input 
+            id="user-msg" 
+            type="text" 
+            placeholder="Nhập tâm sự hoặc cảm xúc của bạn..." 
+            class="flex-1 bg-transparent border-0 px-4 py-3 text-sm text-zinc-100 placeholder:text-zinc-500 focus:outline-none" 
+            autocomplete="off" 
+            required 
+          />
+          <button 
+            type="submit" 
+            class="bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl px-6 py-3 text-sm transition-all flex items-center gap-2 shadow-lg shadow-indigo-600/30 active:scale-95 shrink-0"
+          >
+            <span>Gửi</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" /></svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    const chat = document.getElementById('chat');
+    const welcomeState = document.getElementById('welcome-state');
+    const typingIndicator = document.getElementById('typing-indicator');
+
+    // Emotion Dictionary for badges & styles
+    const EMOTION_MAP = {
+      vui: { label: 'Vui vẻ', emoji: '😊', style: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' },
+      buon: { label: 'Buồn bã', emoji: '😔', style: 'bg-sky-500/10 text-sky-400 border-sky-500/20' },
+      lo_au: { label: 'Lo âu', emoji: '😰', style: 'bg-amber-500/10 text-amber-400 border-amber-500/20' },
+      gian_du: { label: 'Tức giận', emoji: '😡', style: 'bg-rose-500/10 text-rose-400 border-rose-500/20' },
+      trung_tinh: { label: 'Trung tính', emoji: '😐', style: 'bg-zinc-500/10 text-zinc-400 border-zinc-500/20' },
+      hy_vong: { label: 'Hy vọng', emoji: '🌟', style: 'bg-teal-500/10 text-teal-300 border-teal-500/20' },
+      that_vong: { label: 'Thất vọng', emoji: '😞', style: 'bg-purple-500/10 text-purple-400 border-purple-500/20' }
+    };
+
+    function sendPrompt(text) {
+      document.getElementById('user-msg').value = text;
+      send();
+    }
+
+    function clearChat() {
+      chat.innerHTML = '';
+      welcomeState.classList.remove('hidden');
+    }
+
+    async function send() {
+      const input = document.getElementById('user-msg');
+      const text = input.value.trim();
+      if (!text) return;
+
+      // Hide welcome state on first message
+      if (!welcomeState.classList.contains('hidden')) {
+        welcomeState.classList.add('hidden');
+      }
+
+      // 1. Render USER Message (RIGHT ALIGNED - PERFECT BUBBLE SHAPE)
+      const userHtml = `
+        <div class="flex justify-end my-4">
+          <div class="flex flex-col items-end max-w-[75%] sm:max-w-[65%]">
+            <span class="text-[11px] text-zinc-500 font-medium mb-1 mr-1">Bạn</span>
+            <div class="bg-indigo-600 text-white rounded-2xl rounded-tr-xs px-5 py-3 text-sm leading-relaxed shadow-md shadow-indigo-950/40 break-words min-w-[50px]">
+              ${escape(text)}
+            </div>
+          </div>
+        </div>
+      `;
+      chat.insertAdjacentHTML('beforeend', userHtml);
+      input.value = '';
+      scrollToBottom();
+
+      // Show typing indicator
+      typingIndicator.classList.remove('hidden');
+      scrollToBottom();
+
+      try {
+        // Step A: Predict Emotion (port 8005)
+        const emotionRes = await fetch('http://localhost:8005/predict_emotion', {
+          method: 'POST', 
+          headers: { 'Content-Type': 'application/json' }, 
+          body: JSON.stringify({ text })
+        });
+        const emotionData = await emotionRes.json();
+        const emotion = emotionData.emotion || 'trung_tinh';
+
+        // Step B: Get Assistant Response (port 8006)
+        const assistantRes = await fetch('http://localhost:8006/assistant', {
+          method: 'POST', 
+          headers: { 'Content-Type': 'application/json' }, 
+          body: JSON.stringify({ user_message: text, emotion })
+        });
+        const assistantData = await assistantRes.json();
+        const responseText = assistantData.response || 'Xin lỗi, mình chưa thể hiểu yêu cầu lúc này.';
+
+        // Get Emotion Badge UI
+        const emoInfo = EMOTION_MAP[emotion] || EMOTION_MAP['trung_tinh'];
+
+        // Hide typing indicator
+        typingIndicator.classList.add('hidden');
+
+        // 2. Render CHATBOT Message (LEFT ALIGNED)
+        const botHtml = `
+          <div class="flex items-start gap-3.5 my-4 max-w-[85%] sm:max-w-[75%]">
+            <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-500 to-emerald-400 p-[1.5px] shrink-0 mt-0.5 shadow-sm">
+              <div class="w-full h-full bg-zinc-900 rounded-[9px] flex items-center justify-center text-emerald-400 text-xs font-bold">✨</div>
+            </div>
+            <div class="bg-zinc-900 border border-zinc-800 text-zinc-100 rounded-2xl rounded-tl-xs px-5 py-4 text-sm leading-relaxed shadow-sm space-y-3">
+              <p>${escape(responseText)}</p>
+              <div class="pt-2 border-t border-zinc-800/70 flex items-center gap-2 text-xs">
+                <span class="text-zinc-500 text-[11px]">Cảm xúc nhận diện:</span>
+                <span class="inline-flex items-center gap-1.5 border px-3 py-0.5 rounded-full text-[11px] font-medium ${emoInfo.style}">
+                  <span>${emoInfo.emoji}</span>
+                  <span>${emoInfo.label}</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        `;
+        chat.insertAdjacentHTML('beforeend', botHtml);
+      } catch (e) {
+        typingIndicator.classList.add('hidden');
+        
+        // Error Toast (LEFT ALIGNED)
+        const errorHtml = `
+          <div class="flex items-start gap-3.5 my-4 max-w-[85%]">
+            <div class="w-9 h-9 rounded-xl bg-red-950/60 border border-red-800/60 text-red-400 flex items-center justify-center text-xs shrink-0 mt-0.5">⚠️</div>
+            <div class="bg-zinc-900 border border-red-900/40 text-zinc-300 rounded-2xl rounded-tl-xs px-5 py-4 text-xs space-y-1.5 shadow-sm">
+              <p class="font-semibold text-red-400">Lỗi kết nối với server (${escape(e.message)})</p>
+              <p class="text-zinc-400 leading-relaxed">Vui lòng kiểm tra backend đang chạy trên cổng <strong class="text-zinc-200">8005</strong> (emotion_service) và <strong class="text-zinc-200">8006</strong> (assistant_service).</p>
+            </div>
+          </div>
+        `;
+        chat.insertAdjacentHTML('beforeend', errorHtml);
+      }
+      
+      scrollToBottom();
+    }
+
+    function scrollToBottom() {
+      const main = document.querySelector('main');
+      if (main) {
+        main.scrollTop = main.scrollHeight;
+      }
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    function escape(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+  </script>
+</body>
+</html>
