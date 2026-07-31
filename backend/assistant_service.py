@@ -3,13 +3,15 @@
 POST /assistant → {"user_message": "...", "emotion": "..."} → {"response": "..."}
 """
 import logging
+import os
 from contextlib import asynccontextmanager
 
+import httpx
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field, field_validator
 
-from config import CORS_ORIGINS, ASSISTANT_PORT
+from config import CORS_ORIGINS, ASSISTANT_PORT, MODEL_SERVE_URL
 
 # ── Logging ──────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -119,15 +121,39 @@ app.add_middleware(
 
 @app.post("/assistant", response_model=AssistantResponse)
 async def assistant(req: AssistantRequest):
-    """Generate empathetic response for Vietnamese user message."""
+    """Generate empathetic response using model service if available, else template fallback."""
     logger.info(
         "assistant called: user_message=%r emotion=%s",
         req.user_message[:100], req.emotion,
     )
 
+    # 1. Try calling fine-tuned Model Service (GPU vLLM + LoRA)
+    use_model = os.getenv("USE_MODEL_SERVICE", "true").lower() == "true"
+    if use_model:
+        try:
+            async with httpx.AsyncClient(timeout=15.0) as client:
+                resp = await client.post(
+                    MODEL_SERVE_URL,
+                    json={
+                        "messages": [{"role": "user", "content": req.user_message}],
+                        "max_new_tokens": 256,
+                        "temperature": 0.7,
+                        "top_p": 0.9,
+                    },
+                )
+                if resp.status_code == 200:
+                    data = resp.json()
+                    model_response = data.get("response", "")
+                    if model_response:
+                        logger.info("assistant (model) response: %r", model_response[:100])
+                        return AssistantResponse(response=model_response)
+        except Exception as e:
+            logger.warning("Model service unavailable (%s), falling back to templates", e)
+
+    # 2. Standby / Fallback: Template-based empathetic generator
     try:
         response = _generate_response(req.user_message, req.emotion)
-        logger.info("assistant response: %r", response[:100])
+        logger.info("assistant (template) response: %r", response[:100])
         return AssistantResponse(response=response)
     except Exception as e:
         logger.error("assistant error: %s", e, exc_info=True)
