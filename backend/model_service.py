@@ -11,6 +11,7 @@ Chạy:
     python3 model_service.py
 """
 import os
+import re
 import logging
 from contextlib import asynccontextmanager
 
@@ -97,6 +98,9 @@ async def generate(req: GenerateRequest):
     text = tokenizer.decode(
         out[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True
     ).strip()
+    # Strip tool-call artifacts leaked by chat template (Qwen3 + LoRA template
+    # emits empty <tool_call> tags on plain chat without tools).
+    text = re.sub(r"</?tool_call>", "", text).strip()
     logger.info("Generated %d chars", len(text))
     return GenerateResponse(response=text)
 
