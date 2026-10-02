@@ -1,27 +1,28 @@
-"""Model serving endpoint — chạy trên máy có GPU (Colab T4/A10).
+"""Model serving endpoint — chạy trên máy có GPU.
 
-POST /generate → {"messages": [{"role":"user","content":"..."}], ...params} → {"response": "..."}
-- Load base Qwen3-4B (HF) + adapter LoRA (vừa train xong)
-- Serve bằng vLLM (tối ưu VRAM + speed inference)
-- Chạy ở cổng 8007 → assistant_service gọi tới đây
+POST /generate → {"messages": [{"role":"user","content":"..."}]} → {"response": "..."}
+- Load base Qwen3-4B (HF) 4-bit + adapter LoRA vừa train
+- ponytail: transformers+peft thay vì vLLM — vLLM cần ~8GB VRAM cho base fp16,
+  máy target 4GB; đổi sang vLLM khi có GPU >=8GB hoặc cần throughput.
 
-Cách chạy trên Colab:
-    !pip install vllm peft
-    !python /content/model_service.py &
-    !cloudflared tunnel --url http://localhost:8007  → lấy URL public
-Sau đó cập nhật MODEL_SERVE_HOST trong config.py thành URL tunnel.
+Chạy:
+    source .venv/bin/activate
+    export ADAPTER_PATH=~/VNUF/adapter
+    python3 model_service.py
 """
 import os
 import logging
 from contextlib import asynccontextmanager
 
+import torch
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
-from vllm import LLM, SamplingParams
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from peft import PeftModel
 
 # ── Config ───────────────────────────────────────────────────────────────────
-MODEL_NAME = os.getenv("BASE_MODEL", "Qwen/Qwen3-4B-Instruct")
-ADAPTER_PATH = os.getenv("ADAPTER_PATH", "/content/lora_adapter")
+MODEL_NAME = os.getenv("BASE_MODEL", "unsloth/Qwen3-4B-Instruct-2507")
+ADAPTER_PATH = os.path.expanduser(os.getenv("ADAPTER_PATH", "~/VNUF/adapter"))
 SERVE_PORT = int(os.getenv("MODEL_SERVE_PORT", "8007"))
 
 # ── Logging ──────────────────────────────────────────────────────────────────
@@ -42,60 +43,64 @@ class GenerateResponse(BaseModel):
     response: str
 
 # ── App ──────────────────────────────────────────────────────────────────────
-llm: LLM | None = None
+model = None
+tokenizer = None
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    global llm
-    logger.info("Loading %s + adapter %s", MODEL_NAME, ADAPTER_PATH)
-    llm = LLM(
-        model=MODEL_NAME,
-        enable_lora=True,       # bật chế độ load adapter
-        max_model_len=2048,
-        tensor_parallel_size=1, # dùng 1 GPU (T4/V100)
+    global model, tokenizer
+    logger.info("Loading %s (4-bit) + adapter %s", MODEL_NAME, ADAPTER_PATH)
+    tokenizer_src = ADAPTER_PATH if os.path.isdir(ADAPTER_PATH) else MODEL_NAME
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer_src)
+    model = AutoModelForCausalLM.from_pretrained(
+        MODEL_NAME,
+        load_in_4bit=True,
+        device_map="auto",
     )
-
-    # Load adapter LoRA (phải được mount tại ADAPTER_PATH)
     if os.path.isdir(ADAPTER_PATH):
-        llm.llm_engine.lora_manager.add_lora(
-            lora_id="vnuf_lora",
-            lora_path=ADAPTER_PATH,
-            max_lora_rank=16,
-        )
+        model = PeftModel.from_pretrained(model, ADAPTER_PATH)
         logger.info("Adapter loaded: %s", ADAPTER_PATH)
     else:
-        logger.warning("Adapter path not found: %s — will run base model only", ADAPTER_PATH)
+        logger.warning("Adapter path not found: %s — base model only", ADAPTER_PATH)
+    model.eval()
     yield
     logger.info("Model service shutting down")
 
 app = FastAPI(
     title="VNUF Model Service",
     description="Fine-tuned Qwen3-4B adapter endpoint",
-    version="1.0.0",
+    version="1.1.0",
     lifespan=lifespan,
 )
 
 @app.post("/generate", response_model=GenerateResponse)
 async def generate(req: GenerateRequest):
-    if llm is None:
+    if model is None:
         raise HTTPException(status_code=503, detail="Model not loaded")
 
-    params = SamplingParams(
-        max_tokens=req.max_new_tokens,
-        temperature=req.temperature,
-        top_p=req.top_p,
-        stop=["<|im_start|>"],
-    )
+    inputs = tokenizer.apply_chat_template(
+        req.messages, add_generation_prompt=True,
+        return_tensors="pt", return_dict=True,
+    ).to(model.device)
 
-    outputs = llm.generate(
-        prompts=[req.messages],
-        sampling_params=params,
-        lora_request={"vnuf_lora": 1} if os.path.isdir(ADAPTER_PATH) else None,
-    )
+    with torch.no_grad():
+        out = model.generate(
+            **inputs,
+            max_new_tokens=req.max_new_tokens,
+            temperature=req.temperature,
+            top_p=req.top_p,
+            do_sample=True,
+        )
 
-    text = outputs[0].outputs[0].text.strip()
+    text = tokenizer.decode(
+        out[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True
+    ).strip()
     logger.info("Generated %d chars", len(text))
     return GenerateResponse(response=text)
+
+@app.get("/health")
+async def health():
+    return {"status": "ok", "service": "model_service", "model": MODEL_NAME}
 
 if __name__ == "__main__":
     import uvicorn

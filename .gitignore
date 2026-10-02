@@ -13,4 +13,7 @@ unpacked/
 decuong.docx
 idea.docx
 .tmp_scratch/
+adapter/
+lora_adapter/
+*.safetensors
 
