@@ -206,20 +206,15 @@
       scrollToBottom();
 
       try {
-        // Step A: Predict Emotion (port 8005)
-        const emotionRes = await fetch('http://localhost:8005/predict_emotion', {
-          method: 'POST', 
-          headers: { 'Content-Type': 'application/json' }, 
-          body: JSON.stringify({ text })
-        });
-        const emotionData = await emotionRes.json();
-        const emotion = emotionData.emotion || 'trung_tinh';
+        // Direct call: skip :8005 keyword classifier (weak vs LLM semantics).
+        // Assistant/model understands emotion from raw text; neutral default.
+        const emotion = 'trung_tinh';
 
-        // Step B: Get Assistant Response (port 8006)
+        // Get Assistant Response (port 8006)
         const assistantRes = await fetch('http://localhost:8006/assistant', {
           method: 'POST', 
           headers: { 'Content-Type': 'application/json' }, 
-          body: JSON.stringify({ user_message: text, emotion })
+          body: JSON.stringify({ user_message: text })
         });
         const assistantData = await assistantRes.json();
         const responseText = assistantData.response || 'Xin lỗi, mình chưa thể hiểu yêu cầu lúc này.';
@@ -258,7 +253,7 @@
             <div class="w-9 h-9 rounded-xl bg-red-950/60 border border-red-800/60 text-red-400 flex items-center justify-center text-xs shrink-0 mt-0.5">⚠️</div>
             <div class="bg-zinc-900 border border-red-900/40 text-zinc-300 rounded-2xl rounded-tl-xs px-5 py-4 text-xs space-y-1.5 shadow-sm">
               <p class="font-semibold text-red-400">Lỗi kết nối với server (${escape(e.message)})</p>
-              <p class="text-zinc-400 leading-relaxed">Vui lòng kiểm tra backend đang chạy trên cổng <strong class="text-zinc-200">8005</strong> (emotion_service) và <strong class="text-zinc-200">8006</strong> (assistant_service).</p>
+              <p class="text-zinc-400 leading-relaxed">Vui lòng kiểm tra backend đang chạy trên cổng <strong class="text-zinc-200">8006</strong> (assistant_service).</p>
             </div>
           </div>
         `;

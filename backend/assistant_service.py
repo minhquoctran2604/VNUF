@@ -82,7 +82,9 @@ def _generate_response(user_message: str, emotion: str) -> str:
 # ── Models ───────────────────────────────────────────────────────────────────
 class AssistantRequest(BaseModel):
     user_message: str = Field(..., min_length=1, max_length=2000)
-    emotion: str = Field(..., min_length=1)
+    # Optional — frontend calls assistant directly (keyword emotion service
+    # bypassed: too weak vs LLM semantics). Defaults to neutral.
+    emotion: str = Field(default="trung_tinh", min_length=1)
 
     @field_validator("emotion")
     @classmethod
