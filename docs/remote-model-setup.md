@@ -23,7 +23,7 @@ cd D:\VNUF\VNUF
 .\..\.venv\Scripts\Activate.ps1   # or use .venv python directly
 pip install fastapi uvicorn pydantic httpx
 pip install torch --index-url https://download.pytorch.org/whl/cu121
-pip install transformers peft accelerate bitsandbytes-windows
+pip install transformers peft accelerate "bitsandbytes>=0.46.1"
 
 $env:ADAPTER_PATH = "D:\VNUF\VNUF\adapter"   # must contain adapter_model.safetensors + tokenizer files
 $env:HF_HOME = "D:\hf_cache"                 # C: is full, keep base model on D:
