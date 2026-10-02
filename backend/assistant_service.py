@@ -133,7 +133,7 @@ async def assistant(req: AssistantRequest):
     use_model = os.getenv("USE_MODEL_SERVICE", "true").lower() == "true"
     if use_model:
         try:
-            async with httpx.AsyncClient(timeout=15.0) as client:
+            async with httpx.AsyncClient(timeout=600.0) as client:
                 resp = await client.post(
                     MODEL_SERVE_URL,
                     json={
