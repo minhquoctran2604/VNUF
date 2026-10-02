@@ -1,5 +1,23 @@
 # Hướng dẫn sử dụng VNUF Assistant
 
+## Quick start (mỗi lần dùng)
+
+```powershell
+cd D:\VNUF\VNUF
+git pull origin master
+.\scripts\host_model_windows.bat
+```
+
+Terminal 2:
+```powershell
+$env:MODEL_SERVE_HOST = "127.0.0.1"; $env:MODEL_SERVE_PORT = "8007"
+python D:\VNUF\VNUF\backend\assistant_service.py
+```
+
+Double-click `frontend/index.html` → chat.
+
+---
+
 ## Kiến trúc (đơn giản nhất)
 
 Máy có GPU chính là máy mở giao diện — tất cả chạy cùng 1 máy:
