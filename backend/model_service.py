@@ -17,7 +17,7 @@ from contextlib import asynccontextmanager
 import torch
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 from peft import PeftModel
 
 # ── Config ───────────────────────────────────────────────────────────────────
@@ -52,9 +52,10 @@ async def lifespan(app: FastAPI):
     logger.info("Loading %s (4-bit) + adapter %s", MODEL_NAME, ADAPTER_PATH)
     tokenizer_src = ADAPTER_PATH if os.path.isdir(ADAPTER_PATH) else MODEL_NAME
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_src)
+    quant_config = BitsAndBytesConfig(load_in_4bit=True)
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
-        load_in_4bit=True,
+        quantization_config=quant_config,
         device_map="auto",
     )
     if os.path.isdir(ADAPTER_PATH):
