@@ -101,6 +101,7 @@ async def generate(req: GenerateRequest):
     # Strip tool-call artifacts leaked by chat template (Qwen3 + LoRA template
     # emits empty <tool_call> tags on plain chat without tools).
     text = re.sub(r"</?tool_call>", "", text).strip()
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
     logger.info("Generated %d chars", len(text))
     return GenerateResponse(response=text)
 
