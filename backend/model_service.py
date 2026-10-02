@@ -64,6 +64,7 @@ async def lifespan(app: FastAPI):
     else:
         logger.warning("Adapter path not found: %s — base model only", ADAPTER_PATH)
     model.eval()
+    logger.info("Device map: %s", getattr(model, "hf_device_map", "n/a"))
     yield
     logger.info("Model service shutting down")
 
